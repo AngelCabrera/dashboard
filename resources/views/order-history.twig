@@ -1,0 +1,106 @@
+{% extends 'layout2.twig' %}
+{% block content %}
+<!-- Main content Header-->
+<div class="header">
+  <h1 class="main-title">Order History</h1>
+  <button class="btn btn-futures dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">NEW ORDER</button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+<!--/ Main content Header-->
+<!-- Main content Data Display-->
+<div class="data table-responsive text-nowrap">
+  <table id="" cellspacing="0" class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Order #</th>
+        <th scope="col">Placed</th>
+        <th scope="col">Placed by</th>
+        <th scope="col">Status</th>
+        <th scope="col">Description</th>
+        <th scope="col">Size</th>
+        <th scope="col">Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">
+          <a href="/thefutures/dashboard/TC1031972989">
+            TC1031972989
+          </a>
+        </th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <a href="/thefutures/dashboard/TC1031972989">
+            TC0376402980
+          </a>
+        </th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <a href="/thefutures/dashboard/TC1031972989">
+            TC1031972989
+          </a>
+        </th>
+        <td>Larry the Bird</td>
+        <td>Larry</td>
+        <td>@twitter</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <a href="/thefutures/dashboard/TC1031972989">
+            TC1031972989
+          </a>
+        </th>
+        <td>Larry the Bird</td>
+        <td>Larry</td>
+        <td>@twitter</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <a href="/thefutures/dashboard/TC1031972989">
+            TC1031972989
+          </a>
+        </th>
+        <td>Larry the Bird</td>
+        <td>Larry</td>
+        <td>@twitter</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="float-right">
+  <a class="btn red-button">Export as .CSV</a>
+</div>
+
+<!--/ Main content Data Display-->
+{% endblock %}

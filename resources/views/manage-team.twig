@@ -1,0 +1,72 @@
+{% extends 'layout2.twig' %}
+{% block content %}
+<!-- Main content Header-->
+<div class="header">
+  <h1>Manage Team</h1>
+</div>
+<!--/ Main content Header-->
+<!-- Main content Data Display-->
+<div>
+  <div class="row">
+    <div class="col fast-cards">
+      <i class="fas fa-user-friends cards-icons yellow-text"></i>
+      <div>
+        <p class="mt-2 font-weight-bold">Divide and conquer</p>
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusamus nemo
+          atque</p>
+      </div>
+    </div>
+    <div class="col fast-cards">
+      <i class="fas fa-user-friends cards-icons blue-text"></i>
+      <div>
+        <p class="mt-2 font-weight-bold">Divide and conquer</p>
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusamus nemo
+          atque
+        </p>
+      </div>
+    </div>
+    <div class="col fast-cards">
+      <i class="fas fa-user-friends cards-icons green-text"></i>
+      <div>
+        <p class="mt-2 font-weight-bold">Divide and conquer</p>
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusamus nemo
+          atque</p>
+      </div>
+    </div>
+  </div>
+  <div class="my-4">
+    <a class="f6" href="">Learn more about shared account permissions</a>
+  </div>
+  <hr>
+  <div class="my-4">
+    <h2>Invite a User</h2>
+    <hr>
+    <form action="">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="exampleInputEmail1" class="f6">FIRST NAME*</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter first name">
+          </div>
+        </div>
+        <div class="col">
+          <div class="manage form-group">
+            <label for="exampleInputEmail1" class="f6">EMAIL*</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="">+ Invite another user</a>
+        </div>
+      </div>
+      <button class="btn red-button filled">Send Invites</a>
+    </form>
+  </div>
+
+</div>
+<!--/ Main content Data Display-->
+{% endblock %}
