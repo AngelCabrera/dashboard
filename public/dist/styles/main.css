@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+/*Crear variables con colores, tipos de fuente, tamaños de fuente y paddings*/
+
+html {
+    font-size: 18px;
+}
+
+body {
+    /* ¿Cuál es la fuente para el texto? */
+    font-family: "Rubik", sans-serif;
+    color: #4a4a4a !important;
+}
+
+.container {
+    padding-bottom: 8rem;
+}
+
+/*Estilos navs y navbars*/
+.navbar {
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: none !important;
+    padding: 16px 64px 8px !important;
+}
+
+.nav-link {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.nav-link:hover,
+.text-link:hover {
+    color: #232d40 !important;
+}
+
+.nav-link,
+.text-link {
+    color: #4a4a4a !important;
+}
+
+.navbar .dropdown-menu a {
+    padding: 1rem;
+}
+
+/* /Estilos navs y navbars*/
+/* Estilos sidebar */
+
+#sidebar {
+    background-color: #f6f9fa;
+    min-height: 100%;
+    padding-right: 0;
+}
+
+#sidebar nav {
+    margin: 3em 0;
+    padding: 0;
+}
+
+.sidebar-link {
+    margin: 0.875rem;
+    margin-right: 1px;
+    font-size: 0.875rem;
+    padding: 0;
+}
+
+.sidebar-active {
+    font-weight: 700 !important;
+    border-right: 2px solid #f91c52;
+}
+
+/* \Final estilos sidebar */
+
+/*Títulos negritas para los heads de la tabla*/
+thead tr th {
+    font-weight: 700 !important;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 800px) {
+    .main-content .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.btn-futures {
+    color: white;
+    background-color: #f91c52 !important;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.btn-futures:hover {
+    color: white;
+}
+
+.btn {
+    font-size: 0.875rem;
+}
+
+.main-title {
+    color: #232d40;
+    font-size: 2.25rem;
+}
+
+.main-content .data {
+    margin-top: 4em;
+}
+
+table.table a {
+    color: #007bff !important;
+}
+
+table.table a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-width: 0.25rem;
+    border-color: #e6e6e6;
+}
+
+#main-content {
+    margin: 0;
+}
+
+tr {
+    height: 50px;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif !important;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif !important;
+    font-weight: 700;
+    color: #232d40;
+    font-size: 1.5rem;
+}
+
+tbody {
+    border: none !important;
+}
+
+thead {
+    border: none !important;
+}
+
+.red-button {
+    border-radius: 0.25rem;
+    border: 1px solid rgba(238, 53, 36, 0.5);
+    color: #ee3524 !important;
+    height: 3rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700 !important;
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+.dropdown-item {
+    font-family: "Rubik", sans-serif !important;
+    font-size: 1rem !important;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.input-group {
+    width: 350px !important;
+    height: 100%;
+    margin-right: 20px;
+    display: inline-flex;
+}
+
+.input-group .form-control {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 3rem;
+    font-size: 0.875rem;
+    border: 1px solid #ced4da !important;
+    border-radius: 0.3rem !important;
+}
+
+.input-group-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.field-set {
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 14px !important;
+}
+
+.settings {
+    margin-top: 2rem;
+}
+
+.settings h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.alert {
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.settings-buttons {
+    padding-right: 4;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.cards-icons {
+    font-size: 2rem;
+}
+
+.fast-cards {
+    margin-right: 3rem;
+    font-size: 0.875rem;
+}
+
+.f6 {
+    font-size: 0.875rem;
+}
+
+.filled {
+    background-color: #ee3524;
+    color: white !important;
+}
+
+.my-files-items {
+    display: flex;
+    align-items: center;
+}
+
+.btn-dark {
+    background-color: #e83e8c !important;
+}
