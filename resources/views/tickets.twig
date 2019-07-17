@@ -11,10 +11,10 @@
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Grapich Design</a>
+                            <a id="graphic" class="nav-link active" href="#">Graphic Design</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Video Editing</a>
+                            <a id="video" class="nav-link" href="#">Video Editing</a>
                         </li>
                     </ul>
                 </div>
@@ -143,4 +143,23 @@
         </table>
     </div>
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    $graphicDesing = document.getElementById('graphic');
+    $videoEditing = document.getElementById('video');
+
+    addEvent($graphicDesing, $videoEditing);
+    addEvent($videoEditing, $graphicDesing);
+
+    function addEvent(element1, element2) {
+        element1.addEventListener('click', () => {
+            if (!element1.classList.contains('active')) {
+                element1.classList.add('active');
+                element2.classList.remove('active');
+            }
+        });
+    }
+</script>
 {% endblock %}

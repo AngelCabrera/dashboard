@@ -99,7 +99,7 @@ thead tr th {
         align-items: center;
     }
 
-    .btn-futures::before {
+    .header .btn-futures::before {
         content: 'place '
     }
 }

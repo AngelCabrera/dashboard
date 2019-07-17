@@ -28,6 +28,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
         $this->blocks = [
             'content' => [$this, 'block_content'],
+            'scripts' => [$this, 'block_scripts'],
         ];
     }
 
@@ -238,7 +239,11 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- endbuild -->
 
   <!-- JQuery -->
-  <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
+  ";
+        // line 176
+        $this->displayBlock('scripts', $context, $blocks);
+        // line 177
+        echo "  <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
   <script src=\"//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js\"></script>
   <!-- Bootstrap tooltips -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\">
@@ -250,6 +255,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
 
   <script src=\"../scripts/src/main.js\"></script>
+
   <!-- Built with love using Web Starter Kit -->
 </body>
 
@@ -258,6 +264,12 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     // line 163
     public function block_content($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+    }
+
+    // line 176
+    public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
@@ -274,7 +286,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  260 => 163,  229 => 164,  227 => 163,  194 => 135,  186 => 132,  178 => 129,  170 => 126,  162 => 123,  38 => 1,);
+        return array (  272 => 176,  266 => 163,  246 => 177,  244 => 176,  230 => 164,  228 => 163,  195 => 135,  187 => 132,  179 => 129,  171 => 126,  163 => 123,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -454,6 +466,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- endbuild -->
 
   <!-- JQuery -->
+  {% block scripts %}{% endblock %}
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
   <script src=\"//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js\"></script>
   <!-- Bootstrap tooltips -->
@@ -466,6 +479,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
 
   <script src=\"../scripts/src/main.js\"></script>
+
   <!-- Built with love using Web Starter Kit -->
 </body>
 

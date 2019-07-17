@@ -26,6 +26,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 
         $this->blocks = [
             'content' => [$this, 'block_content'],
+            'scripts' => [$this, 'block_scripts'],
         ];
     }
 
@@ -58,10 +59,10 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 <div class=\"card-header\">
                     <ul class=\"nav nav-tabs card-header-tabs\">
                         <li class=\"nav-item\">
-                            <a class=\"nav-link active\" href=\"#\">Grapich Design</a>
+                            <a id=\"graphic\" class=\"nav-link active\" href=\"#\">Graphic Design</a>
                         </li>
                         <li class=\"nav-item\">
-                            <a class=\"nav-link\" href=\"#\">Video Editing</a>
+                            <a id=\"video\" class=\"nav-link\" href=\"#\">Video Editing</a>
                         </li>
                     </ul>
                 </div>
@@ -193,6 +194,30 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 ";
     }
 
+    // line 147
+    public function block_scripts($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 148
+        echo "<script>
+    \$graphicDesing = document.getElementById('graphic');
+    \$videoEditing = document.getElementById('video');
+
+    addEvent(\$graphicDesing, \$videoEditing);
+    addEvent(\$videoEditing, \$graphicDesing);
+
+    function addEvent(element1, element2) {
+        element1.addEventListener('click', () => {
+            if (!element1.classList.contains('active')) {
+                element1.classList.add('active');
+                element2.classList.remove('active');
+            }
+        });
+    }
+</script>
+";
+    }
+
     public function getTemplateName()
     {
         return "tickets.twig";
@@ -205,7 +230,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 
     public function getDebugInfo()
     {
-        return array (  50 => 3,  46 => 2,  35 => 1,);
+        return array (  202 => 148,  198 => 147,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -223,10 +248,10 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 <div class=\"card-header\">
                     <ul class=\"nav nav-tabs card-header-tabs\">
                         <li class=\"nav-item\">
-                            <a class=\"nav-link active\" href=\"#\">Grapich Design</a>
+                            <a id=\"graphic\" class=\"nav-link active\" href=\"#\">Graphic Design</a>
                         </li>
                         <li class=\"nav-item\">
-                            <a class=\"nav-link\" href=\"#\">Video Editing</a>
+                            <a id=\"video\" class=\"nav-link\" href=\"#\">Video Editing</a>
                         </li>
                     </ul>
                 </div>
@@ -355,6 +380,24 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
         </table>
     </div>
 </div>
+{% endblock %}
+{% block scripts %}
+<script>
+    \$graphicDesing = document.getElementById('graphic');
+    \$videoEditing = document.getElementById('video');
+
+    addEvent(\$graphicDesing, \$videoEditing);
+    addEvent(\$videoEditing, \$graphicDesing);
+
+    function addEvent(element1, element2) {
+        element1.addEventListener('click', () => {
+            if (!element1.classList.contains('active')) {
+                element1.classList.add('active');
+                element2.classList.remove('active');
+            }
+        });
+    }
+</script>
 {% endblock %}", "tickets.twig", "/opt/lampp/htdocs/thefutures/resources/views/tickets.twig");
     }
 }
