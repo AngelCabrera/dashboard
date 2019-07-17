@@ -4,6 +4,7 @@
 
 :root {
     --futures-color: #f91c52;
+    --futures-font-color: var(--futures-font-color)
 }
 
 html {
@@ -13,7 +14,7 @@ html {
 body {
     /* ¿Cuál es la fuente para el texto? */
     font-family: "Rubik", sans-serif;
-    color: #4a4a4a !important;
+    color: var(--futures-font-color) !important;
 }
 
 #main-content {
@@ -43,7 +44,7 @@ body {
 
 .nav-link,
 .text-link {
-    color: #4a4a4a !important;
+    color: var(--futures-font-color) !important;
 }
 
 .navbar-nav {
@@ -86,10 +87,6 @@ body {
 /*Títulos negritas para los heads de la tabla*/
 thead tr th {
     font-weight: 700 !important;
-}
-
-.header {
-    margin-top: 40px;
 }
 
 @media screen and (min-width: 628px) {
@@ -457,7 +454,7 @@ body {
 
 @media screen and (min-width: 768px) {
     .page-wrapper.toggled .page-content {
-        padding-left: 300px;
+        padding-left: 280px;
     }
 }
 
@@ -469,7 +466,6 @@ body {
     margin: 0;
     transition-delay: 0.3s;
     padding: .750rem 1rem;
-
 }
 
 .page-wrapper.toggled #show-sidebar {
@@ -812,7 +808,7 @@ body {
 .chiller-theme .sidebar-wrapper .sidebar-brand>a,
 .chiller-theme .sidebar-wrapper .sidebar-menu ul li a,
 .chiller-theme .sidebar-footer>a {
-    color: #818896;
+    color: var(--futures-font-color);
 }
 
 .chiller-theme .sidebar-wrapper .sidebar-menu ul li:hover>a,
