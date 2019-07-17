@@ -78,8 +78,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             <hr>
             <div class=\"row\">
                 <div class=\"container\" style=\"display: flex; justify-content: space-between;\">
-                    <p>20190404_145807.docx</p>
-                    <div class=\"mx-2\">
+                    <p>archivo.docx</p>
+                    <div class=\"mx-2 float-right text-right\">
                         <a href=\"#\">VIEW & EDIT</a>
                         |
                         <a href=\"#\">SHARE</a>
@@ -255,8 +255,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             <hr>
             <div class=\"row\">
                 <div class=\"container\" style=\"display: flex; justify-content: space-between;\">
-                    <p>20190404_145807.docx</p>
-                    <div class=\"mx-2\">
+                    <p>archivo.docx</p>
+                    <div class=\"mx-2 float-right text-right\">
                         <a href=\"#\">VIEW & EDIT</a>
                         |
                         <a href=\"#\">SHARE</a>

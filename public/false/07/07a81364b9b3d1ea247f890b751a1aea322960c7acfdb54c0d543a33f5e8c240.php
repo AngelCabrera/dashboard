@@ -82,7 +82,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css\" rel=\"stylesheet\">
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-  <link rel=\"stylesheet\" href=\"/styles/main.css\">
+  <link rel=\"stylesheet\" href=\"/thefutures/styles/main.css\">
 </head>
 
 <body>
@@ -156,7 +156,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <main class=\"container-fluid main-wrapper\">
     <div class=\"row\">
       <!--Left_Navbar-->
-      <div id=\"sidebar\" class=\"col-xl-2 col-md-3 col-4\">
+      <div id=\"sidebar\" class=\"col-xl-2 col-md-3 d-md-block d-none\">
         <nav>
           <div class=\"sidebar-link ";
         // line 123
@@ -220,8 +220,8 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </div>
       <!--/.Left_Navbar-->
       <!-- Main Content-->
-      <div id=\"main-content\" class=\"col-xl-10 col-md-9 col-8\">
-        <div class=\"container \">
+      <div id=\"main-content\" class=\"col-xl-10 col-md-9 col-12\">
+        <div class=\"container-fluid \">
           <div class=\"main-content\">
             ";
         // line 163
@@ -337,7 +337,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css\" rel=\"stylesheet\">
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-  <link rel=\"stylesheet\" href=\"/styles/main.css\">
+  <link rel=\"stylesheet\" href=\"/thefutures/styles/main.css\">
 </head>
 
 <body>
@@ -411,7 +411,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <main class=\"container-fluid main-wrapper\">
     <div class=\"row\">
       <!--Left_Navbar-->
-      <div id=\"sidebar\" class=\"col-xl-2 col-md-3 col-4\">
+      <div id=\"sidebar\" class=\"col-xl-2 col-md-3 d-md-block d-none\">
         <nav>
           <div class=\"sidebar-link {% if active == 'myfiles' %} sidebar-active {% endif %}\">
             <a class=\"text-link \" href=\"/thefutures/dashboard/\">My files</a>
@@ -450,8 +450,8 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </div>
       <!--/.Left_Navbar-->
       <!-- Main Content-->
-      <div id=\"main-content\" class=\"col-xl-10 col-md-9 col-8\">
-        <div class=\"container \">
+      <div id=\"main-content\" class=\"col-xl-10 col-md-9 col-12\">
+        <div class=\"container-fluid \">
           <div class=\"main-content\">
             {% block content %}{% endblock %}
           </div>

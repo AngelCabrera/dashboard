@@ -50,7 +50,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
         // line 3
         echo "<!-- Main content Header-->
 <div class=\"row\">
-    <div class=\"col-6\">
+    <div class=\"col-md-6\">
         <div class=\"index header\">
             <h2 class=\"\">Project Request Form</h2>
         </div>
@@ -107,7 +107,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
             </div>
         </div>
     </div>
-    <div class=\"col-6\">
+    <div class=\"col-md-6\">
         <div class=\"index header\">
             <div>
                 <h2 class=\"\">Order Status</h2>
@@ -239,7 +239,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 {% block content %}
 <!-- Main content Header-->
 <div class=\"row\">
-    <div class=\"col-6\">
+    <div class=\"col-md-6\">
         <div class=\"index header\">
             <h2 class=\"\">Project Request Form</h2>
         </div>
@@ -296,7 +296,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
             </div>
         </div>
     </div>
-    <div class=\"col-6\">
+    <div class=\"col-md-6\">
         <div class=\"index header\">
             <div>
                 <h2 class=\"\">Order Status</h2>
