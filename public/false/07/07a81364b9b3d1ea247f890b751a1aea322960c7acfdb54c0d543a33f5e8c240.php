@@ -43,7 +43,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
   <meta name=\"description\" content=\"\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <title>Order History</title>
+  <title>Dashboard</title>
   <!-- Disable tap highlight on IE -->
   <meta name=\"msapplication-tap-highlight\" content=\"no\">
 
@@ -82,7 +82,6 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"../styles/main.css\">
-
 </head>
 
 <body>
@@ -159,7 +158,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <div id=\"sidebar\" class=\"col-xl-2 col-md-3 col-4\">
         <nav>
           <div class=\"sidebar-link ";
-        // line 124
+        // line 123
         if ((($context["active"] ?? null) == "myfiles")) {
             echo " sidebar-active ";
         }
@@ -167,7 +166,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <a class=\"text-link \" href=\"/thefutures/dashboard/\">My files</a>
           </div>
           <div class=\"sidebar-link ";
-        // line 127
+        // line 126
         if ((($context["active"] ?? null) == "order")) {
             echo " sidebar-active ";
         }
@@ -175,7 +174,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <a class=\"text-link \" href=\"/thefutures/dashboard/order-history\">Order History</a>
           </div>
           <div class=\"sidebar-link ";
-        // line 130
+        // line 129
         if ((($context["active"] ?? null) == "manage")) {
             echo " sidebar-active ";
         }
@@ -183,7 +182,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <a class=\"text-link\" href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
           </div>
           <div class=\"sidebar-link ";
-        // line 133
+        // line 132
         if ((($context["active"] ?? null) == "settings")) {
             echo " sidebar-active ";
         }
@@ -191,7 +190,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <a class=\"text-link\" href=\"/thefutures/dashboard/settings\">Settings</a>
           </div>
           <div class=\"sidebar-link ";
-        // line 136
+        // line 135
         if ((($context["active"] ?? null) == "tickets")) {
             echo " sidebar-active ";
         }
@@ -224,9 +223,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container \">
           <div class=\"main-content\">
             ";
-        // line 164
+        // line 163
         $this->displayBlock('content', $context, $blocks);
-        // line 165
+        // line 164
         echo "          </div>
         </div>
       </div>
@@ -257,7 +256,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 </html>";
     }
 
-    // line 164
+    // line 163
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -275,7 +274,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  261 => 164,  230 => 165,  228 => 164,  195 => 136,  187 => 133,  179 => 130,  171 => 127,  163 => 124,  38 => 1,);
+        return array (  260 => 163,  229 => 164,  227 => 163,  194 => 135,  186 => 132,  178 => 129,  170 => 126,  162 => 123,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -288,7 +287,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
   <meta name=\"description\" content=\"\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <title>Order History</title>
+  <title>Dashboard</title>
   <!-- Disable tap highlight on IE -->
   <meta name=\"msapplication-tap-highlight\" content=\"no\">
 
@@ -327,7 +326,6 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"../styles/main.css\">
-
 </head>
 
 <body>

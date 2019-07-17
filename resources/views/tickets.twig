@@ -2,19 +2,71 @@
 {% block content %}
 <!-- Main content Header-->
 <div class="row">
-    <div class="col-5">
-
-    </div>
-    <div class="col-7">
-        <div class=" index header">
-            <div>
-                <h1 class="main-title">Order Status</h1>
+    <div class="col-6">
+        <div class="index header">
+            <h2 class="">Project Request Form</h2>
+        </div>
+        <div>
+            <div class="card project-request">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Grapich Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Video Editing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        </li>
+                        <li>
+                            <small class="text-muted">Nulla sint necessitatibus exercitationem corrupti alias</small>
+                        </li>
+                        <li>
+                            <small class="text-muted">reprehenderit cupiditate quod ipsum. Natus quod delectus</small>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div>
+                        <h5 class="mb-0 font-weight-bold card-title">Tell us about your design</h5>
+                        <small class="mt-0 text-muted">Be as detailed as possible.</small>
+                    </div>
+                    <form action="" class="mt-2">
+                        <div class="form-group">
+                            <input class="form-control form-control-sm" type="text" placeholder="Title of request">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-sm rounded-0" id="exampleFormControlTextarea2"
+                                rows="2"
+                                placeholder="Briefly Description of what you want to see in your project"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea2">
+                                <small class="text-muted">
+                                    We love lists, please list the specific things you wish to see on your piece.
+                                    Our creatives are always more efficient when you are able to itemise your requests.
+                                </small></label>
+                            <textarea class="form-control form-control-sm rounded-0" id="exampleFormControlTextarea2"
+                                rows="" placeholder="1."></textarea>
+                        </div>
+                        <button class="btn btn-futures">Send Request</button>
+                    </form>
+                </div>
             </div>
         </div>
-
+    </div>
+    <div class="col-6">
+        <div class="index header">
+            <div>
+                <h2 class="">Order Status</h2>
+            </div>
+        </div>
         <!--/ Main content Header-->
         <!-- Main content Data Display-->
-
         <table id="" cellspacing="0" class="table tickets-table table-hover">
             <thead>
                 <tr>

@@ -98,12 +98,7 @@ thead tr th {
         justify-content: space-between;
         align-items: center;
     }
-
-    .btn-futures::before {
-        content: 'place '
-    }
 }
-
 
 .btn-futures {
     color: white;
@@ -128,8 +123,6 @@ thead tr th {
     color: #232d40;
     font-size: 2.25rem;
 }
-
-.main-content .data {}
 
 table.table a {
     color: #007bff !important;
@@ -344,21 +337,13 @@ table.table th {
     padding-bottom: 1ren;
 }
 
-.btn-circle.btn-xl {
-    width: 70px;
-    height: 70px;
-    padding: 10px 16px;
-    border-radius: 35px;
-    font-size: 24px;
-    line-height: 1.33;
-}
 
 .btn-circle {
-    width: 20px;
-    height: 20px;
-    padding: 4px 0px;
+    width: 1rem;
+    height: 1rem;
+    padding: 1px 0px;
     border-radius: 15px;
     text-align: center;
-    font-size: 12px;
+    font-size: .5rem;
     line-height: 1.42857;
 }
