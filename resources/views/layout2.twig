@@ -113,60 +113,89 @@
       </ul>
       <!-- Links -->
   </nav>
-  <!--/.Navbar-->
 
-  <main class="container-fluid main-wrapper">
-    <div class="row">
-      <!--Left_Navbar-->
-      <div id="sidebar" class="col-xl-2 col-md-3 d-md-block d-none">
-        <nav>
-          <div class="sidebar-link {% if active == 'myfiles' %} sidebar-active {% endif %}">
-            <a class="text-link " href="/dashboard/">My files</a>
+
+  <div>
+    <div class="page-wrapper chiller-theme toggled">
+      <a id="show-sidebar" class="btn btn-futures" href="#">
+        <i class="fas fa-bars"></i>
+      </a>
+      <nav id="sidebar" class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-brand">
+            <a href="#">Hi William</a>
+            <div id="close-sidebar">
+              <i class="fas fa-times"></i>
+            </div>
           </div>
-          <div class="sidebar-link {% if active == 'order' %} sidebar-active {% endif %}">
-            <a class="text-link " href="/dashboard/order-history">Order History</a>
+          <div class="sidebar-menu">
+            <div class="sidebar-link sidebar-active">
+              <a class="text-link " href="/dashboard/">My files</a>
+            </div>
+            <div class="sidebar-link ">
+              <a class="text-link " href="/dashboard/order-history">Order History</a>
+            </div>
+            <div class="sidebar-link ">
+              <a class="text-link" href="/dashboard/manage-team">Manage Team</a>
+            </div>
+            <div class="sidebar-link ">
+              <a class="text-link" href="/dashboard/settings">Settings</a>
+            </div>
+            <div class="sidebar-link ">
+              <a class="text-link" href="/dashboard/tickets">Tickets</a>
+            </div>
+            <div class="sidebar-link">
+              &nbsp;
+            </div>
+            <div class="sidebar-link">
+              <a class="text-link" class="text-link" href="#">
+                Make a Payment
+              </a>
+            </div>
+            <div class="sidebar-link">
+              <a class="text-link" class="text-link" href="#">
+                Transaction History
+              </a>
+            </div>
+            <div class="sidebar-link">
+              <a class="text-link" class="text-link" href="#">
+                Billing Settings
+              </a>
+            </div>
+
           </div>
-          <div class="sidebar-link {% if active == 'manage' %} sidebar-active {% endif %}">
-            <a class="text-link" href="/dashboard/manage-team">Manage Team</a>
-          </div>
-          <div class="sidebar-link {% if active == 'settings' %} sidebar-active {% endif %}">
-            <a class="text-link" href="/dashboard/settings">Settings</a>
-          </div>
-          <div class="sidebar-link {% if active == 'tickets' %} sidebar-active {% endif %}">
-            <a class="text-link" href="/dashboard/tickets">Tickets</a>
-          </div>
-          <div class="sidebar-link">
-            &nbsp;
-          </div>
-          <div class="sidebar-link">
-            <a class="text-link" class="text-link" href="#">
-              Make a Payment
-            </a>
-          </div>
-          <div class="sidebar-link">
-            <a class="text-link" class="text-link" href="#">
-              Transaction History
-            </a>
-          </div>
-          <div class="sidebar-link">
-            <a class="text-link" class="text-link" href="#">
-              Billing Settings
-            </a>
-          </div>
-        </nav>
-      </div>
-      <!--/.Left_Navbar-->
-      <!-- Main Content-->
-      <div id="main-content" class="col-xl-10 col-md-9 col-12">
+          <!-- sidebar-menu  -->
+        </div>
+        <!-- sidebar-content  -->
+        <div class="sidebar-footer">
+          <a href="#">
+            <i class="fa fa-bell"></i>
+            <span class="badge badge-pill badge-warning notification">3</span>
+          </a>
+          <a href="#">
+            <i class="fa fa-envelope"></i>
+            <span class="badge badge-pill badge-success notification">7</span>
+          </a>
+          <a href="#">
+            <i class="fa fa-cog"></i>
+            <span class="badge-sonar"></span>
+          </a>
+          <a href="#">
+            <i class="fa fa-power-off"></i>
+          </a>
+        </div>
+      </nav>
+      <!-- sidebar-wrapper  -->
+      <main class="page-content">
         <div class="container-fluid ">
           <div class="main-content">
             {% block content %}{% endblock %}
           </div>
         </div>
-      </div>
-      <!-- Main Content-->
+      </main>
+      <!-- page-content" -->
     </div>
-  </main>
+  </div>
 
 
   <!-- build:js scripts/main.min.js -->
@@ -185,7 +214,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script>
 
-  <script src="../scripts/src/main.js"></script>
+  <script src="/scripts/main.js"></script>
 
   <!-- Built with love using Web Starter Kit -->
 </body>
