@@ -82,7 +82,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css\" rel=\"stylesheet\">
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-  <link rel=\"stylesheet\" href=\"../styles/main.css\">
+  <link rel=\"stylesheet\" href=\"/styles/main.css\">
 </head>
 
 <body>
@@ -337,7 +337,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css\" rel=\"stylesheet\">
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-  <link rel=\"stylesheet\" href=\"../styles/main.css\">
+  <link rel=\"stylesheet\" href=\"/styles/main.css\">
 </head>
 
 <body>

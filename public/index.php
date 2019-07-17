@@ -39,40 +39,41 @@ $request = Zend\Diactoros\ServerRequestFactory::fromGlobals(
 $routerContainer = new RouterContainer();
 $map = $routerContainer->getMap();
 
-$map->get('getDashboard', '/thefutures/dashboard/', [
+$map->get('getDashboard', '/dashboard/', [
     'controller' => 'App\Controllers\MyFilesController',
     'action' => 'getMyFilesAction'
 ]);
 
-$map->get('getMyFiles', '/thefutures/dashboard/myfiles', [
+$map->get('getMyFiles', '/dashboard/myfiles', [
     'controller' => 'App\Controllers\MyFilesController',
     'action' => 'getMyFilesAction'
 ]);
 
-$map->get('getOrderHistory', '/thefutures/dashboard/order-history', [
+$map->get('getOrderHistory', '/dashboard/order-history', [
     'controller' => 'App\Controllers\OrderHistoryController',
     'action' => 'getOrderHistoryAction'
 ]);
 
-$map->get('showOrderHistory', '/thefutures/dashboard/TC1031972989', [
+$map->get('showOrderHistory', '/dashboard/TC1031972989', [
     'controller' => 'App\Controllers\OrderHistoryController',
     'action' => 'showOrderHistoryAction'
 ]);
 
-$map->get('getManageTeam', '/thefutures/dashboard/manage-team', [
+$map->get('getManageTeam', '/dashboard/manage-team', [
     'controller' => 'App\Controllers\ManageTeamController',
     'action' => 'getManageTeamAction'
 ]);
 
-$map->get('getSettings', '/thefutures/dashboard/settings', [
+$map->get('getSettings', '/dashboard/settings', [
     'controller' => 'App\Controllers\SettingsController',
     'action' => 'getSettingsAction'
 ]);
 
-$map->get('tickets', '/thefutures/dashboard/tickets', [
+$map->get('tickets', '/dashboard/tickets', [
     'controller' => 'App\Controllers\TicketsController',
     'action' => 'getTicketsAction'
 ]);
+
 
 $matcher = $routerContainer->getMatcher();
 $route = $matcher->match($request);

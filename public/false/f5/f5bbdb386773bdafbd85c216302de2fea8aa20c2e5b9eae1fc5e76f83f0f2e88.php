@@ -194,11 +194,11 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 ";
     }
 
-    // line 147
+    // line 149
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 148
+        // line 150
         echo "<script>
     \$graphicDesing = document.getElementById('graphic');
     \$videoEditing = document.getElementById('video');
@@ -230,7 +230,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 
     public function getDebugInfo()
     {
-        return array (  202 => 148,  198 => 147,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  202 => 150,  198 => 149,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -381,6 +381,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
     </div>
 </div>
 {% endblock %}
+
+
 {% block scripts %}
 <script>
     \$graphicDesing = document.getElementById('graphic');
