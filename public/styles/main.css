@@ -465,7 +465,7 @@ body {
     border-radius: 0 4px 4px 0px;
     margin: 0;
     transition-delay: 0.3s;
-    padding: .750rem 1rem;
+    padding: .400rem .700rem;
 }
 
 .page-wrapper.toggled #show-sidebar {
