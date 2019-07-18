@@ -83,6 +83,11 @@ body {
     font-weight: 700 !important;
 }
 
+.sidebar-link:hover {
+    font-weight: 700 !important;
+    border-right: 2px solid #f91c52;
+}
+
 .sidebar-active {
     font-weight: 700 !important;
     border-right: 2px solid #f91c52;
@@ -515,8 +520,7 @@ body {
 
 .sidebar-wrapper .sidebar-brand>a {
     text-transform: uppercase;
-    font-weight: font-weight: 700 !important;
-    ;
+    font-weight: bold;
     flex-grow: 1;
 }
 
