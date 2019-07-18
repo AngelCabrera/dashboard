@@ -112,7 +112,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle w-100\">Services</a>
           <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0\">
-              <a class=\"w-100 text-link\" href=\"#\">My Files</a>
+              <a class=\"w-100 text-link active\" href=\"#\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
               <a href=\"#\" class=\"text-link w-100\">Order History</a>
@@ -387,7 +387,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle w-100\">Services</a>
           <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0\">
-              <a class=\"w-100 text-link\" href=\"#\">My Files</a>
+              <a class=\"w-100 text-link active\" href=\"#\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
               <a href=\"#\" class=\"text-link w-100\">Order History</a>

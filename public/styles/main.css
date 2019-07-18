@@ -36,16 +36,17 @@ body {
     margin: 0 10px;
     font-size: 16px;
     font-weight: bold;
+    color: #8b959e !important;
 }
 
 .nav-link:hover,
 .text-link:hover {
-    color: var(--futures-hover-font-color) !important;
+    color: black;
 }
 
 .nav-link,
 .text-link {
-    color: var(--futures-font-color) !important;
+    color: #8b959e;
 }
 
 .text-link {
@@ -58,6 +59,10 @@ body {
 
 .navbar .dropdown-menu a {
     padding: .5rem;
+}
+
+.active {
+    color: black !important;
 }
 
 .navbar
@@ -91,6 +96,7 @@ body {
 .sidebar-active {
     font-weight: 700 !important;
     border-right: 2px solid #f91c52;
+    color: black !important;
 }
 
 .navbar .navbar-brand {
