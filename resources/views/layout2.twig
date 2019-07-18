@@ -132,6 +132,12 @@
             </div>
           </div>
           <div class="sidebar-menu">
+            <div class="sidebar-link {% if active == "tickets" %}sidebar-active{% endif %}">
+              <div class="pt-2">
+                <a class="text-link {% if active == "tickets" %}active{% endif %}"
+                  href="/thefutures/dashboard/tickets">Tickets</a>
+              </div>
+            </div>
             <div class="sidebar-link {% if active == "myfiles" %}sidebar-active{% endif %}">
               <div class="pt-2">
                 <a class="text-link {% if active == "myfiles" %}active{% endif %}" href="/thefutures/dashboard/">My
@@ -156,12 +162,7 @@
                   href="/thefutures/dashboard/settings">Settings</a>
               </div>
             </div>
-            <div class="sidebar-link {% if active == "tickets" %}sidebar-active{% endif %}">
-              <div class="pt-2">
-                <a class="text-link {% if active == "tickets" %}active{% endif %}"
-                  href="/thefutures/dashboard/tickets">Tickets</a>
-              </div>
-            </div>
+
             <div class="sidebar-link">
               &nbsp;
             </div>
