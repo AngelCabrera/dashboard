@@ -76,7 +76,7 @@ body {
 }
 
 .sidebar-link {
-    margin: 0.875rem 1px;
+    margin: 1rem 1px;
     font-size: 0.875rem;
     padding: 0;
 }
@@ -131,7 +131,6 @@ thead tr th {
 
 /*---------------------- <CONTENT HEADER> ------------------------*/
 .header {
-
     margin-bottom: 2rem;
 }
 

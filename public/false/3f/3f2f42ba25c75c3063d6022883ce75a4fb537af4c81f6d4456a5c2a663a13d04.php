@@ -92,7 +92,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
         <tbody>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
@@ -107,7 +107,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC0376402980
                     </a>
                 </th>
@@ -122,7 +122,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
@@ -137,7 +137,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
@@ -152,7 +152,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
@@ -235,7 +235,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
         <tbody>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
@@ -250,7 +250,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC0376402980
                     </a>
                 </th>
@@ -265,7 +265,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
@@ -280,7 +280,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
@@ -295,7 +295,7 @@ class __TwigTemplate_1f01363e831db9558c5300ab6b68bf1baf9bd267b4a08f1d4c3daa38d91
             </tr>
             <tr>
                 <th scope=\"row\">
-                    <a href=\"orderDetails/TC1031972989.html\">
+                    <a href=\"/dashboard/order-history/TC1031972989\">
                         TC1031972989
                     </a>
                 </th>
