@@ -25,6 +25,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
+            'headlinks' => [$this, 'block_headlinks'],
             'content' => [$this, 'block_content'],
             'scripts' => [$this, 'block_scripts'],
         ];
@@ -44,15 +45,25 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
     }
 
     // line 2
-    public function block_content($context, array $blocks = [])
+    public function block_headlinks($context, array $blocks = [])
     {
         $macros = $this->macros;
         // line 3
+        echo "<link rel=\"stylesheet\"
+    href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/css/bootstrap-select.min.css\">
+";
+    }
+
+    // line 6
+    public function block_content($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 7
         echo "<!-- Main content Header-->
 <div class=\"row\">
-    <div class=\"col-md-6\">
+    <div class=\"col-lg-6\">
         <div class=\"index header\">
-            <h2 class=\"\">Project Request Form</h2>
+            <h1 class=\"\">Project Request Form</h1>
         </div>
         <div>
             <div class=\"card project-request\">
@@ -80,12 +91,13 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                     </ul>
                     <hr>
                     <div>
-                        <h5 class=\"mb-0 font-weight-bold card-title\">Tell us about your design</h5>
+                        <h5 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h5>
                         <small class=\"mt-0 text-muted\">Be as detailed as possible.</small>
                     </div>
                     <form action=\"\" class=\"mt-2\">
                         <div class=\"form-group\">
-                            <input class=\"form-control form-control-sm\" type=\"text\" placeholder=\"Title of request\">
+                            <input class=\"form-control form-control-sm\" type=\"text\" placeholder=\"Title of request\"
+                                required>
                         </div>
                         <div class=\"form-group\">
                             <textarea class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
@@ -101,16 +113,98 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                             <textarea class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
                                 rows=\"\" placeholder=\"1.\"></textarea>
                         </div>
-                        <button class=\"btn btn-futures\">Send Request</button>
+                        <hr>
+                        <div>
+                            <p class=\"mb-0\">Select a design size *</p>
+                            <select class=\"selectpicker\" multiple required>
+                                <option value=\"1\">One</option>
+                                <option value=\"2\">Two</option>
+                                <option value=\"3\">Three</option>
+                                <option value=\"3\">Three</option>
+                            </select>
+                            <div class=\"d-flex justify-content-between align-items-center my-2\">
+                                <p class=\"my-0 w-50\">* This design is for: </p>
+                                <select class=\"w-50 custom-select custom-select-sm\">
+                                    <option selected>Open</option>
+                                    <option value=\"1\">One</option>
+                                    <option value=\"2\">Two</option>
+                                    <option value=\"3\">Three</option>
+                                </select>
+                            </div>
+                            <div class=\"form-group\">
+                                <input class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
+                                    rows=\"\" placeholder=\"Type of audience you are trying to reach. *\"></input>
+                            </div>
+                            <div class=\"form-group\">
+                                <textarea class=\"form-control form-control-sm rounded-0\"
+                                    id=\"exampleFormControlTextarea2\" rows=\"3\"
+                                    placeholder=\"Share any links you would like us to see for inspiration. Just paste them in this box.\"></textarea>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
+                            <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
+                                logos, word docs, images, etc).</small>
+
+                            <div class=\" my-2\">
+                                <div class=\"custom-file\">
+                                    <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
+                                        aria-describedby=\"inputGroupFileAddon01\">
+                                    <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
+                                </div>
+                            </div>
+                            <div>
+                                <small class=\"\">Please make sure that your file upload does not exceed 10MB in
+                                    Total</small>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
+                            <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
+                            <div>
+                                <!-- Default inline 1-->
+                                <div class=\"custom-control custom-checkbox custom-control-inline\">
+                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
+                                    <label class=\"custom-control-label\" for=\"defaultInline1\">PNG</label>
+                                </div>
+
+                                <!-- Default inline 2-->
+                                <div class=\"custom-control custom-checkbox custom-control-inline\">
+                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline2\">
+                                    <label class=\"custom-control-label\" for=\"defaultInline2\">JPG</label>
+                                </div>
+
+                                <!-- Default inline 3-->
+                                <div class=\"custom-control custom-checkbox custom-control-inline\">
+                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline3\">
+                                    <label class=\"custom-control-label\" for=\"defaultInline3\">PDF</label>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class=\"custom-control custom-checkbox\">
+                                <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
+                                <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
+                                    final copy and/or content for this request. I have read and accept the <a
+                                        href=\"#\">Terms of Service</a></label>
+                            </div>
+                        </div>
+                        <hr>
+                        <button class=\"mx-0 float-right btn btn-futures\">Send Request</button>
                     </form>
+
+
                 </div>
             </div>
         </div>
     </div>
-    <div class=\"col-md-6\">
+    <div class=\"col-lg-6\">
         <div class=\"index header\">
             <div>
-                <h2 class=\"\">Order Status</h2>
+                <h1 class=\"\">Order Status</h1>
             </div>
         </div>
         <!--/ Main content Header-->
@@ -129,8 +223,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
             <tbody>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            1
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00001
                         </a>
                     </th>
                     <td>Mark</td>
@@ -141,8 +235,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            2
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00002
                         </a>
                     </th>
                     <td>Jacob</td>
@@ -153,8 +247,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            3
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00003
                         </a>
                     </th>
                     <td>Larry the Bird</td>
@@ -165,8 +259,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            4
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00004
                         </a>
                     </th>
                     <td>Larry the Bird</td>
@@ -177,8 +271,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            5
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00005
                         </a>
                     </th>
                     <td>Larry the Bird</td>
@@ -194,12 +288,13 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 ";
     }
 
-    // line 149
+    // line 237
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 150
-        echo "<script>
+        // line 238
+        echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
+<script>
     \$graphicDesing = document.getElementById('graphic');
     \$videoEditing = document.getElementById('video');
 
@@ -230,18 +325,22 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 
     public function getDebugInfo()
     {
-        return array (  202 => 150,  198 => 149,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  296 => 238,  292 => 237,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'layout2.twig' %}
+{% block headlinks %}
+<link rel=\"stylesheet\"
+    href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/css/bootstrap-select.min.css\">
+{% endblock %}
 {% block content %}
 <!-- Main content Header-->
 <div class=\"row\">
-    <div class=\"col-md-6\">
+    <div class=\"col-lg-6\">
         <div class=\"index header\">
-            <h2 class=\"\">Project Request Form</h2>
+            <h1 class=\"\">Project Request Form</h1>
         </div>
         <div>
             <div class=\"card project-request\">
@@ -269,12 +368,13 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                     </ul>
                     <hr>
                     <div>
-                        <h5 class=\"mb-0 font-weight-bold card-title\">Tell us about your design</h5>
+                        <h5 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h5>
                         <small class=\"mt-0 text-muted\">Be as detailed as possible.</small>
                     </div>
                     <form action=\"\" class=\"mt-2\">
                         <div class=\"form-group\">
-                            <input class=\"form-control form-control-sm\" type=\"text\" placeholder=\"Title of request\">
+                            <input class=\"form-control form-control-sm\" type=\"text\" placeholder=\"Title of request\"
+                                required>
                         </div>
                         <div class=\"form-group\">
                             <textarea class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
@@ -290,16 +390,98 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                             <textarea class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
                                 rows=\"\" placeholder=\"1.\"></textarea>
                         </div>
-                        <button class=\"btn btn-futures\">Send Request</button>
+                        <hr>
+                        <div>
+                            <p class=\"mb-0\">Select a design size *</p>
+                            <select class=\"selectpicker\" multiple required>
+                                <option value=\"1\">One</option>
+                                <option value=\"2\">Two</option>
+                                <option value=\"3\">Three</option>
+                                <option value=\"3\">Three</option>
+                            </select>
+                            <div class=\"d-flex justify-content-between align-items-center my-2\">
+                                <p class=\"my-0 w-50\">* This design is for: </p>
+                                <select class=\"w-50 custom-select custom-select-sm\">
+                                    <option selected>Open</option>
+                                    <option value=\"1\">One</option>
+                                    <option value=\"2\">Two</option>
+                                    <option value=\"3\">Three</option>
+                                </select>
+                            </div>
+                            <div class=\"form-group\">
+                                <input class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
+                                    rows=\"\" placeholder=\"Type of audience you are trying to reach. *\"></input>
+                            </div>
+                            <div class=\"form-group\">
+                                <textarea class=\"form-control form-control-sm rounded-0\"
+                                    id=\"exampleFormControlTextarea2\" rows=\"3\"
+                                    placeholder=\"Share any links you would like us to see for inspiration. Just paste them in this box.\"></textarea>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
+                            <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
+                                logos, word docs, images, etc).</small>
+
+                            <div class=\" my-2\">
+                                <div class=\"custom-file\">
+                                    <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
+                                        aria-describedby=\"inputGroupFileAddon01\">
+                                    <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
+                                </div>
+                            </div>
+                            <div>
+                                <small class=\"\">Please make sure that your file upload does not exceed 10MB in
+                                    Total</small>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
+                            <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
+                            <div>
+                                <!-- Default inline 1-->
+                                <div class=\"custom-control custom-checkbox custom-control-inline\">
+                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
+                                    <label class=\"custom-control-label\" for=\"defaultInline1\">PNG</label>
+                                </div>
+
+                                <!-- Default inline 2-->
+                                <div class=\"custom-control custom-checkbox custom-control-inline\">
+                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline2\">
+                                    <label class=\"custom-control-label\" for=\"defaultInline2\">JPG</label>
+                                </div>
+
+                                <!-- Default inline 3-->
+                                <div class=\"custom-control custom-checkbox custom-control-inline\">
+                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline3\">
+                                    <label class=\"custom-control-label\" for=\"defaultInline3\">PDF</label>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class=\"custom-control custom-checkbox\">
+                                <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
+                                <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
+                                    final copy and/or content for this request. I have read and accept the <a
+                                        href=\"#\">Terms of Service</a></label>
+                            </div>
+                        </div>
+                        <hr>
+                        <button class=\"mx-0 float-right btn btn-futures\">Send Request</button>
                     </form>
+
+
                 </div>
             </div>
         </div>
     </div>
-    <div class=\"col-md-6\">
+    <div class=\"col-lg-6\">
         <div class=\"index header\">
             <div>
-                <h2 class=\"\">Order Status</h2>
+                <h1 class=\"\">Order Status</h1>
             </div>
         </div>
         <!--/ Main content Header-->
@@ -318,8 +500,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
             <tbody>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            1
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00001
                         </a>
                     </th>
                     <td>Mark</td>
@@ -330,8 +512,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            2
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00002
                         </a>
                     </th>
                     <td>Jacob</td>
@@ -342,8 +524,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            3
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00003
                         </a>
                     </th>
                     <td>Larry the Bird</td>
@@ -354,8 +536,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            4
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00004
                         </a>
                     </th>
                     <td>Larry the Bird</td>
@@ -366,8 +548,8 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </tr>
                 <tr>
                     <th scope=\"row\">
-                        <a href=\"orderDetails/TC1031972989.html\">
-                            5
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00005
                         </a>
                     </th>
                     <td>Larry the Bird</td>
@@ -383,7 +565,9 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 {% endblock %}
 
 
+
 {% block scripts %}
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
     \$videoEditing = document.getElementById('video');

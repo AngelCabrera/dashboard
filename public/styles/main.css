@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
-/*Crear variables con colores, tipos de fuente, tamaños de fuente y paddings*/
+/*---------------- /Estilos navs y navbars --------------*/
 
 :root {
     --futures-color: #f91c52;
-    --futures-font-color: var(--futures-font-color)
+    --futures-font-color: #4a4a4a;
+    --futures-hover-font-color: #212529;
+    --futures-primary-font: 'Brandon Grotesque Black', sans-serif;
+    --futures-secondary-font: "Quicksand", sans-serif;
+    font-size: 18px;
 }
 
 html {
@@ -13,7 +17,7 @@ html {
 
 body {
     /* ¿Cuál es la fuente para el texto? */
-    font-family: "Rubik", sans-serif;
+    font-family: var(--futures-secondary-font) !important;
     color: var(--futures-font-color) !important;
 }
 
@@ -25,7 +29,7 @@ body {
 .navbar {
     border-bottom: 1px solid #e6e6e6;
     box-shadow: none !important;
-    padding: 1rem 2rem !important;
+    padding: 0 2rem !important;
 }
 
 .nav-link {
@@ -33,18 +37,18 @@ body {
     font-size: 18px;
 }
 
-.text-link {
-    padding-left: 1rem !important;
-}
-
 .nav-link:hover,
 .text-link:hover {
-    color: #232d40 !important;
+    color: var(--futures-hover-font-color) !important;
 }
 
 .nav-link,
 .text-link {
     color: var(--futures-font-color) !important;
+}
+
+.text-link {
+    padding-left: 1rem !important
 }
 
 .navbar-nav {
@@ -55,7 +59,8 @@ body {
     padding: .5rem;
 }
 
-/* /Estilos navs y navbars*/
+.navbar
+/*---------------- /Estilos navs y navbars --------------*/
 /* Estilos sidebar */
 
 #sidebar {
@@ -71,8 +76,7 @@ body {
 }
 
 .sidebar-link {
-    margin: 0.875rem;
-    margin-right: 1px;
+    margin: 0.875rem 1px;
     font-size: 0.875rem;
     padding: 0;
 }
@@ -80,6 +84,10 @@ body {
 .sidebar-active {
     font-weight: 700 !important;
     border-right: 2px solid #f91c52;
+}
+
+.navbar .navbar-brand {
+    padding-left: 28px;
 }
 
 /* \Final estilos sidebar */
@@ -121,11 +129,6 @@ thead tr th {
     font-size: 0.875rem;
 }
 
-.main-title {
-    color: #232d40;
-    font-size: 2.25rem;
-}
-
 table.table a {
     color: #007bff !important;
 }
@@ -150,16 +153,10 @@ tr {
     height: 50px;
 }
 
-h1 {
-    font-family: "Quicksand", sans-serif !important;
-    font-weight: 700;
-}
-
+h1,
 h2 {
-    font-family: "Quicksand", sans-serif !important;
-    font-weight: 700;
-    color: #232d40;
-    font-size: 1.5rem;
+    font-family: var(--futures-primary-font) !important;
+    color: var(--futures-hover-font-color);
 }
 
 tbody {
@@ -177,7 +174,7 @@ thead {
     height: 3rem;
     font-size: 0.875rem;
     letter-spacing: 0.1em;
-    font-family: "Rubik", sans-serif;
+    font-family: var(--futures-secondary-font);
     font-weight: 700 !important;
     box-shadow: none;
     margin-top: 20px;
@@ -359,7 +356,7 @@ table.table th {
     padding: 4px 0px;
     border-radius: 15px;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.42857;
 }
 
@@ -479,7 +476,7 @@ body {
     height: 100%;
     max-height: 100%;
     position: absolute;
-    top: 103px;
+    top: 66px;
     left: -300px;
     z-index: 999;
 }
@@ -580,7 +577,7 @@ body {
 /*----------------------sidebar-menu-------------------------*/
 
 .sidebar-wrapper .sidebar-menu {
-    padding-bottom: 10px;
+    padding-left: 2.5rem;
 }
 
 .sidebar-wrapper .sidebar-menu .header-menu span {
@@ -741,27 +738,27 @@ body {
 /*------scroll bar---------------------*/
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 12px;
     height: 7px;
 }
 
 ::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #525965;
-    border: 0px none #ffffff;
+    border: 2px none #ffffff;
     border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #525965;
+    background: #353a44;
 }
 
 ::-webkit-scrollbar-thumb:active {
-    background: #525965;
+    background: #353a44;
 }
 
 ::-webkit-scrollbar-track {
@@ -820,11 +817,11 @@ body {
 }
 
 .page-wrapper.chiller-theme.toggled #close-sidebar {
-    color: rgb(74, 74, 74);
+    color: var(--futures-color);
 }
 
 .page-wrapper.chiller-theme.toggled #close-sidebar:hover {
-    color: #ffffff;
+    color: var(--futures-hover-font-color);
 }
 
 .chiller-theme .sidebar-wrapper ul li:hover a i,

@@ -1,9 +1,18 @@
 const gulp = require('gulp');
+const connect = require('gulp-connect-php');
+const browsersync = require('browser-sync');
 
-gulp.task('css', function () {
-    return gulp.src('public/styles/main.css')
-        .pipe(gulp.dest('public/dist/styles'));
-});
-gulp.task('watch', function () {
-    gulp.watch('public/styles/*.css', gulp.series('css'));
+
+gulp.task('connect-sync', function () {
+    connect.server({}, () => {
+        browsersync({
+            proxy: '127.0.0.1/thefutures'
+        });
+    });
+    gulp.watch('public/styles/main.css').on('change', function () {
+        browsersync.reload();
+    });
+    gulp.watch('resources/views/*.twig').on('change', function () {
+        browsersync.reload();
+    });
 });

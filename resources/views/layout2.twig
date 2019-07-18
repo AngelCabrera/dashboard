@@ -45,6 +45,7 @@
   <!--Rubik font-->
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/main.css">
+  {% block headlinks %}{% endblock %}
 </head>
 
 <body>
@@ -125,7 +126,7 @@
           <div class="sidebar-brand">
             <a href="#">Hi William</a>
             <div id="close-sidebar">
-              <i class="fas fa-times"></i>
+              <i class="fas fa-arrow-left"></i>
             </div>
           </div>
           <div class="sidebar-menu">
@@ -138,9 +139,8 @@
             <div class="sidebar-link {% if active == "manage" %}sidebar-active{% endif %}">
               <a class="text-link" href="/dashboard/manage-team">Manage Team</a>
             </div>
-            <div class="sidebar-link ">
-              <a class="text-link {% if active == "settings" %}settings{% endif %}"
-                href="/dashboard/settings">Settings</a>
+            <div class="sidebar-link {% if active == "settings" %}sidebar-active{% endif %}">
+              <a class="text-link" href="/dashboard/settings">Settings</a>
             </div>
             <div class="sidebar-link {% if active == "tickets" %}sidebar-active{% endif %}">
               <a class="text-link" href="/dashboard/tickets">Tickets</a>
@@ -186,7 +186,6 @@
   <!-- endbuild -->
 
   <!-- JQuery -->
-  {% block scripts %}{% endblock %}
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -197,7 +196,7 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script>
-
+  {% block scripts %}{% endblock %}
   <script src="/scripts/main.js"></script>
 
   <!-- Built with love using Web Starter Kit -->

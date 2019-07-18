@@ -54,7 +54,7 @@ $map->get('getOrderHistory', '/dashboard/order-history', [
     'action' => 'getOrderHistoryAction'
 ]);
 
-$map->get('showOrderHistory', '/dashboard/TC1031972989', [
+$map->get('showOrderHistory', '/dashboard/order-history/TC1031972989', [
     'controller' => 'App\Controllers\OrderHistoryController',
     'action' => 'showOrderHistoryAction'
 ]);

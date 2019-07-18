@@ -27,6 +27,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $this->parent = false;
 
         $this->blocks = [
+            'headlinks' => [$this, 'block_headlinks'],
             'content' => [$this, 'block_content'],
             'scripts' => [$this, 'block_scripts'],
         ];
@@ -83,7 +84,11 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"/thefutures/styles/main.css\">
-</head>
+  ";
+        // line 48
+        $this->displayBlock('headlinks', $context, $blocks);
+        // line 49
+        echo "</head>
 
 <body>
   <!-- Add your site or app content here -->
@@ -163,24 +168,49 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <div class=\"sidebar-brand\">
             <a href=\"#\">Hi William</a>
             <div id=\"close-sidebar\">
-              <i class=\"fas fa-times\"></i>
+              <i class=\"fas fa-arrow-left\"></i>
             </div>
           </div>
           <div class=\"sidebar-menu\">
-            <div class=\"sidebar-link sidebar-active\">
-              <a class=\"text-link \" href=\"/dashboard/\">My files</a>
+            <div class=\"sidebar-link ";
+        // line 133
+        if ((($context["active"] ?? null) == "myfiles")) {
+            echo "sidebar-active";
+        }
+        echo "\">
+              <a class=\"text-link \" href=\"/thefutures/dashboard/\">My files</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link \" href=\"/dashboard/order-history\">Order History</a>
+            <div class=\"sidebar-link  ";
+        // line 136
+        if ((($context["active"] ?? null) == "order")) {
+            echo "sidebar-active";
+        }
+        echo "\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/order-history\">Order History</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link\" href=\"/dashboard/manage-team\">Manage Team</a>
+            <div class=\"sidebar-link ";
+        // line 139
+        if ((($context["active"] ?? null) == "manage")) {
+            echo "sidebar-active";
+        }
+        echo "\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link\" href=\"/dashboard/settings\">Settings</a>
+            <div class=\"sidebar-link ";
+        // line 142
+        if ((($context["active"] ?? null) == "settings")) {
+            echo "sidebar-active";
+        }
+        echo "\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/settings\">Settings</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link\" href=\"/dashboard/tickets\">Tickets</a>
+            <div class=\"sidebar-link ";
+        // line 145
+        if ((($context["active"] ?? null) == "tickets")) {
+            echo "sidebar-active";
+        }
+        echo "\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/tickets\">Tickets</a>
             </div>
             <div class=\"sidebar-link\">
               &nbsp;
@@ -205,32 +235,15 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <!-- sidebar-menu  -->
         </div>
         <!-- sidebar-content  -->
-        <div class=\"sidebar-footer\">
-          <a href=\"#\">
-            <i class=\"fa fa-bell\"></i>
-            <span class=\"badge badge-pill badge-warning notification\">3</span>
-          </a>
-          <a href=\"#\">
-            <i class=\"fa fa-envelope\"></i>
-            <span class=\"badge badge-pill badge-success notification\">7</span>
-          </a>
-          <a href=\"#\">
-            <i class=\"fa fa-cog\"></i>
-            <span class=\"badge-sonar\"></span>
-          </a>
-          <a href=\"#\">
-            <i class=\"fa fa-power-off\"></i>
-          </a>
-        </div>
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid \">
+        <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 192
+        // line 176
         $this->displayBlock('content', $context, $blocks);
-        // line 193
+        // line 177
         echo "          </div>
         </div>
       </main>
@@ -243,11 +256,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- endbuild -->
 
   <!-- JQuery -->
-  ";
-        // line 205
-        $this->displayBlock('scripts', $context, $blocks);
-        // line 206
-        echo "  <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
+  <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
   <script src=\"//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js\"></script>
   <!-- Bootstrap tooltips -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\">
@@ -257,8 +266,11 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
     src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js\"></script>
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
-
-  <script src=\"/thefutures/scripts/main.js\"></script>
+  ";
+        // line 199
+        $this->displayBlock('scripts', $context, $blocks);
+        // line 200
+        echo "  <script src=\"/thefutures/scripts/main.js\"></script>
 
   <!-- Built with love using Web Starter Kit -->
 </body>
@@ -266,13 +278,19 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 </html>";
     }
 
-    // line 192
+    // line 48
+    public function block_headlinks($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+    }
+
+    // line 176
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 205
+    // line 199
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -283,9 +301,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         return "layout2.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  276 => 205,  270 => 192,  250 => 206,  248 => 205,  234 => 193,  232 => 192,  39 => 1,);
+        return array (  294 => 199,  288 => 176,  282 => 48,  273 => 200,  271 => 199,  247 => 177,  245 => 176,  209 => 145,  201 => 142,  193 => 139,  185 => 136,  177 => 133,  91 => 49,  89 => 48,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -337,6 +360,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"/thefutures/styles/main.css\">
+  {% block headlinks %}{% endblock %}
 </head>
 
 <body>
@@ -417,24 +441,24 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <div class=\"sidebar-brand\">
             <a href=\"#\">Hi William</a>
             <div id=\"close-sidebar\">
-              <i class=\"fas fa-times\"></i>
+              <i class=\"fas fa-arrow-left\"></i>
             </div>
           </div>
           <div class=\"sidebar-menu\">
-            <div class=\"sidebar-link sidebar-active\">
-              <a class=\"text-link \" href=\"/dashboard/\">My files</a>
+            <div class=\"sidebar-link {% if active == \"myfiles\" %}sidebar-active{% endif %}\">
+              <a class=\"text-link \" href=\"/thefutures/dashboard/\">My files</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link \" href=\"/dashboard/order-history\">Order History</a>
+            <div class=\"sidebar-link  {% if active == \"order\" %}sidebar-active{% endif %}\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/order-history\">Order History</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link\" href=\"/dashboard/manage-team\">Manage Team</a>
+            <div class=\"sidebar-link {% if active == \"manage\" %}sidebar-active{% endif %}\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link\" href=\"/dashboard/settings\">Settings</a>
+            <div class=\"sidebar-link {% if active == \"settings\" %}sidebar-active{% endif %}\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/settings\">Settings</a>
             </div>
-            <div class=\"sidebar-link \">
-              <a class=\"text-link\" href=\"/dashboard/tickets\">Tickets</a>
+            <div class=\"sidebar-link {% if active == \"tickets\" %}sidebar-active{% endif %}\">
+              <a class=\"text-link\" href=\"/thefutures/dashboard/tickets\">Tickets</a>
             </div>
             <div class=\"sidebar-link\">
               &nbsp;
@@ -459,27 +483,10 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <!-- sidebar-menu  -->
         </div>
         <!-- sidebar-content  -->
-        <div class=\"sidebar-footer\">
-          <a href=\"#\">
-            <i class=\"fa fa-bell\"></i>
-            <span class=\"badge badge-pill badge-warning notification\">3</span>
-          </a>
-          <a href=\"#\">
-            <i class=\"fa fa-envelope\"></i>
-            <span class=\"badge badge-pill badge-success notification\">7</span>
-          </a>
-          <a href=\"#\">
-            <i class=\"fa fa-cog\"></i>
-            <span class=\"badge-sonar\"></span>
-          </a>
-          <a href=\"#\">
-            <i class=\"fa fa-power-off\"></i>
-          </a>
-        </div>
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid \">
+        <div class=\"container-fluid\">
           <div class=\"main-content\">
             {% block content %}{% endblock %}
           </div>
@@ -494,7 +501,6 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- endbuild -->
 
   <!-- JQuery -->
-  {% block scripts %}{% endblock %}
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
   <script src=\"//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js\"></script>
   <!-- Bootstrap tooltips -->
@@ -505,7 +511,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
     src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js\"></script>
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
-
+  {% block scripts %}{% endblock %}
   <script src=\"/thefutures/scripts/main.js\"></script>
 
   <!-- Built with love using Web Starter Kit -->

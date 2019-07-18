@@ -47,7 +47,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     {
         $macros = $this->macros;
         // line 4
-        echo "<div class=\"header-2\" style=\"margin: 50px 0;\">
+        echo "<div class=\"header-2\">
     <h1 class=\"main-title\">Order: TC1031972989</h1>
 </div>
 <div>
@@ -224,7 +224,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         return new Source("{% extends 'layout2.twig'  %}
 
 {% block content %}
-<div class=\"header-2\" style=\"margin: 50px 0;\">
+<div class=\"header-2\">
     <h1 class=\"main-title\">Order: TC1031972989</h1>
 </div>
 <div>
