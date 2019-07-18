@@ -539,7 +539,7 @@ body {
 /*--------------------sidebar-brand----------------------*/
 
 .sidebar-wrapper .sidebar-brand {
-    padding: 10px 20px;
+    padding: 10px 20px 0 20px;
     display: flex;
     align-items: center;
 }
@@ -820,9 +820,7 @@ body {
 
 .chiller-theme .sidebar-wrapper .sidebar-header,
 .chiller-theme .sidebar-wrapper .sidebar-search,
-.chiller-theme .sidebar-wrapper .sidebar-menu {
-    border-top: 1px solid #3a3f48;
-}
+.chiller-theme .sidebar-wrapper .sidebar-menu {}
 
 .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
 .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {

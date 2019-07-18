@@ -168,12 +168,12 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <nav id=\"sidebar\" class=\"sidebar-wrapper\">
         <div class=\"sidebar-content\">
           <div class=\"sidebar-brand\">
-            <a href=\"#\">Hi William</a>
+            <a href=\"#\">&nbsp</a>
             <div id=\"close-sidebar\">
               <i class=\"fas fa-arrow-left\"></i>
             </div>
           </div>
-          <div class=\"sidebar-menu pt-2\">
+          <div class=\"sidebar-menu\">
             <div class=\"sidebar-link ";
         // line 135
         if ((($context["active"] ?? null) == "myfiles")) {
@@ -489,12 +489,12 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <nav id=\"sidebar\" class=\"sidebar-wrapper\">
         <div class=\"sidebar-content\">
           <div class=\"sidebar-brand\">
-            <a href=\"#\">Hi William</a>
+            <a href=\"#\">&nbsp</a>
             <div id=\"close-sidebar\">
               <i class=\"fas fa-arrow-left\"></i>
             </div>
           </div>
-          <div class=\"sidebar-menu pt-2\">
+          <div class=\"sidebar-menu\">
             <div class=\"sidebar-link {% if active == \"myfiles\" %}sidebar-active{% endif %}\">
               <div class=\"pt-2\">
                 <a class=\"text-link {% if active == \"myfiles\" %}active{% endif %}\" href=\"/thefutures/dashboard/\">My
