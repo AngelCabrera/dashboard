@@ -251,7 +251,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             echo "active";
         }
         echo "\"
-                  href=\"/thefutures/dashboard/settings\">Settings</a>
+                  href=\"/thefutures/dashboard/settings\">Account Settings</a>
               </div>
             </div>
             <div class=\"sidebar-link\">
@@ -516,7 +516,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <div class=\"sidebar-link {% if active == \"settings\" %}sidebar-active{% endif %}\">
               <div class=\"pt-2\">
                 <a class=\"text-link {% if active == \"settings\" %}active{% endif %}\"
-                  href=\"/thefutures/dashboard/settings\">Settings</a>
+                  href=\"/thefutures/dashboard/settings\">Account Settings</a>
               </div>
             </div>
             <div class=\"sidebar-link\">
