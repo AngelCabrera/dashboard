@@ -61,7 +61,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
         // line 7
         echo "<!-- Main content Header-->
 <div class=\"row\">
-    <div class=\"col-lg-6\">
+    <div class=\"col\">
         <div class=\"index header\">
             <h1 class=\"\">Project Request Form</h1>
         </div>
@@ -201,98 +201,15 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
             </div>
         </div>
     </div>
-    <div class=\"col-lg-6\">
-        <div class=\"index header\">
-            <div>
-                <h1 class=\"\">Order Status</h1>
-            </div>
-        </div>
-        <!--/ Main content Header-->
-        <!-- Main content Data Display-->
-        <table id=\"\" cellspacing=\"0\" class=\"table tickets-table table-hover\">
-            <thead>
-                <tr>
-                    <th scope=\"col\">#</th>
-                    <th scope=\"col\">Project Name</th>
-                    <th scope=\"col\">Received</th>
-                    <th scope=\"col\">In Production</th>
-                    <th scope=\"col\">In review</th>
-                    <th scope=\"col\">Delivered</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/thefutures/dashboard/order-history/TC1031972989\">
-                            00001
-                        </a>
-                    </th>
-                    <td>Mark</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00002
-                        </a>
-                    </th>
-                    <td>Jacob</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00003
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00004
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/thefutures/dashboard/order-history/TC1031972989\">
-                            00005
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
 </div>
 ";
     }
 
-    // line 237
+    // line 154
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 238
+        // line 155
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -325,7 +242,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 
     public function getDebugInfo()
     {
-        return array (  296 => 238,  292 => 237,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  213 => 155,  209 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -338,7 +255,7 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
 {% block content %}
 <!-- Main content Header-->
 <div class=\"row\">
-    <div class=\"col-lg-6\">
+    <div class=\"col\">
         <div class=\"index header\">
             <h1 class=\"\">Project Request Form</h1>
         </div>
@@ -477,89 +394,6 @@ class __TwigTemplate_b8fcfc1cfde0ebf5f33f36cbac0213ad67e8edeb2d40793077c9aa3ce44
                 </div>
             </div>
         </div>
-    </div>
-    <div class=\"col-lg-6\">
-        <div class=\"index header\">
-            <div>
-                <h1 class=\"\">Order Status</h1>
-            </div>
-        </div>
-        <!--/ Main content Header-->
-        <!-- Main content Data Display-->
-        <table id=\"\" cellspacing=\"0\" class=\"table tickets-table table-hover\">
-            <thead>
-                <tr>
-                    <th scope=\"col\">#</th>
-                    <th scope=\"col\">Project Name</th>
-                    <th scope=\"col\">Received</th>
-                    <th scope=\"col\">In Production</th>
-                    <th scope=\"col\">In review</th>
-                    <th scope=\"col\">Delivered</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/thefutures/dashboard/order-history/TC1031972989\">
-                            00001
-                        </a>
-                    </th>
-                    <td>Mark</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00002
-                        </a>
-                    </th>
-                    <td>Jacob</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00003
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00004
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/thefutures/dashboard/order-history/TC1031972989\">
-                            00005
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-            </tbody>
-        </table>
     </div>
 </div>
 {% endblock %}

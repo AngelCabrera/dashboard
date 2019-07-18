@@ -74,6 +74,11 @@ $map->get('tickets', '/thefutures/dashboard/tickets', [
     'action' => 'getTicketsAction'
 ]);
 
+$map->get('pstatus', '/thefutures/dashboard/projects-status', [
+    'controller' => 'App\Controllers\ProjectsController',
+    'action' => 'getProjectsStatusAction'
+]);
+
 
 $matcher = $routerContainer->getMatcher();
 $route = $matcher->match($request);
