@@ -238,18 +238,15 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
               </div>
             </div>
-            <div class=\"sidebar-link\">
-              &nbsp;
-            </div>
             <div class=\"sidebar-link ";
-        // line 162
+        // line 159
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 164
+        // line 161
         if ((($context["active"] ?? null) == "settings")) {
             echo "active";
         }
@@ -257,6 +254,10 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/settings\">Settings</a>
               </div>
             </div>
+            <div class=\"sidebar-link\">
+              &nbsp;
+            </div>
+
             <div class=\"sidebar-link\">
               <div class=\"pt-2\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
@@ -282,9 +283,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 192
-        $this->displayBlock('content', $context, $blocks);
         // line 193
+        $this->displayBlock('content', $context, $blocks);
+        // line 194
         echo "          </div>
         </div>
       </main>
@@ -308,9 +309,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 215
-        $this->displayBlock('scripts', $context, $blocks);
         // line 216
+        $this->displayBlock('scripts', $context, $blocks);
+        // line 217
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -325,13 +326,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 192
+    // line 193
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 215
+    // line 216
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -349,7 +350,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  335 => 215,  329 => 192,  323 => 50,  314 => 216,  312 => 215,  288 => 193,  286 => 192,  253 => 164,  246 => 162,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  336 => 216,  330 => 193,  324 => 50,  315 => 217,  313 => 216,  289 => 194,  287 => 193,  250 => 161,  243 => 159,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -512,15 +513,16 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
               </div>
             </div>
-            <div class=\"sidebar-link\">
-              &nbsp;
-            </div>
             <div class=\"sidebar-link {% if active == \"settings\" %}sidebar-active{% endif %}\">
               <div class=\"pt-2\">
                 <a class=\"text-link {% if active == \"settings\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/settings\">Settings</a>
               </div>
             </div>
+            <div class=\"sidebar-link\">
+              &nbsp;
+            </div>
+
             <div class=\"sidebar-link\">
               <div class=\"pt-2\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
