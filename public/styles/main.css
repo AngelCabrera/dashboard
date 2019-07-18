@@ -34,7 +34,8 @@ body {
 
 .nav-link {
     margin: 0 10px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .nav-link:hover,
@@ -77,8 +78,9 @@ body {
 
 .sidebar-link {
     margin: 1rem 1px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
+    font-weight: 700 !important;
 }
 
 .sidebar-active {
@@ -513,7 +515,8 @@ body {
 
 .sidebar-wrapper .sidebar-brand>a {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: font-weight: 700 !important;
+    ;
     flex-grow: 1;
 }
 
