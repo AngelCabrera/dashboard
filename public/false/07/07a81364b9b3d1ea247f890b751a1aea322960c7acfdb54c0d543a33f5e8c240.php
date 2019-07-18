@@ -84,10 +84,12 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"/thefutures/styles/main.css\">
+  <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
+  <link rel=\"stylesheet\" href=\"/styles/main.css\">
   ";
-        // line 48
+        // line 50
         $this->displayBlock('headlinks', $context, $blocks);
-        // line 49
+        // line 51
         echo "</head>
 
 <body>
@@ -173,7 +175,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </div>
           <div class=\"sidebar-menu\">
             <div class=\"sidebar-link ";
-        // line 133
+        // line 135
         if ((($context["active"] ?? null) == "myfiles")) {
             echo "sidebar-active";
         }
@@ -181,7 +183,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <a class=\"text-link \" href=\"/thefutures/dashboard/\">My files</a>
             </div>
             <div class=\"sidebar-link  ";
-        // line 136
+        // line 138
         if ((($context["active"] ?? null) == "order")) {
             echo "sidebar-active";
         }
@@ -189,7 +191,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <a class=\"text-link\" href=\"/thefutures/dashboard/order-history\">Order History</a>
             </div>
             <div class=\"sidebar-link ";
-        // line 139
+        // line 141
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
@@ -197,7 +199,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <a class=\"text-link\" href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
             </div>
             <div class=\"sidebar-link ";
-        // line 142
+        // line 144
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
@@ -205,7 +207,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <a class=\"text-link\" href=\"/thefutures/dashboard/settings\">Settings</a>
             </div>
             <div class=\"sidebar-link ";
-        // line 145
+        // line 147
         if ((($context["active"] ?? null) == "tickets")) {
             echo "sidebar-active";
         }
@@ -241,9 +243,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 176
+        // line 178
         $this->displayBlock('content', $context, $blocks);
-        // line 177
+        // line 179
         echo "          </div>
         </div>
       </main>
@@ -267,30 +269,30 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 199
+        // line 201
         $this->displayBlock('scripts', $context, $blocks);
-        // line 200
+        // line 202
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
-
+  <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
 </body>
 
 </html>";
     }
 
-    // line 48
+    // line 50
     public function block_headlinks($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 176
+    // line 178
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 199
+    // line 201
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -308,7 +310,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  294 => 199,  288 => 176,  282 => 48,  273 => 200,  271 => 199,  247 => 177,  245 => 176,  209 => 145,  201 => 142,  193 => 139,  185 => 136,  177 => 133,  91 => 49,  89 => 48,  40 => 1,);
+        return array (  296 => 201,  290 => 178,  284 => 50,  275 => 202,  273 => 201,  249 => 179,  247 => 178,  211 => 147,  203 => 144,  195 => 141,  187 => 138,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -360,6 +362,8 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!--Rubik font-->
   <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
   <link rel=\"stylesheet\" href=\"/thefutures/styles/main.css\">
+  <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
+  <link rel=\"stylesheet\" href=\"/styles/main.css\">
   {% block headlinks %}{% endblock %}
 </head>
 
@@ -513,7 +517,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   {% block scripts %}{% endblock %}
   <script src=\"/thefutures/scripts/main.js\"></script>
-
+  <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
 </body>
 
