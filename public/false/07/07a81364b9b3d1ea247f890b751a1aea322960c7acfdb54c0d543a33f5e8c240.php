@@ -109,19 +109,19 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <!-- Links -->
       <ul class=\"navbar-nav ml-auto\">
         <li class=\"nav-item dropdown\">
-          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle w-100\">Services</a>
+          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Services</a>
           <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0\">
-              <a class=\"w-100 text-link active\" href=\"#\">My Files</a>
+              <a class=\" text-link active\" href=\"#\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Order History</a>
+              <a href=\"#\" class=\"text-link \">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Manage Team</a>
+              <a href=\"#\" class=\"text-link \">Manage Team</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Settings</a>
+              <a href=\"#\" class=\"text-link \">Settings</a>
             </li>
           </ul>
         </li>
@@ -139,19 +139,19 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         </li>
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
-          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle w-100\">Hi William</a>
+          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Hi William</a>
           <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0\">
-              <a class=\"w-100 text-link\" href=\"/thefutures/dashboard/\">My Files</a>
+              <a class=\" text-link\" href=\"/thefutures/dashboard/\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"/thefutures/dashboard/order-history\" class=\"text-link w-100\">Order History</a>
+              <a href=\"/thefutures/dashboard/order-history\" class=\"text-link \">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Manage Team</a>
+              <a href=\"#\" class=\"text-link \">Manage Team</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Settings</a>
+              <a href=\"#\" class=\"text-link \">Settings</a>
             </li>
           </ul>
         </li>
@@ -258,19 +258,25 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               &nbsp;
             </div>
             <div class=\"sidebar-link\">
-              <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                Make a Payment
-              </a>
+              <div class=\"pt-2\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Make a Payment
+                </a>
+              </div>
             </div>
             <div class=\"sidebar-link\">
-              <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                Transaction History
-              </a>
+              <div class=\"pt-2\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Transaction History
+                </a>
+              </div>
             </div>
             <div class=\"sidebar-link\">
-              <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                Billing Settings
-              </a>
+              <div class=\"pt-2\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Billing Settings
+                </a>
+              </div>
             </div>
 
           </div>
@@ -283,9 +289,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 193
+        // line 199
         $this->displayBlock('content', $context, $blocks);
-        // line 194
+        // line 200
         echo "          </div>
         </div>
       </main>
@@ -309,9 +315,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 216
+        // line 222
         $this->displayBlock('scripts', $context, $blocks);
-        // line 217
+        // line 223
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -326,13 +332,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 193
+    // line 199
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 216
+    // line 222
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -350,7 +356,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  336 => 216,  330 => 193,  324 => 50,  315 => 217,  313 => 216,  289 => 194,  287 => 193,  250 => 161,  243 => 159,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  342 => 222,  336 => 199,  330 => 50,  321 => 223,  319 => 222,  295 => 200,  293 => 199,  250 => 161,  243 => 159,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -424,19 +430,19 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <!-- Links -->
       <ul class=\"navbar-nav ml-auto\">
         <li class=\"nav-item dropdown\">
-          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle w-100\">Services</a>
+          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Services</a>
           <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0\">
-              <a class=\"w-100 text-link active\" href=\"#\">My Files</a>
+              <a class=\" text-link active\" href=\"#\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Order History</a>
+              <a href=\"#\" class=\"text-link \">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Manage Team</a>
+              <a href=\"#\" class=\"text-link \">Manage Team</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Settings</a>
+              <a href=\"#\" class=\"text-link \">Settings</a>
             </li>
           </ul>
         </li>
@@ -454,19 +460,19 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         </li>
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
-          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle w-100\">Hi William</a>
+          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Hi William</a>
           <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0\">
-              <a class=\"w-100 text-link\" href=\"/thefutures/dashboard/\">My Files</a>
+              <a class=\" text-link\" href=\"/thefutures/dashboard/\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"/thefutures/dashboard/order-history\" class=\"text-link w-100\">Order History</a>
+              <a href=\"/thefutures/dashboard/order-history\" class=\"text-link \">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Manage Team</a>
+              <a href=\"#\" class=\"text-link \">Manage Team</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link w-100\">Settings</a>
+              <a href=\"#\" class=\"text-link \">Settings</a>
             </li>
           </ul>
         </li>
@@ -523,19 +529,25 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               &nbsp;
             </div>
             <div class=\"sidebar-link\">
-              <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                Make a Payment
-              </a>
+              <div class=\"pt-2\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Make a Payment
+                </a>
+              </div>
             </div>
             <div class=\"sidebar-link\">
-              <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                Transaction History
-              </a>
+              <div class=\"pt-2\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Transaction History
+                </a>
+              </div>
             </div>
             <div class=\"sidebar-link\">
-              <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                Billing Settings
-              </a>
+              <div class=\"pt-2\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Billing Settings
+                </a>
+              </div>
             </div>
 
           </div>
