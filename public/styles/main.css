@@ -57,17 +57,19 @@ body {
     padding-right: 1rem;
 }
 
-.navbar-nav .nav-item a {
+.navbar-nav .nav-item .nav-link {
     border-bottom: 1px solid white;
 }
 
-.navbar-nav .nav-item a:hover {
+.navbar-nav .nav-item .nav-link:hover {
     border-bottom: 2px solid var(--futures-color);
     color: black !important;
 }
 
 .navbar .dropdown-menu a {
     padding: .5rem;
+    padding-left: 1rem;
+    color: var(--futures-font-color);
 }
 
 .active {
@@ -242,7 +244,7 @@ thead {
     border-bottom: 1px solid #e1e1e1;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 14px !important;
+    font-size: 16px !important;
 }
 
 .settings {
@@ -256,13 +258,13 @@ thead {
 
 .alert {
     padding: 0.5rem;
-    font-size: 14px;
+    font-size: .775rem;
     font-weight: 700;
 }
 
 .settings-buttons {
     padding-right: 4;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
@@ -350,7 +352,7 @@ thead {
 
 table th,
 table td {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 table.table td,
@@ -434,7 +436,7 @@ table.table th {
 }
 
 body {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .page-wrapper .sidebar-wrapper,
@@ -605,7 +607,7 @@ body {
 
 .sidebar-wrapper .sidebar-menu .header-menu span {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     padding: 15px 20px 5px 20px;
     display: inline-block;
 }
@@ -648,7 +650,7 @@ body {
     background: 0 0;
     position: absolute;
     right: 15px;
-    top: 14px;
+    top: 16px;
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul {

@@ -110,18 +110,18 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <ul class=\"navbar-nav ml-auto\">
         <li class=\"nav-item dropdown\">
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Services</a>
-          <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
-            <li class=\"dropdown-item p-0\">
-              <a class=\" text-link active\" href=\"#\">My Files</a>
+          <ul class=\"dropdown-menu mt-2 p-0 rounded-0  border-0 z-depth-1\">
+            <li class=\"dropdown-item p-0 pt-2\">
+              <a class=\"\" href=\"#\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Order History</a>
+              <a href=\"#\" class=\"\">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Manage Team</a>
+              <a href=\"#\" class=\"\">Manage Team</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Settings</a>
+              <a href=\"#\" class=\"\">Settings</a>
             </li>
           </ul>
         </li>
@@ -140,18 +140,18 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Hi William</a>
-          <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
-            <li class=\"dropdown-item p-0\">
-              <a class=\" text-link\" href=\"/thefutures/dashboard/\">My Files</a>
+          <ul class=\"dropdown-menu p-0 mt-2 rounded-0  border-0 z-depth-1\">
+            <li class=\"dropdown-item p-0 pt-2\">
+              <a class=\"\" href=\"/thefutures/dashboard/\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"/thefutures/dashboard/order-history\" class=\"text-link \">Order History</a>
+              <a href=\"/thefutures/dashboard/order-history\" class=\"\">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Manage Team</a>
+              <a href=\"#\" class=\"\">Manage Team</a>
             </li>
-            <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Settings</a>
+            <li class=\" dropdown-item p-0\">
+              <a href=\"#\" class=\"\">Settings</a>
             </li>
           </ul>
         </li>
@@ -431,18 +431,18 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <ul class=\"navbar-nav ml-auto\">
         <li class=\"nav-item dropdown\">
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Services</a>
-          <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
-            <li class=\"dropdown-item p-0\">
-              <a class=\" text-link active\" href=\"#\">My Files</a>
+          <ul class=\"dropdown-menu mt-2 p-0 rounded-0  border-0 z-depth-1\">
+            <li class=\"dropdown-item p-0 pt-2\">
+              <a class=\"\" href=\"#\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Order History</a>
+              <a href=\"#\" class=\"\">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Manage Team</a>
+              <a href=\"#\" class=\"\">Manage Team</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Settings</a>
+              <a href=\"#\" class=\"\">Settings</a>
             </li>
           </ul>
         </li>
@@ -461,18 +461,18 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Hi William</a>
-          <ul class=\"dropdown-menu mt-2 rounded-0  border-0 z-depth-1\">
-            <li class=\"dropdown-item p-0\">
-              <a class=\" text-link\" href=\"/thefutures/dashboard/\">My Files</a>
+          <ul class=\"dropdown-menu p-0 mt-2 rounded-0  border-0 z-depth-1\">
+            <li class=\"dropdown-item p-0 pt-2\">
+              <a class=\"\" href=\"/thefutures/dashboard/\">My Files</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"/thefutures/dashboard/order-history\" class=\"text-link \">Order History</a>
+              <a href=\"/thefutures/dashboard/order-history\" class=\"\">Order History</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Manage Team</a>
+              <a href=\"#\" class=\"\">Manage Team</a>
             </li>
-            <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"text-link \">Settings</a>
+            <li class=\" dropdown-item p-0\">
+              <a href=\"#\" class=\"\">Settings</a>
             </li>
           </ul>
         </li>
