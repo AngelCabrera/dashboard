@@ -109,20 +109,33 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <!-- Links -->
       <ul class=\"navbar-nav ml-auto\">
         <li class=\"nav-item dropdown\">
-          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Services</a>
+          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\">Services</a>
           <ul class=\"dropdown-menu mt-2 p-0 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0 pt-2\">
-              <a class=\"\" href=\"#\">My Files</a>
+              <a class=\"d-flex justify-content-between services-cards\" href=\"#\">
+                <div class=\"mr-4 flex-wrap\" style=\"max-width: 50%;\">
+                  <div class=\"h6 font-weight-bold\" style=\"color: #a383ff;\">Monthly</div>
+                  <div class=\"mt-2\">Professional <br>transcriptionists</div>
+                </div>
+                <div class=\"mr3 text-right\">
+                  <div class=\"h4\" style=\"color: #a383ff;\">1\$</div>
+                  <div>per minute</div>
+                </div>
+              </a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Order History</a>
+              <a class=\"d-flex justify-content-between services-cards\" href=\"#\">
+                <div class=\"mr-4 flex-wrap\" style=\"max-width: 50%;\">
+                  <div class=\"h6 font-weight-bold\" style=\"color: #fdcc02;\">One-off</div>
+                  <div class=\"mt-2\">Professional <br>transcriptionists</div>
+                </div>
+                <div class=\"mr3 text-right\">
+                  <div class=\"h4\" style=\"color: #fdcc02;\">1\$</div>
+                  <div>per minute</div>
+                </div>
+              </a>
             </li>
-            <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Manage Team</a>
-            </li>
-            <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Settings</a>
-            </li>
+
           </ul>
         </li>
         <li class=\"nav-item\">
@@ -175,14 +188,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </div>
           <div class=\"sidebar-menu\">
             <div class=\"sidebar-link ";
-        // line 135
+        // line 148
         if ((($context["active"] ?? null) == "tickets")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 137
+        // line 150
         if ((($context["active"] ?? null) == "tickets")) {
             echo "active";
         }
@@ -191,14 +204,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link ";
-        // line 141
+        // line 154
         if ((($context["active"] ?? null) == "status")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 143
+        // line 156
         if ((($context["active"] ?? null) == "satus")) {
             echo "active";
         }
@@ -207,14 +220,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link  ";
-        // line 147
+        // line 160
         if ((($context["active"] ?? null) == "order")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 149
+        // line 162
         if ((($context["active"] ?? null) == "order")) {
             echo "active";
         }
@@ -223,14 +236,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link ";
-        // line 153
+        // line 166
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 155
+        // line 168
         if ((($context["active"] ?? null) == "manage")) {
             echo "active";
         }
@@ -239,14 +252,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link ";
-        // line 159
+        // line 172
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 161
+        // line 174
         if ((($context["active"] ?? null) == "settings")) {
             echo "active";
         }
@@ -283,9 +296,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 193
+        // line 206
         $this->displayBlock('content', $context, $blocks);
-        // line 194
+        // line 207
         echo "          </div>
         </div>
       </main>
@@ -309,9 +322,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 216
+        // line 229
         $this->displayBlock('scripts', $context, $blocks);
-        // line 217
+        // line 230
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -326,13 +339,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 193
+    // line 206
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 216
+    // line 229
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -350,7 +363,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  336 => 216,  330 => 193,  324 => 50,  315 => 217,  313 => 216,  289 => 194,  287 => 193,  250 => 161,  243 => 159,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  349 => 229,  343 => 206,  337 => 50,  328 => 230,  326 => 229,  302 => 207,  300 => 206,  263 => 174,  256 => 172,  247 => 168,  240 => 166,  231 => 162,  224 => 160,  215 => 156,  208 => 154,  199 => 150,  192 => 148,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -424,20 +437,33 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       <!-- Links -->
       <ul class=\"navbar-nav ml-auto\">
         <li class=\"nav-item dropdown\">
-          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Services</a>
+          <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\">Services</a>
           <ul class=\"dropdown-menu mt-2 p-0 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0 pt-2\">
-              <a class=\"\" href=\"#\">My Files</a>
+              <a class=\"d-flex justify-content-between services-cards\" href=\"#\">
+                <div class=\"mr-4 flex-wrap\" style=\"max-width: 50%;\">
+                  <div class=\"h6 font-weight-bold\" style=\"color: #a383ff;\">Monthly</div>
+                  <div class=\"mt-2\">Professional <br>transcriptionists</div>
+                </div>
+                <div class=\"mr3 text-right\">
+                  <div class=\"h4\" style=\"color: #a383ff;\">1\$</div>
+                  <div>per minute</div>
+                </div>
+              </a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Order History</a>
+              <a class=\"d-flex justify-content-between services-cards\" href=\"#\">
+                <div class=\"mr-4 flex-wrap\" style=\"max-width: 50%;\">
+                  <div class=\"h6 font-weight-bold\" style=\"color: #fdcc02;\">One-off</div>
+                  <div class=\"mt-2\">Professional <br>transcriptionists</div>
+                </div>
+                <div class=\"mr3 text-right\">
+                  <div class=\"h4\" style=\"color: #fdcc02;\">1\$</div>
+                  <div>per minute</div>
+                </div>
+              </a>
             </li>
-            <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Manage Team</a>
-            </li>
-            <li class=\"dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Settings</a>
-            </li>
+
           </ul>
         </li>
         <li class=\"nav-item\">

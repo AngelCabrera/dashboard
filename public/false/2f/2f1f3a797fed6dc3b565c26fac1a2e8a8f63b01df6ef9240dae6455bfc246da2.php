@@ -125,12 +125,20 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <div class=\"settings\">
-    <h2>Integration Settings</h2>
-    <div class=\"field-set\">
-      <h5>Linked Accounts</h5>
-    </div>
-    <div class=\"\">
-      <a class=\"btn red-button\">LINK NEW ACCOUNT</a>
+    <h2>Membership Settings</h2>
+    <div class=\"row\">
+      <div class=\"col\">
+        <a class=\"btn gray-button\">PAUSE MEMBERSHIP</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Repudiandae odio porr</p>
+      </div>
+      <div class=\"col-1 d-flex justify-content-center\">
+        <div style=\"min-height: 100%; background: gray; width:1px\">
+        </div>
+      </div>
+      <div class=\"col\">
+        <a class=\"btn gray-button\">CANCEL MEMBERSHIP</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Repudiandae odio porr</p>
+      </div>
     </div>
   </div>
   <div class=\"settings\">
@@ -264,12 +272,20 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <div class=\"settings\">
-    <h2>Integration Settings</h2>
-    <div class=\"field-set\">
-      <h5>Linked Accounts</h5>
-    </div>
-    <div class=\"\">
-      <a class=\"btn red-button\">LINK NEW ACCOUNT</a>
+    <h2>Membership Settings</h2>
+    <div class=\"row\">
+      <div class=\"col\">
+        <a class=\"btn gray-button\">PAUSE MEMBERSHIP</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Repudiandae odio porr</p>
+      </div>
+      <div class=\"col-1 d-flex justify-content-center\">
+        <div style=\"min-height: 100%; background: gray; width:1px\">
+        </div>
+      </div>
+      <div class=\"col\">
+        <a class=\"btn gray-button\">CANCEL MEMBERSHIP</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Repudiandae odio porr</p>
+      </div>
     </div>
   </div>
   <div class=\"settings\">

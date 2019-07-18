@@ -84,6 +84,11 @@ body {
     color: var(--futures-color) !important;
 }
 
+.services-cards {
+    padding: calc(.85rem + 1vh) 1.875rem !important;
+    border-bottom: 1px solid #e6e6e6;
+}
+
 /*---------------- ///Estilos navs y navbars --------------*/
 /*------------------ Estilos sidebar ----------------------*/
 
@@ -219,8 +224,26 @@ thead {
     margin-top: 20px;
 }
 
+.gray-button {
+    border-radius: 0.25rem;
+    border: 1px solid gray;
+    color: var(--futures-font-color) !important;
+    height: 3rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    font-family: var(--futures-secondary-font);
+    font-weight: 700 !important;
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+.gray-button:hover {
+    color: black !important;
+    box-shadow: none !important;
+}
+
 .dropdown-item {
-    font-family: "Rubik", sans-serif !important;
+    font-family: var(--futures-secondary-font) !important;
     font-size: 1rem !important;
     box-sizing: border-box;
     max-width: 100%;
