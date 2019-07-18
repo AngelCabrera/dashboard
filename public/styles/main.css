@@ -50,7 +50,7 @@ body {
 }
 
 .text-link {
-    padding-left: 1rem !important
+    padding: 1rem 0 1rem 1rem !important;
 }
 
 .navbar-nav {
@@ -62,7 +62,7 @@ body {
 }
 
 .active {
-    color: black !important;
+    color: var(--futures-color) !important;
 }
 
 .navbar
@@ -82,7 +82,7 @@ body {
 }
 
 .sidebar-link {
-    margin: 1rem 1px;
+    margin: 0rem 1px;
     font-size: 16px;
     padding: 0;
     font-weight: 700 !important;
@@ -95,8 +95,7 @@ body {
 
 .sidebar-active {
     font-weight: 700 !important;
-    border-right: 2px solid #f91c52;
-    color: black !important;
+    color: var(--futures-color) !important;
 }
 
 .navbar .navbar-brand {

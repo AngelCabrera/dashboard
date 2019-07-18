@@ -173,46 +173,86 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <i class=\"fas fa-arrow-left\"></i>
             </div>
           </div>
-          <div class=\"sidebar-menu\">
+          <div class=\"sidebar-menu pt-2\">
             <div class=\"sidebar-link ";
         // line 135
         if ((($context["active"] ?? null) == "myfiles")) {
             echo "sidebar-active";
         }
         echo "\">
-              <a class=\"text-link \" href=\"/thefutures/dashboard/\">My files</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link ";
+        // line 137
+        if ((($context["active"] ?? null) == "myfiles")) {
+            echo "active";
+        }
+        echo "\" href=\"/thefutures/dashboard/\">My
+                  files</a>
+              </div>
             </div>
             <div class=\"sidebar-link  ";
-        // line 138
+        // line 141
         if ((($context["active"] ?? null) == "order")) {
             echo "sidebar-active";
         }
         echo "\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/order-history\">Order History</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link ";
+        // line 143
+        if ((($context["active"] ?? null) == "order")) {
+            echo "active";
+        }
+        echo "\"
+                  href=\"/thefutures/dashboard/order-history\">Order History</a>
+              </div>
             </div>
             <div class=\"sidebar-link ";
-        // line 141
+        // line 147
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
         echo "\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link ";
+        // line 149
+        if ((($context["active"] ?? null) == "manage")) {
+            echo "active";
+        }
+        echo "\"
+                  href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
+              </div>
             </div>
             <div class=\"sidebar-link ";
-        // line 144
+        // line 153
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/settings\">Settings</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link ";
+        // line 155
+        if ((($context["active"] ?? null) == "settings")) {
+            echo "active";
+        }
+        echo "\"
+                  href=\"/thefutures/dashboard/settings\">Settings</a>
+              </div>
             </div>
             <div class=\"sidebar-link ";
-        // line 147
+        // line 159
         if ((($context["active"] ?? null) == "tickets")) {
             echo "sidebar-active";
         }
         echo "\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/tickets\">Tickets</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link ";
+        // line 161
+        if ((($context["active"] ?? null) == "tickets")) {
+            echo "active";
+        }
+        echo "\"
+                  href=\"/thefutures/dashboard/tickets\">Tickets</a>
+              </div>
             </div>
             <div class=\"sidebar-link\">
               &nbsp;
@@ -243,9 +283,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 178
+        // line 193
         $this->displayBlock('content', $context, $blocks);
-        // line 179
+        // line 194
         echo "          </div>
         </div>
       </main>
@@ -269,9 +309,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 201
+        // line 216
         $this->displayBlock('scripts', $context, $blocks);
-        // line 202
+        // line 217
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -286,13 +326,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 178
+    // line 193
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 201
+    // line 216
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -310,7 +350,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  296 => 201,  290 => 178,  284 => 50,  275 => 202,  273 => 201,  249 => 179,  247 => 178,  211 => 147,  203 => 144,  195 => 141,  187 => 138,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  336 => 216,  330 => 193,  324 => 50,  315 => 217,  313 => 216,  289 => 194,  287 => 193,  250 => 161,  243 => 159,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -448,21 +488,36 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <i class=\"fas fa-arrow-left\"></i>
             </div>
           </div>
-          <div class=\"sidebar-menu\">
+          <div class=\"sidebar-menu pt-2\">
             <div class=\"sidebar-link {% if active == \"myfiles\" %}sidebar-active{% endif %}\">
-              <a class=\"text-link \" href=\"/thefutures/dashboard/\">My files</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link {% if active == \"myfiles\" %}active{% endif %}\" href=\"/thefutures/dashboard/\">My
+                  files</a>
+              </div>
             </div>
             <div class=\"sidebar-link  {% if active == \"order\" %}sidebar-active{% endif %}\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/order-history\">Order History</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link {% if active == \"order\" %}active{% endif %}\"
+                  href=\"/thefutures/dashboard/order-history\">Order History</a>
+              </div>
             </div>
             <div class=\"sidebar-link {% if active == \"manage\" %}sidebar-active{% endif %}\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link {% if active == \"manage\" %}active{% endif %}\"
+                  href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
+              </div>
             </div>
             <div class=\"sidebar-link {% if active == \"settings\" %}sidebar-active{% endif %}\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/settings\">Settings</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link {% if active == \"settings\" %}active{% endif %}\"
+                  href=\"/thefutures/dashboard/settings\">Settings</a>
+              </div>
             </div>
             <div class=\"sidebar-link {% if active == \"tickets\" %}sidebar-active{% endif %}\">
-              <a class=\"text-link\" href=\"/thefutures/dashboard/tickets\">Tickets</a>
+              <div class=\"pt-2\">
+                <a class=\"text-link {% if active == \"tickets\" %}active{% endif %}\"
+                  href=\"/thefutures/dashboard/tickets\">Tickets</a>
+              </div>
             </div>
             <div class=\"sidebar-link\">
               &nbsp;
