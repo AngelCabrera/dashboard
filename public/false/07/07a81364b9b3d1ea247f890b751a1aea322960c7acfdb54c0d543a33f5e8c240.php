@@ -203,7 +203,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             echo "active";
         }
         echo "\"
-                  href=\"/thefutures/dashboard/projects-status\">Projects Status</a>
+                  href=\"/thefutures/dashboard/projects-status\">Project Status</a>
               </div>
             </div>
             <div class=\"sidebar-link  ";
@@ -219,34 +219,18 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             echo "active";
         }
         echo "\"
-                  href=\"/thefutures/dashboard/order-history\">Projects History</a>
+                  href=\"/thefutures/dashboard/order-history\">Project History</a>
               </div>
             </div>
             <div class=\"sidebar-link ";
         // line 153
-        if ((($context["active"] ?? null) == "myfiles")) {
-            echo "sidebar-active";
-        }
-        echo "\">
-              <div class=\"pt-2\">
-                <a class=\"text-link ";
-        // line 155
-        if ((($context["active"] ?? null) == "myfiles")) {
-            echo "active";
-        }
-        echo "\" href=\"/thefutures/dashboard/\">My
-                  files</a>
-              </div>
-            </div>
-            <div class=\"sidebar-link ";
-        // line 159
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 161
+        // line 155
         if ((($context["active"] ?? null) == "manage")) {
             echo "active";
         }
@@ -254,31 +238,23 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
               </div>
             </div>
+            <div class=\"sidebar-link\">
+              &nbsp;
+            </div>
             <div class=\"sidebar-link ";
-        // line 165
+        // line 162
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"pt-2\">
                 <a class=\"text-link ";
-        // line 167
+        // line 164
         if ((($context["active"] ?? null) == "settings")) {
             echo "active";
         }
         echo "\"
                   href=\"/thefutures/dashboard/settings\">Settings</a>
-              </div>
-            </div>
-
-            <div class=\"sidebar-link\">
-              &nbsp;
-            </div>
-            <div class=\"sidebar-link\">
-              <div class=\"pt-2\">
-                <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Make a Payment
-                </a>
               </div>
             </div>
             <div class=\"sidebar-link\">
@@ -306,9 +282,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 206
+        // line 192
         $this->displayBlock('content', $context, $blocks);
-        // line 207
+        // line 193
         echo "          </div>
         </div>
       </main>
@@ -332,9 +308,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 229
+        // line 215
         $this->displayBlock('scripts', $context, $blocks);
-        // line 230
+        // line 216
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -349,13 +325,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 206
+    // line 192
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 229
+    // line 215
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -373,7 +349,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  359 => 229,  353 => 206,  347 => 50,  338 => 230,  336 => 229,  312 => 207,  310 => 206,  266 => 167,  259 => 165,  250 => 161,  243 => 159,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  335 => 215,  329 => 192,  323 => 50,  314 => 216,  312 => 215,  288 => 193,  286 => 192,  253 => 164,  246 => 162,  234 => 155,  227 => 153,  218 => 149,  211 => 147,  202 => 143,  195 => 141,  186 => 137,  179 => 135,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -521,19 +497,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <div class=\"sidebar-link {% if active == \"status\" %}sidebar-active{% endif %}\">
               <div class=\"pt-2\">
                 <a class=\"text-link {% if active == \"satus\" %}active{% endif %}\"
-                  href=\"/thefutures/dashboard/projects-status\">Projects Status</a>
+                  href=\"/thefutures/dashboard/projects-status\">Project Status</a>
               </div>
             </div>
             <div class=\"sidebar-link  {% if active == \"order\" %}sidebar-active{% endif %}\">
               <div class=\"pt-2\">
                 <a class=\"text-link {% if active == \"order\" %}active{% endif %}\"
-                  href=\"/thefutures/dashboard/order-history\">Projects History</a>
-              </div>
-            </div>
-            <div class=\"sidebar-link {% if active == \"myfiles\" %}sidebar-active{% endif %}\">
-              <div class=\"pt-2\">
-                <a class=\"text-link {% if active == \"myfiles\" %}active{% endif %}\" href=\"/thefutures/dashboard/\">My
-                  files</a>
+                  href=\"/thefutures/dashboard/order-history\">Project History</a>
               </div>
             </div>
             <div class=\"sidebar-link {% if active == \"manage\" %}sidebar-active{% endif %}\">
@@ -542,21 +512,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
               </div>
             </div>
+            <div class=\"sidebar-link\">
+              &nbsp;
+            </div>
             <div class=\"sidebar-link {% if active == \"settings\" %}sidebar-active{% endif %}\">
               <div class=\"pt-2\">
                 <a class=\"text-link {% if active == \"settings\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/settings\">Settings</a>
-              </div>
-            </div>
-
-            <div class=\"sidebar-link\">
-              &nbsp;
-            </div>
-            <div class=\"sidebar-link\">
-              <div class=\"pt-2\">
-                <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Make a Payment
-                </a>
               </div>
             </div>
             <div class=\"sidebar-link\">
