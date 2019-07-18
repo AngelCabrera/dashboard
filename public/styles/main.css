@@ -129,6 +129,13 @@ thead tr th {
     font-size: 0.875rem;
 }
 
+/*---------------------- <CONTENT HEADER> ------------------------*/
+.header {
+
+    margin-bottom: 2rem;
+}
+
+/*------------------- </CONTENT HEADER> --------------------------*/
 table.table a {
     color: #007bff !important;
 }
@@ -264,8 +271,6 @@ thead {
     background-color: #e83e8c !important;
 }
 
-
-
 .hidden {
     display: none;
 }
@@ -284,11 +289,6 @@ thead {
         padding: .500rem .875rem;
         font-size: .725rem;
         letter-spacing: 0;
-    }
-
-    .header {
-        margin-top: 2em;
-        margin-bottom: 1em;
     }
 
     .main-content .data {
