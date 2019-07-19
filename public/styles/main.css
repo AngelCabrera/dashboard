@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url("navbar.css");
 @import url("sidebar.css");
 
@@ -13,7 +14,7 @@ body {
     --futures-font-color: #4a4a4a;
     --futures-hover-font-color: #212529;
     --futures-primary-font: 'Brandon Grotesque Black', sans-serif;
-    --futures-secondary-font: "Quicksand", sans-serif;
+    --futures-secondary-font: 'Nunito', sans-serif;
     font-size: 18px;
 }
 
