@@ -321,10 +321,17 @@ table td {
     font-size: 14px;
 }
 
-table.table td,
-table.table th {
+thead th {
     padding-top: 1rem;
-    padding-bottom: 1ren;
+    padding-bottom: 1rem;
+}
+
+table.table td {}
+
+tbody th,
+tbody td {
+    padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
 }
 
 .table td,
