@@ -43,14 +43,24 @@
                         <small class="mt-0 text-muted">Be as detailed as possible.</small>
                     </div>
                     <form action="" class="mt-2">
-                        <div class="form-group">
-                            <input class="form-control form-control-sm" type="text" placeholder="Title of request"
-                                required>
+                        <!-- Material input -->
+                        <div class="md-form">
+                            <input type="text" id="form1" class="form-control" required>
+                            <label for="form1">Title of request</label>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control form-control-sm rounded-0" id="exampleFormControlTextarea2"
-                                rows="2"
-                                placeholder="Briefly Description of what you want to see in your project"></textarea>
+                        <div class="md-form mb-4 pink-textarea active-pink-textarea">
+                            <textarea id="form2" class="md-textarea form-control" rows="3"></textarea>
+                            <label for=" form2">Briefly Description of what you want to see in your project</label>
+                        </div>
+                        <div>
+                            <small class="m-0 text-muted">
+                                We love lists, please list the specific things you wish to see on your piece.
+                                Our creatives are always more efficient when you are able to itemise your requests.
+                            </small>
+                            <div class="m-0 md-form">
+                                <textarea id="form7" class="md-textarea form-control" rows="1"></textarea>
+                                <label for="form7">1.</label>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea2">
@@ -137,7 +147,8 @@
                                 <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
                                 <label class="custom-control-label" for="defaultUnchecked">I confirm I have providad all
                                     final copy and/or content for this request. I have read and accept the <a
-                                        href="#">Terms of Service</a></label>
+                                        href="#">Terms of
+                                        Service</a></label>
                             </div>
                         </div>
                         <hr>
@@ -174,10 +185,10 @@
 </script>
 <script>
     $('textarea').each(function () {
-        this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
+        this.setAttribute('style', 'height:' + (this.scrollHeight / 1.3) + 'px;overflow-y:hidden;');
     }).on('input', function () {
         this.style.height = 'auto';
-        this.style.height = (this.scrollHeight) + 'px';
+        this.style.height = (this.scrollHeight / 1.3) + 'px';
     });
 </script>
 {% endblock %}
