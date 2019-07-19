@@ -183,7 +183,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <div class=\"sidebar-brand\">
             <a href=\"#\">&nbsp</a>
             <div id=\"close-sidebar\">
-              <i class=\"fas fa-arrow-left\"></i>
+              <i class=\"fas fa-chevron-left\"></i>
             </div>
           </div>
           <div class=\"sidebar-menu\">
@@ -212,7 +212,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <div class=\"\">
                 <a class=\"text-link ";
         // line 156
-        if ((($context["active"] ?? null) == "satus")) {
+        if ((($context["active"] ?? null) == "status")) {
             echo "active";
         }
         echo "\"
@@ -293,7 +293,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid\">
+        <div class=\"container-fluid pt-0 pl-5\">
           <div class=\"main-content\">
             ";
         // line 206
@@ -511,7 +511,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <div class=\"sidebar-brand\">
             <a href=\"#\">&nbsp</a>
             <div id=\"close-sidebar\">
-              <i class=\"fas fa-arrow-left\"></i>
+              <i class=\"fas fa-chevron-left\"></i>
             </div>
           </div>
           <div class=\"sidebar-menu\">
@@ -523,7 +523,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             </div>
             <div class=\"sidebar-link py-2 {% if active == \"status\" %}sidebar-active{% endif %}\">
               <div class=\"\">
-                <a class=\"text-link {% if active == \"satus\" %}active{% endif %}\"
+                <a class=\"text-link {% if active == \"status\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/projects-status\">Project Status</a>
               </div>
             </div>
@@ -571,7 +571,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid\">
+        <div class=\"container-fluid pt-0 pl-5\">
           <div class=\"main-content\">
             {% block content %}{% endblock %}
           </div>

@@ -141,7 +141,7 @@
           <div class="sidebar-brand">
             <a href="#">&nbsp</a>
             <div id="close-sidebar">
-              <i class="fas fa-arrow-left"></i>
+              <i class="fas fa-chevron-left"></i>
             </div>
           </div>
           <div class="sidebar-menu">
@@ -153,7 +153,7 @@
             </div>
             <div class="sidebar-link py-2 {% if active == "status" %}sidebar-active{% endif %}">
               <div class="">
-                <a class="text-link {% if active == "satus" %}active{% endif %}"
+                <a class="text-link {% if active == "status" %}active{% endif %}"
                   href="/thefutures/dashboard/projects-status">Project Status</a>
               </div>
             </div>
@@ -201,7 +201,7 @@
       </nav>
       <!-- sidebar-wrapper  -->
       <main class="page-content">
-        <div class="container-fluid">
+        <div class="container-fluid pt-0 pl-5">
           <div class="main-content">
             {% block content %}{% endblock %}
           </div>

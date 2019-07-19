@@ -11,27 +11,30 @@
             <h1 class="">Project Request Form</h1>
         </div>
         <div>
-            <div class="card project-request">
-                <div class="card-header">
-                    <ul class="nav nav-tabs card-header-tabs">
+            <div class="project-request">
+                <div class="">
+                    <ul class="nav nav-tabs">
                         <li class="nav-item">
-                            <a id="graphic" class="nav-link active" href="#">Graphic Design</a>
+                            <a id="graphic" class="nav-link active">Graphic Design</a>
                         </li>
                         <li class="nav-item">
-                            <a id="video" class="nav-link" href="#">Video Editing</a>
+                            <a id="video" class="nav-link">Video Editing</a>
                         </li>
                     </ul>
                 </div>
                 <div class="card-body">
                     <ul>
-                        <li>
-                            <small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        <li class="text-muted">
+                            Making a request is super simple. Only complete the form
+                            below.
                         </li>
-                        <li>
-                            <small class="text-muted">Nulla sint necessitatibus exercitationem corrupti alias</small>
+                        <li class="text-muted py-1">
+                            Your reques will be put in a queue and delivered in order of
+                            arrival.
                         </li>
-                        <li>
-                            <small class="text-muted">reprehenderit cupiditate quod ipsum. Natus quod delectus</small>
+                        <li class="text-muted">
+                            You can also maye your request by writing directly to
+                            request@thefutures.io
                         </li>
                     </ul>
                     <hr>
@@ -168,5 +171,13 @@
             }
         });
     }
+</script>
+<script>
+    $('textarea').each(function () {
+        this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
+    }).on('input', function () {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
 </script>
 {% endblock %}

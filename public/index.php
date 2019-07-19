@@ -40,8 +40,8 @@ $routerContainer = new RouterContainer();
 $map = $routerContainer->getMap();
 
 $map->get('getDashboard', '/thefutures/dashboard/', [
-    'controller' => 'App\Controllers\MyFilesController',
-    'action' => 'getMyFilesAction'
+    'controller' => 'App\Controllers\TicketsController',
+    'action' => 'getTicketsAction'
 ]);
 
 $map->get('getMyFiles', '/thefutures/dashboard/myfiles', [

@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("navbar.css");
 @import url("sidebar.css");
 
-/*---------------- /Estilos navs y navbars --------------*/
+html,
+body {
+    height: 100%;
+}
+
 
 :root {
     --futures-color: #f91c52;
@@ -26,69 +31,9 @@ body {
     padding-bottom: 8rem;
 }
 
+
 /*Estilos navs y navbars*/
-.navbar {
-    border-bottom: 1px solid #e6e6e6;
-    box-shadow: none !important;
-    padding: 0 2rem !important;
-}
 
-.nav-link {
-    margin: 0 10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #8b959e !important;
-}
-
-.nav-link:hover,
-.text-link:hover {
-    color: black;
-}
-
-.nav-link,
-.text-link {
-    color: #8b959e;
-}
-
-.text-link {
-    padding-left: 1rem !important;
-}
-
-.navbar-nav {
-    padding-right: 1rem;
-}
-
-.navbar-nav .nav-item .nav-link {
-    border-bottom: 2px solid white;
-}
-
-.navbar-nav .nav-item .nav-link {
-    margin: 0 !important;
-    padding: 1.1rem;
-}
-
-.navbar-nav .nav-item .nav-link:hover {
-    border-bottom: 2px solid var(--futures-color);
-}
-
-.navbar-nav .nav-item .nav-link:hover {
-    color: black !important;
-}
-
-.navbar .dropdown-menu a {
-    padding: .5rem;
-    padding-left: 1rem;
-    color: var(--futures-font-color);
-}
-
-.active {
-    color: var(--futures-color) !important;
-}
-
-.services-cards {
-    padding: calc(.85rem + 1vh) 1.875rem !important;
-    border-bottom: 1px solid #e6e6e6;
-}
 
 /*---------------- ///Estilos navs y navbars --------------*/
 /*------------------ Estilos sidebar ----------------------*/

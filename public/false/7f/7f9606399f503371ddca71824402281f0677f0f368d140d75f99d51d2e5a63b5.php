@@ -66,27 +66,30 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             <h1 class=\"\">Project Request Form</h1>
         </div>
         <div>
-            <div class=\"card project-request\">
-                <div class=\"card-header\">
-                    <ul class=\"nav nav-tabs card-header-tabs\">
+            <div class=\"project-request\">
+                <div class=\"\">
+                    <ul class=\"nav nav-tabs\">
                         <li class=\"nav-item\">
-                            <a id=\"graphic\" class=\"nav-link active\" href=\"#\">Graphic Design</a>
+                            <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
                         </li>
                         <li class=\"nav-item\">
-                            <a id=\"video\" class=\"nav-link\" href=\"#\">Video Editing</a>
+                            <a id=\"video\" class=\"nav-link\">Video Editing</a>
                         </li>
                     </ul>
                 </div>
                 <div class=\"card-body\">
                     <ul>
-                        <li>
-                            <small class=\"text-muted\">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        <li class=\"text-muted\">
+                            Making a request is super simple. Only complete the form
+                            below.
                         </li>
-                        <li>
-                            <small class=\"text-muted\">Nulla sint necessitatibus exercitationem corrupti alias</small>
+                        <li class=\"text-muted py-1\">
+                            Your reques will be put in a queue and delivered in order of
+                            arrival.
                         </li>
-                        <li>
-                            <small class=\"text-muted\">reprehenderit cupiditate quod ipsum. Natus quod delectus</small>
+                        <li class=\"text-muted\">
+                            You can also maye your request by writing directly to
+                            request@thefutures.io
                         </li>
                     </ul>
                     <hr>
@@ -205,11 +208,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 154
+    // line 157
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 155
+        // line 158
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -227,6 +230,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         });
     }
 </script>
+<script>
+    \$('textarea').each(function () {
+        this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
+    }).on('input', function () {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
+</script>
 ";
     }
 
@@ -242,7 +253,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  213 => 155,  209 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  216 => 158,  212 => 157,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -260,27 +271,30 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             <h1 class=\"\">Project Request Form</h1>
         </div>
         <div>
-            <div class=\"card project-request\">
-                <div class=\"card-header\">
-                    <ul class=\"nav nav-tabs card-header-tabs\">
+            <div class=\"project-request\">
+                <div class=\"\">
+                    <ul class=\"nav nav-tabs\">
                         <li class=\"nav-item\">
-                            <a id=\"graphic\" class=\"nav-link active\" href=\"#\">Graphic Design</a>
+                            <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
                         </li>
                         <li class=\"nav-item\">
-                            <a id=\"video\" class=\"nav-link\" href=\"#\">Video Editing</a>
+                            <a id=\"video\" class=\"nav-link\">Video Editing</a>
                         </li>
                     </ul>
                 </div>
                 <div class=\"card-body\">
                     <ul>
-                        <li>
-                            <small class=\"text-muted\">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        <li class=\"text-muted\">
+                            Making a request is super simple. Only complete the form
+                            below.
                         </li>
-                        <li>
-                            <small class=\"text-muted\">Nulla sint necessitatibus exercitationem corrupti alias</small>
+                        <li class=\"text-muted py-1\">
+                            Your reques will be put in a queue and delivered in order of
+                            arrival.
                         </li>
-                        <li>
-                            <small class=\"text-muted\">reprehenderit cupiditate quod ipsum. Natus quod delectus</small>
+                        <li class=\"text-muted\">
+                            You can also maye your request by writing directly to
+                            request@thefutures.io
                         </li>
                     </ul>
                     <hr>
@@ -417,6 +431,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             }
         });
     }
+</script>
+<script>
+    \$('textarea').each(function () {
+        this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
+    }).on('input', function () {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
 </script>
 {% endblock %}", "request.twig", "/opt/lampp/htdocs/thefutures/resources/views/request.twig");
     }
