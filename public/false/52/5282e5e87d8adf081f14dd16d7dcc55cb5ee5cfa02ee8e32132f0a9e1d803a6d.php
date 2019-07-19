@@ -103,8 +103,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures text-center\">
-                            <p class=\"text-white mb-0\">
+                        <div style=\"width: 100;\" class=\"awaiting-approval text-center\">
+                            <p class=\"mb-0\">
                                 Awaiting approval
                             </p>
                         </div>
@@ -131,8 +131,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-yellow text-center\">
-                            <p class=\"text-dark mb-0\">Up Next</p>
+                        <div style=\"width: 100;\" class=\"up-next text-center\">
+                            <p class=\"mb-0\">Up Next</p>
                         </div>
                     </td>
                 </tr>
@@ -157,8 +157,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
-                            <p class=\"text-white mb-0\"> On Queue </p>
+                        <div style=\"width: 100;\" class=\"on-queue text-center\">
+                            <p class=\"mb-0\"> On Queue </p>
                         </div>
                     </td>
                 </tr>
@@ -184,8 +184,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
-                            <p class=\"text-white mb-0\"> On Queue </p>
+                        <div style=\"width: 100;\" class=\"on-queue text-center\">
+                            <p class=\"mb-0\"> On Queue </p>
                         </div>
                     </td>
                 </tr>
@@ -210,8 +210,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
-                            <p class=\"text-white mb-0\"> On Queue </p>
+                        <div style=\"width: 100;\" class=\"on-queue text-center\">
+                            <p class=\"mb-0\"> On Queue </p>
                         </div>
                     </td>
                 </tr>
@@ -337,8 +337,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures text-center\">
-                            <p class=\"text-white mb-0\">
+                        <div style=\"width: 100;\" class=\"awaiting-approval text-center\">
+                            <p class=\"mb-0\">
                                 Awaiting approval
                             </p>
                         </div>
@@ -365,8 +365,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-yellow text-center\">
-                            <p class=\"text-dark mb-0\">Up Next</p>
+                        <div style=\"width: 100;\" class=\"up-next text-center\">
+                            <p class=\"mb-0\">Up Next</p>
                         </div>
                     </td>
                 </tr>
@@ -391,8 +391,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
-                            <p class=\"text-white mb-0\"> On Queue </p>
+                        <div style=\"width: 100;\" class=\"on-queue text-center\">
+                            <p class=\"mb-0\"> On Queue </p>
                         </div>
                     </td>
                 </tr>
@@ -418,8 +418,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
-                            <p class=\"text-white mb-0\"> On Queue </p>
+                        <div style=\"width: 100;\" class=\"on-queue text-center\">
+                            <p class=\"mb-0\"> On Queue </p>
                         </div>
                     </td>
                 </tr>
@@ -444,8 +444,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
-                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
-                            <p class=\"text-white mb-0\"> On Queue </p>
+                        <div style=\"width: 100;\" class=\"on-queue text-center\">
+                            <p class=\"mb-0\"> On Queue </p>
                         </div>
                     </td>
                 </tr>
