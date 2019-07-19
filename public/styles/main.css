@@ -104,7 +104,7 @@ thead tr th {
 }
 
 /*------------------- </CONTENT HEADER> --------------------------*/
-table.table a {
+table.table th a {
     color: var(--futures-color) !important;
 }
 

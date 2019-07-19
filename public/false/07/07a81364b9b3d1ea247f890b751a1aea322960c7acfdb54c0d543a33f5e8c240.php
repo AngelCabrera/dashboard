@@ -183,7 +183,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <div class=\"sidebar-brand\">
             <a href=\"#\">&nbsp</a>
             <div id=\"close-sidebar\">
-              <i class=\"fas fa-chevron-left\"></i>
+              <i class=\"fas fa-angle-left\"></i>
             </div>
           </div>
           <div class=\"sidebar-menu\">
@@ -511,7 +511,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <div class=\"sidebar-brand\">
             <a href=\"#\">&nbsp</a>
             <div id=\"close-sidebar\">
-              <i class=\"fas fa-chevron-left\"></i>
+              <i class=\"fas fa-angle-left\"></i>
             </div>
           </div>
           <div class=\"sidebar-menu\">
