@@ -103,9 +103,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td>
-                        <div style=\"width: 100; background: #f91c52;\" class=\"text-center\">
+                        <div style=\"width: 100;\" class=\"bg-futures text-center\">
                             <p class=\"text-white mb-0\">
-                                Awating Approval
+                                Awaiting approval
                             </p>
                         </div>
                     </td>
@@ -130,7 +130,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-yellow text-center\">
+                            <p class=\"text-dark mb-0\">Up Next</p>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th scope=\"row\">
@@ -152,7 +156,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
+                            <p class=\"text-white mb-0\"> On Queue </p>
+                        </div>
+                    </td>
                 </tr>
 
                 <tr>
@@ -175,7 +183,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
+                            <p class=\"text-white mb-0\"> On Queue </p>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th scope=\"row\">
@@ -197,7 +209,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
+                            <p class=\"text-white mb-0\"> On Queue </p>
+                        </div>
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -248,7 +264,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 ";
     }
 
-    // line 197
+    // line 213
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -266,7 +282,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 
     public function getDebugInfo()
     {
-        return array (  252 => 197,  61 => 6,  57 => 5,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  268 => 213,  61 => 6,  57 => 5,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -321,9 +337,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td>
-                        <div style=\"width: 100; background: #f91c52;\" class=\"text-center\">
+                        <div style=\"width: 100;\" class=\"bg-futures text-center\">
                             <p class=\"text-white mb-0\">
-                                Awating Approval
+                                Awaiting approval
                             </p>
                         </div>
                     </td>
@@ -348,7 +364,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-yellow text-center\">
+                            <p class=\"text-dark mb-0\">Up Next</p>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th scope=\"row\">
@@ -370,7 +390,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
+                            <p class=\"text-white mb-0\"> On Queue </p>
+                        </div>
+                    </td>
                 </tr>
 
                 <tr>
@@ -393,7 +417,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
+                            <p class=\"text-white mb-0\"> On Queue </p>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th scope=\"row\">
@@ -415,7 +443,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td><button type=\"button\" class=\"btn btn-circle\"></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
+                    <td>
+                        <div style=\"width: 100;\" class=\"bg-futures-gray text-center\">
+                            <p class=\"text-white mb-0\"> On Queue </p>
+                        </div>
+                    </td>
                 </tr>
             </tbody>
         </table>
