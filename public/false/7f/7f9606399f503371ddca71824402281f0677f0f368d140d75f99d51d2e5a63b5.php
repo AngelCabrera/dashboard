@@ -104,7 +104,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             <label for=\"form1\">Title of request</label>
                         </div>
                         <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"3\"></textarea>
+                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
                             <label for=\" form2\">Briefly Description of what you want to see in your project</label>
                         </div>
                         <div>
@@ -112,19 +112,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 We love lists, please list the specific things you wish to see on your piece.
                                 Our creatives are always more efficient when you are able to itemise your requests.
                             </small>
-                            <div class=\"m-0 md-form\">
-                                <textarea id=\"form7\" class=\"md-textarea form-control\" rows=\"1\"></textarea>
-                                <label for=\"form7\">1.</label>
+                            <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
+                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
+                                <label for=\"form3\">Please list the specific things you wish to see on your piece</label>
                             </div>
-                        </div>
-                        <div class=\"form-group\">
-                            <label for=\"exampleFormControlTextarea2\">
-                                <small class=\"text-muted\">
-                                    We love lists, please list the specific things you wish to see on your piece.
-                                    Our creatives are always more efficient when you are able to itemise your requests.
-                                </small></label>
-                            <textarea class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
-                                rows=\"\" placeholder=\"1.\"></textarea>
                         </div>
                         <hr>
                         <div>
@@ -144,14 +135,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                     <option value=\"3\">Three</option>
                                 </select>
                             </div>
-                            <div class=\"form-group\">
-                                <input class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
-                                    rows=\"\" placeholder=\"Type of audience you are trying to reach. *\"></input>
+                            <div class=\"md-form\">
+                                <input type=\"text\" id=\"form5\" class=\"form-control\" required>
+                                <label for=\"form5\">Type of audience you are trying to reach.</label>
                             </div>
-                            <div class=\"form-group\">
-                                <textarea class=\"form-control form-control-sm rounded-0\"
-                                    id=\"exampleFormControlTextarea2\" rows=\"3\"
-                                    placeholder=\"Share any links you would like us to see for inspiration. Just paste them in this box.\"></textarea>
+                            <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
+                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
+                                <label for=\"form3\">Share any links you would like us to see for inspiration. Just paste
+                                    them in this box.</label>
                             </div>
                         </div>
                         <hr>
@@ -219,11 +210,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 168
+    // line 159
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 169
+        // line 160
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -264,7 +255,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  227 => 169,  223 => 168,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  218 => 160,  214 => 159,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -320,7 +311,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             <label for=\"form1\">Title of request</label>
                         </div>
                         <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"3\"></textarea>
+                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
                             <label for=\" form2\">Briefly Description of what you want to see in your project</label>
                         </div>
                         <div>
@@ -328,19 +319,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 We love lists, please list the specific things you wish to see on your piece.
                                 Our creatives are always more efficient when you are able to itemise your requests.
                             </small>
-                            <div class=\"m-0 md-form\">
-                                <textarea id=\"form7\" class=\"md-textarea form-control\" rows=\"1\"></textarea>
-                                <label for=\"form7\">1.</label>
+                            <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
+                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
+                                <label for=\"form3\">Please list the specific things you wish to see on your piece</label>
                             </div>
-                        </div>
-                        <div class=\"form-group\">
-                            <label for=\"exampleFormControlTextarea2\">
-                                <small class=\"text-muted\">
-                                    We love lists, please list the specific things you wish to see on your piece.
-                                    Our creatives are always more efficient when you are able to itemise your requests.
-                                </small></label>
-                            <textarea class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
-                                rows=\"\" placeholder=\"1.\"></textarea>
                         </div>
                         <hr>
                         <div>
@@ -360,14 +342,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                     <option value=\"3\">Three</option>
                                 </select>
                             </div>
-                            <div class=\"form-group\">
-                                <input class=\"form-control form-control-sm rounded-0\" id=\"exampleFormControlTextarea2\"
-                                    rows=\"\" placeholder=\"Type of audience you are trying to reach. *\"></input>
+                            <div class=\"md-form\">
+                                <input type=\"text\" id=\"form5\" class=\"form-control\" required>
+                                <label for=\"form5\">Type of audience you are trying to reach.</label>
                             </div>
-                            <div class=\"form-group\">
-                                <textarea class=\"form-control form-control-sm rounded-0\"
-                                    id=\"exampleFormControlTextarea2\" rows=\"3\"
-                                    placeholder=\"Share any links you would like us to see for inspiration. Just paste them in this box.\"></textarea>
+                            <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
+                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
+                                <label for=\"form3\">Share any links you would like us to see for inspiration. Just paste
+                                    them in this box.</label>
                             </div>
                         </div>
                         <hr>
