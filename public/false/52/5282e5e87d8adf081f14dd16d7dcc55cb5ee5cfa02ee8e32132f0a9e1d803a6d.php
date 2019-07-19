@@ -91,7 +91,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 
                     <td>FAVICON for The Futures</td>
                     <td>19/06/2019</td>
-                    <td>William</td>
+                    <td>William Villalobos</td>
                     <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
                     <td>
                         <div class=\"pulsating-dot\">
@@ -285,7 +285,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 
                     <td>FAVICON for The Futures</td>
                     <td>19/06/2019</td>
-                    <td>William</td>
+                    <td>William Villalobos</td>
                     <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
                     <td>
                         <div class=\"pulsating-dot\">

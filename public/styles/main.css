@@ -29,7 +29,7 @@ body {
     --futures-color: #f91c52;
     --futures-font-color: #4a4a4a;
     --futures-hover-font-color: #212529;
-    --futures-secondary-font: 'Brandon Grotesque Black', sans-serif;
+    --futures-secondary-font: 'brandon_grotesquebold', sans-serif;
     --futures-secondary-font: 'Nunito', sans-serif;
     font-size: 18px;
 }
@@ -210,7 +210,7 @@ thead {
     border-bottom: 1px solid #e1e1e1;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 .settings {
@@ -230,7 +230,7 @@ thead {
 
 .settings-buttons {
     padding-right: 4;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
@@ -318,7 +318,7 @@ thead {
 
 table th,
 table td {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 table.table td,
@@ -335,7 +335,7 @@ table.table th {
 .btn-circle.btn-xl {
     width: 70px;
     height: 70px;
-    padding: 10px 16px;
+    padding: 10px 14px;
     border-radius: 35px;
     font-size: 24px;
     line-height: 1.33;
