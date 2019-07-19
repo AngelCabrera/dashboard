@@ -93,38 +93,6 @@ body {
 /*---------------- ///Estilos navs y navbars --------------*/
 /*------------------ Estilos sidebar ----------------------*/
 
-#sidebar {
-    background-color: #f6f9fa;
-    min-height: 100%;
-    padding-right: 0;
-    padding-left: 0;
-}
-
-#sidebar nav {
-    margin: 3em 0;
-    padding: 0;
-}
-
-.sidebar-link {
-    margin: 0rem 1px;
-    font-size: 16px;
-    padding: 0;
-    font-weight: 700 !important;
-    border-right: 2px solid white;
-}
-
-.sidebar-link:hover {
-    font-weight: 700 !important;
-    border-right: 2px solid #f91c52;
-    color: black;
-}
-
-.sidebar-active {
-    font-weight: 700 !important;
-    color: var(--futures-color) !important;
-
-}
-
 .navbar .navbar-brand {
     padding-left: 28px;
 }

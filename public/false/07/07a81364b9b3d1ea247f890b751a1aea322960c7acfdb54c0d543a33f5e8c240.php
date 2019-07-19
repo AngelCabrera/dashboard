@@ -187,13 +187,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             </div>
           </div>
           <div class=\"sidebar-menu\">
-            <div class=\"sidebar-link ";
+            <div class=\"sidebar-link py-2 ";
         // line 148
         if ((($context["active"] ?? null) == "tickets")) {
             echo "sidebar-active";
         }
         echo "\">
-              <div class=\"pt-2\">
+              <div class=\"\">
                 <a class=\"text-link ";
         // line 150
         if ((($context["active"] ?? null) == "tickets")) {
@@ -203,13 +203,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/tickets\">Place a Request</a>
               </div>
             </div>
-            <div class=\"sidebar-link ";
+            <div class=\"sidebar-link py-2 ";
         // line 154
         if ((($context["active"] ?? null) == "status")) {
             echo "sidebar-active";
         }
         echo "\">
-              <div class=\"pt-2\">
+              <div class=\"\">
                 <a class=\"text-link ";
         // line 156
         if ((($context["active"] ?? null) == "satus")) {
@@ -219,13 +219,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/projects-status\">Project Status</a>
               </div>
             </div>
-            <div class=\"sidebar-link  ";
+            <div class=\"sidebar-link py-2  ";
         // line 160
         if ((($context["active"] ?? null) == "order")) {
             echo "sidebar-active";
         }
         echo "\">
-              <div class=\"pt-2\">
+              <div class=\"\">
                 <a class=\"text-link ";
         // line 162
         if ((($context["active"] ?? null) == "order")) {
@@ -235,13 +235,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/order-history\">Project History</a>
               </div>
             </div>
-            <div class=\"sidebar-link ";
+            <div class=\"sidebar-link py-2 ";
         // line 166
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
         echo "\">
-              <div class=\"pt-2\">
+              <div class=\"\">
                 <a class=\"text-link ";
         // line 168
         if ((($context["active"] ?? null) == "manage")) {
@@ -251,13 +251,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
               </div>
             </div>
-            <div class=\"sidebar-link ";
+            <div class=\"sidebar-link py-2 ";
         // line 172
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
-              <div class=\"pt-2\">
+              <div class=\"\">
                 <a class=\"text-link ";
         // line 174
         if ((($context["active"] ?? null) == "settings")) {
@@ -267,19 +267,19 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   href=\"/thefutures/dashboard/settings\">Account Settings</a>
               </div>
             </div>
-            <div class=\"sidebar-link\">
+            <div class=\"sidebar-link py-2\">
               &nbsp;
             </div>
 
-            <div class=\"sidebar-link\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2\">
+              <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
                   Transaction History
                 </a>
               </div>
             </div>
-            <div class=\"sidebar-link\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2\">
+              <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
                   Billing Settings
                 </a>
@@ -515,49 +515,49 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             </div>
           </div>
           <div class=\"sidebar-menu\">
-            <div class=\"sidebar-link {% if active == \"tickets\" %}sidebar-active{% endif %}\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2 {% if active == \"tickets\" %}sidebar-active{% endif %}\">
+              <div class=\"\">
                 <a class=\"text-link {% if active == \"tickets\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/tickets\">Place a Request</a>
               </div>
             </div>
-            <div class=\"sidebar-link {% if active == \"status\" %}sidebar-active{% endif %}\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2 {% if active == \"status\" %}sidebar-active{% endif %}\">
+              <div class=\"\">
                 <a class=\"text-link {% if active == \"satus\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/projects-status\">Project Status</a>
               </div>
             </div>
-            <div class=\"sidebar-link  {% if active == \"order\" %}sidebar-active{% endif %}\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2  {% if active == \"order\" %}sidebar-active{% endif %}\">
+              <div class=\"\">
                 <a class=\"text-link {% if active == \"order\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/order-history\">Project History</a>
               </div>
             </div>
-            <div class=\"sidebar-link {% if active == \"manage\" %}sidebar-active{% endif %}\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2 {% if active == \"manage\" %}sidebar-active{% endif %}\">
+              <div class=\"\">
                 <a class=\"text-link {% if active == \"manage\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/manage-team\">Manage Team</a>
               </div>
             </div>
-            <div class=\"sidebar-link {% if active == \"settings\" %}sidebar-active{% endif %}\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2 {% if active == \"settings\" %}sidebar-active{% endif %}\">
+              <div class=\"\">
                 <a class=\"text-link {% if active == \"settings\" %}active{% endif %}\"
                   href=\"/thefutures/dashboard/settings\">Account Settings</a>
               </div>
             </div>
-            <div class=\"sidebar-link\">
+            <div class=\"sidebar-link py-2\">
               &nbsp;
             </div>
 
-            <div class=\"sidebar-link\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2\">
+              <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
                   Transaction History
                 </a>
               </div>
             </div>
-            <div class=\"sidebar-link\">
-              <div class=\"pt-2\">
+            <div class=\"sidebar-link py-2\">
+              <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
                   Billing Settings
                 </a>

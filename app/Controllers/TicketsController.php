@@ -5,7 +5,7 @@ namespace App\Controllers;
 class TicketsController extends BaseController
 {
     public function getTicketsAction() {
-        return $this->renderHTML('tickets.twig', [
+        return $this->renderHTML('request.twig', [
             'active' => 'tickets'
         ]);
     }
