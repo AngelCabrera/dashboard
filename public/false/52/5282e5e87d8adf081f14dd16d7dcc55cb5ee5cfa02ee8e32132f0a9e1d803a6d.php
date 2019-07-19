@@ -50,14 +50,15 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
         $macros = $this->macros;
         // line 3
         echo "<link rel=\"stylesheet\" href=\"/thefutures/styles/breads.css\">
+<link rel=\"stylesheet\" href=\"/styles/breads.css\">
 ";
     }
 
-    // line 5
+    // line 6
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 6
+        // line 7
         echo "<!-- Main content Header-->
 <div class=\"row\">
     <div class=\"col\">
@@ -220,51 +221,10 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
     </div>
 </div>
 
-<div>
-    <div class=\"container breadcrumbs-container\">
-        <h1 class=\"breadcrumbs-title\">Order Transcripts</h1>
-        <div class=\"right steps-container\">
-            <ul class=\"breadcrumbs unstyled\">
-
-                <li class=\"breadcrumb step-1 breadcrumb-active\">
-                    <div class=\"breadcrumb-number\">
-
-                    </div>
-                    <div class=\"breadcrumb-name\">
-                        Add Files
-                    </div>
-                </li>
-                <li class=\"breadcrumb-connector\">
-                    <div class=\"connector\"></div>
-                </li>
-                <li class=\"breadcrumb step-2\">
-                    <div class=\"breadcrumb-number\">
-
-                    </div>
-                    <div class=\"breadcrumb-name\">
-                        Sign In
-                    </div>
-                </li>
-                <li class=\"breadcrumb-connector\">
-                    <div class=\"connector\"></div>
-                </li>
-                <li class=\"breadcrumb step-3 last\">
-                    <div class=\"breadcrumb-number\">
-
-                    </div>
-                    <div class=\"breadcrumb-name\">
-                        Pay
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class=\"clear\"></div>
-    </div>
-</div>
 ";
     }
 
-    // line 213
+    // line 173
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -282,7 +242,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 
     public function getDebugInfo()
     {
-        return array (  268 => 213,  61 => 6,  57 => 5,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  228 => 173,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -290,6 +250,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
         return new Source("{% extends 'layout2.twig' %}
 {% block headlinks %}
 <link rel=\"stylesheet\" href=\"/thefutures/styles/breads.css\">
+<link rel=\"stylesheet\" href=\"/styles/breads.css\">
 {% endblock %}
 {% block content %}
 <!-- Main content Header-->
@@ -454,47 +415,6 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
     </div>
 </div>
 
-<div>
-    <div class=\"container breadcrumbs-container\">
-        <h1 class=\"breadcrumbs-title\">Order Transcripts</h1>
-        <div class=\"right steps-container\">
-            <ul class=\"breadcrumbs unstyled\">
-
-                <li class=\"breadcrumb step-1 breadcrumb-active\">
-                    <div class=\"breadcrumb-number\">
-
-                    </div>
-                    <div class=\"breadcrumb-name\">
-                        Add Files
-                    </div>
-                </li>
-                <li class=\"breadcrumb-connector\">
-                    <div class=\"connector\"></div>
-                </li>
-                <li class=\"breadcrumb step-2\">
-                    <div class=\"breadcrumb-number\">
-
-                    </div>
-                    <div class=\"breadcrumb-name\">
-                        Sign In
-                    </div>
-                </li>
-                <li class=\"breadcrumb-connector\">
-                    <div class=\"connector\"></div>
-                </li>
-                <li class=\"breadcrumb step-3 last\">
-                    <div class=\"breadcrumb-number\">
-
-                    </div>
-                    <div class=\"breadcrumb-name\">
-                        Pay
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class=\"clear\"></div>
-    </div>
-</div>
 {% endblock %}
 
 
