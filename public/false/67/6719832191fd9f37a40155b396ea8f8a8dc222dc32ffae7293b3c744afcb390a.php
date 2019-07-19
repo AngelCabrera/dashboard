@@ -48,12 +48,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         $macros = $this->macros;
         // line 4
         echo "<div class=\"header-2\">
-    <h1 class=\"main-title\">Order: TC1031972989</h1>
+    <h1 class=\"main-title\">#ID: 00001</h1>
 </div>
 <div>
-    <b style=\"font-weight: 700; margin-right: 20px;\">Reference:</b>
-    Lorem ipsum dolor
-    <a href=\"#\" style=\"margin-left: 20px;\">Edit</a>
+    <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
+    FAVICON for The Futures
 </div>
 <div>
     <div class=\"card my-5\">
@@ -225,12 +224,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
 {% block content %}
 <div class=\"header-2\">
-    <h1 class=\"main-title\">Order: TC1031972989</h1>
+    <h1 class=\"main-title\">#ID: 00001</h1>
 </div>
 <div>
-    <b style=\"font-weight: 700; margin-right: 20px;\">Reference:</b>
-    Lorem ipsum dolor
-    <a href=\"#\" style=\"margin-left: 20px;\">Edit</a>
+    <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
+    FAVICON for The Futures
 </div>
 <div>
     <div class=\"card my-5\">
