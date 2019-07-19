@@ -47,57 +47,110 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     {
         $macros = $this->macros;
         // line 4
-        echo "<div class=\"header-2\">
-    <h1 class=\"main-title\">#ID: 00001</h1>
-</div>
-<div>
-    <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
-    FAVICON for The Futures
-</div>
-<div>
-    <div class=\"card my-5\">
-        <!-- Card content -->
-        <div class=\"card-body\">
-            <!-- Title -->
-            <!-- Text -->
-            <div class=\"row\">
-                <div class=\"col\">
-                    <p>Hola</p>
-                </div>
-                <div class=\"col\">
-                    <p>Hola</p>
-                </div>
-                <div class=\"col\">
-                    <p>Hola</p>
-                </div>
-                <div class=\"col\"></div>
-                <div class=\"col\"></div>
-                <div class=\"col\"></div>
-            </div>
-            <hr>
-            <div class=\"row\">
-                <div class=\"container\" style=\"display: flex; justify-content: space-between;\">
-                    <p>archivo.docx</p>
-                    <div class=\"mx-2 float-right text-right\">
-                        <a href=\"#\">VIEW & EDIT</a>
-                        |
-                        <a href=\"#\">SHARE</a>
-                        |
-                        <a href=\"#\">DOWNLOAD</a>
+        echo "<div class=\"row\">
+    <div class=\"col-8\">
+        <div class=\"header-2\">
+            <h1 class=\"main-title\">#ID: 00001</h1>
+        </div>
+        <div>
+            <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
+            FAVICON for The Futures
+        </div>
+        <div>
+            <div class=\"card my-3\">
+                <!-- Card content -->
+                <div class=\"card-body\">
+                    <!-- Title -->
+                    <!-- Text -->
+                    <div class=\"d-flex\">
+                        <div class=\"mx-4\">
+                            <div class=\"font-weight-bold\">Placed</div>
+                            <div>Date</div>
+                            <div>By William</div>
+                        </div>
+                        <div class=\"mx-4\">
+                            <div class=\"font-weight-bold\">Length</div>
+                            <div>5m</div>
+                            <div></div>
+                        </div>
+                        <div class=\"mx-4\">
+                            <div class=\"font-weight-bold\">Total</div>
+                            <div>\$5.00</div>
+                            <div>Print receipt</div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class=\"card-title\">Title of the Request:</div>
+                    <div class=\"card-text\">
+                        FAVICON for The Futures
+                    </div>
+                    <div class=\"card-title mt-2\">Description:</div>
+                    <div class=\"card-text\">
+                        Hi. Can we please do this task right away. And pause the rest of all my other tasks until this
+                        one
+                        is
+                        finished.
+                        Detail List:
+                        1) Please create thumbnails with each of the pictures attached.
+                        2) Please use do the thumbnails with the style/template similar to the ones being done for
+                        Fadela
+                        Hilali
+                        3) But please DO NOT use Fadela's colours (use the 2 colours attached as the brand colours)
+                        4) The title of each thumbnail should be what is written on the file name (background fading
+                        image
+                        should just relate to the topic on title.
+                        5) Please find WETRANSFER attached with all files needed.
+                    </div>
+                    <div class=\"card-title mt-2\">Specific Text (If Any):</div>
+                    <div class=\"card-text\">
+                        No text
+                    </div>
+                    <div class=\"card-title mt-2\">Design Size:</div>
+                    <div class=\"card-text\">
+
+                    </div>
+                    <div class=\"card-title\">The Design Custom Size:</div>
+                    <div class=\"card-text\">
+                        000 Points x 000 Points
+                    </div>
+                    <div class=\"card-title\">The Design is for:</div>
+                    <div class=\"card-text\">
+                        Digital
+                    </div>
+                    <div class=\"card-title\">Audience You Are Trying to Reach:</div>
+                    <div class=\"card-text\">
+                        Yoga Students / Yoga Teachers
+                    </div>
+                    <div class=\"card-title\">Links for inspiration: </div>
+                    <div class=\"card-text\">
+                        https://we.tl/t-wbMeDtCmLL
+                    </div>
+                    <hr>
+                    <div class=\"row\">
+                        <div class=\"container\" style=\"display: flex; justify-content: space-between;\">
+                            <p>archivo.docx</p>
+                            <div class=\"mx-2 float-right text-right\">
+                                <a href=\"#\">EDIT</a>
+                                |
+                                <a href=\"#\">SHARE</a>
+                                |
+                                <a href=\"#\">DOWNLOAD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class=\"row\">
+                        <div class=\"container\">
+                            Project Delivered: <span class=\"text-muted\">May 8</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <hr>
-            <div class=\"row\">
-                <div class=\"container\">
-                    Order Delivered: <span class=\"text-muted\">May 8</span>
-                </div>
+
             </div>
         </div>
-
     </div>
 </div>
-
 
 <!-- Chat zone -->
 <link href=\"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"
@@ -223,57 +276,110 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         return new Source("{% extends 'layout2.twig'  %}
 
 {% block content %}
-<div class=\"header-2\">
-    <h1 class=\"main-title\">#ID: 00001</h1>
-</div>
-<div>
-    <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
-    FAVICON for The Futures
-</div>
-<div>
-    <div class=\"card my-5\">
-        <!-- Card content -->
-        <div class=\"card-body\">
-            <!-- Title -->
-            <!-- Text -->
-            <div class=\"row\">
-                <div class=\"col\">
-                    <p>Hola</p>
-                </div>
-                <div class=\"col\">
-                    <p>Hola</p>
-                </div>
-                <div class=\"col\">
-                    <p>Hola</p>
-                </div>
-                <div class=\"col\"></div>
-                <div class=\"col\"></div>
-                <div class=\"col\"></div>
-            </div>
-            <hr>
-            <div class=\"row\">
-                <div class=\"container\" style=\"display: flex; justify-content: space-between;\">
-                    <p>archivo.docx</p>
-                    <div class=\"mx-2 float-right text-right\">
-                        <a href=\"#\">VIEW & EDIT</a>
-                        |
-                        <a href=\"#\">SHARE</a>
-                        |
-                        <a href=\"#\">DOWNLOAD</a>
+<div class=\"row\">
+    <div class=\"col-8\">
+        <div class=\"header-2\">
+            <h1 class=\"main-title\">#ID: 00001</h1>
+        </div>
+        <div>
+            <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
+            FAVICON for The Futures
+        </div>
+        <div>
+            <div class=\"card my-3\">
+                <!-- Card content -->
+                <div class=\"card-body\">
+                    <!-- Title -->
+                    <!-- Text -->
+                    <div class=\"d-flex\">
+                        <div class=\"mx-4\">
+                            <div class=\"font-weight-bold\">Placed</div>
+                            <div>Date</div>
+                            <div>By William</div>
+                        </div>
+                        <div class=\"mx-4\">
+                            <div class=\"font-weight-bold\">Length</div>
+                            <div>5m</div>
+                            <div></div>
+                        </div>
+                        <div class=\"mx-4\">
+                            <div class=\"font-weight-bold\">Total</div>
+                            <div>\$5.00</div>
+                            <div>Print receipt</div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class=\"card-title\">Title of the Request:</div>
+                    <div class=\"card-text\">
+                        FAVICON for The Futures
+                    </div>
+                    <div class=\"card-title mt-2\">Description:</div>
+                    <div class=\"card-text\">
+                        Hi. Can we please do this task right away. And pause the rest of all my other tasks until this
+                        one
+                        is
+                        finished.
+                        Detail List:
+                        1) Please create thumbnails with each of the pictures attached.
+                        2) Please use do the thumbnails with the style/template similar to the ones being done for
+                        Fadela
+                        Hilali
+                        3) But please DO NOT use Fadela's colours (use the 2 colours attached as the brand colours)
+                        4) The title of each thumbnail should be what is written on the file name (background fading
+                        image
+                        should just relate to the topic on title.
+                        5) Please find WETRANSFER attached with all files needed.
+                    </div>
+                    <div class=\"card-title mt-2\">Specific Text (If Any):</div>
+                    <div class=\"card-text\">
+                        No text
+                    </div>
+                    <div class=\"card-title mt-2\">Design Size:</div>
+                    <div class=\"card-text\">
+
+                    </div>
+                    <div class=\"card-title\">The Design Custom Size:</div>
+                    <div class=\"card-text\">
+                        000 Points x 000 Points
+                    </div>
+                    <div class=\"card-title\">The Design is for:</div>
+                    <div class=\"card-text\">
+                        Digital
+                    </div>
+                    <div class=\"card-title\">Audience You Are Trying to Reach:</div>
+                    <div class=\"card-text\">
+                        Yoga Students / Yoga Teachers
+                    </div>
+                    <div class=\"card-title\">Links for inspiration: </div>
+                    <div class=\"card-text\">
+                        https://we.tl/t-wbMeDtCmLL
+                    </div>
+                    <hr>
+                    <div class=\"row\">
+                        <div class=\"container\" style=\"display: flex; justify-content: space-between;\">
+                            <p>archivo.docx</p>
+                            <div class=\"mx-2 float-right text-right\">
+                                <a href=\"#\">EDIT</a>
+                                |
+                                <a href=\"#\">SHARE</a>
+                                |
+                                <a href=\"#\">DOWNLOAD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class=\"row\">
+                        <div class=\"container\">
+                            Project Delivered: <span class=\"text-muted\">May 8</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <hr>
-            <div class=\"row\">
-                <div class=\"container\">
-                    Order Delivered: <span class=\"text-muted\">May 8</span>
-                </div>
+
             </div>
         </div>
-
     </div>
 </div>
-
 
 <!-- Chat zone -->
 <link href=\"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"

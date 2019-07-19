@@ -274,6 +274,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Shuttle (Soon)
+                </a>
+              </div>
+            </div>
+            <div class=\"sidebar-link py-2\">
+              <div class=\"\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
                   Transaction History
                 </a>
               </div>
@@ -296,9 +303,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid pt-0 pl-5\">
           <div class=\"main-content\">
             ";
-        // line 206
+        // line 213
         $this->displayBlock('content', $context, $blocks);
-        // line 207
+        // line 214
         echo "          </div>
         </div>
       </main>
@@ -322,9 +329,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 229
+        // line 236
         $this->displayBlock('scripts', $context, $blocks);
-        // line 230
+        // line 237
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -339,13 +346,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 206
+    // line 213
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 229
+    // line 236
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -363,7 +370,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  349 => 229,  343 => 206,  337 => 50,  328 => 230,  326 => 229,  302 => 207,  300 => 206,  263 => 174,  256 => 172,  247 => 168,  240 => 166,  231 => 162,  224 => 160,  215 => 156,  208 => 154,  199 => 150,  192 => 148,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  356 => 236,  350 => 213,  344 => 50,  335 => 237,  333 => 236,  309 => 214,  307 => 213,  263 => 174,  256 => 172,  247 => 168,  240 => 166,  231 => 162,  224 => 160,  215 => 156,  208 => 154,  199 => 150,  192 => 148,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -549,6 +556,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               &nbsp;
             </div>
 
+            <div class=\"sidebar-link py-2\">
+              <div class=\"\">
+                <a class=\"text-link\" class=\"text-link\" href=\"#\">
+                  Shuttle (Soon)
+                </a>
+              </div>
+            </div>
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
