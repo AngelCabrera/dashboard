@@ -60,7 +60,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
     <div class=\"col\">
         <div class=\"index header\">
             <div>
-                <h1 class=\"\">Order Status</h1>
+                <h1 class=\"\">Project Status</h1>
             </div>
         </div>
         <!--/ Main content Header-->
@@ -176,7 +176,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
     <div class=\"col\">
         <div class=\"index header\">
             <div>
-                <h1 class=\"\">Order Status</h1>
+                <h1 class=\"\">Project Status</h1>
             </div>
         </div>
         <!--/ Main content Header-->

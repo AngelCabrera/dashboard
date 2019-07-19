@@ -30,7 +30,7 @@ body {
     --futures-color: #f91c52;
     --futures-font-color: #4a4a4a;
     --futures-hover-font-color: #212529;
-    --futures-primary-font: 'Brandon Grotesque Black', sans-serif;
+    --futures-secondary-font: 'Brandon Grotesque Black', sans-serif;
     --futures-secondary-font: 'Nunito', sans-serif;
     font-size: 18px;
 }
@@ -131,8 +131,13 @@ tr {
 
 h1,
 h2 {
-    font-family: var(--futures-primary-font) !important;
+    font-family: var(--futures-secondary-font) !important;
     color: var(--futures-hover-font-color);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 tbody {
