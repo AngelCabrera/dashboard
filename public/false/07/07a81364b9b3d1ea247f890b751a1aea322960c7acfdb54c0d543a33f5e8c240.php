@@ -118,8 +118,8 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   <div class=\"mt-2\">Professional <br>transcriptionists</div>
                 </div>
                 <div class=\"mr3 text-right\">
-                  <div class=\"h4\" style=\"color: #a383ff;\">1\$</div>
-                  <div>per minute</div>
+                  <div class=\"h4\" style=\"color: #a383ff;\">\$1</div>
+                  <div style=\"font-size: 14px; font-weight: bold\">per minute</div>
                 </div>
               </a>
             </li>
@@ -130,8 +130,8 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   <div class=\"mt-2\">Professional <br>transcriptionists</div>
                 </div>
                 <div class=\"mr3 text-right\">
-                  <div class=\"h4\" style=\"color: #fdcc02;\">1\$</div>
-                  <div>per minute</div>
+                  <div class=\"h4\" style=\"color: #fdcc02;\">\$1</div>
+                  <div style=\"font-size: 14px; font-weight: bold\">per minute</div>
                 </div>
               </a>
             </li>
@@ -446,8 +446,8 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   <div class=\"mt-2\">Professional <br>transcriptionists</div>
                 </div>
                 <div class=\"mr3 text-right\">
-                  <div class=\"h4\" style=\"color: #a383ff;\">1\$</div>
-                  <div>per minute</div>
+                  <div class=\"h4\" style=\"color: #a383ff;\">\$1</div>
+                  <div style=\"font-size: 14px; font-weight: bold\">per minute</div>
                 </div>
               </a>
             </li>
@@ -458,8 +458,8 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
                   <div class=\"mt-2\">Professional <br>transcriptionists</div>
                 </div>
                 <div class=\"mr3 text-right\">
-                  <div class=\"h4\" style=\"color: #fdcc02;\">1\$</div>
-                  <div>per minute</div>
+                  <div class=\"h4\" style=\"color: #fdcc02;\">\$1</div>
+                  <div style=\"font-size: 14px; font-weight: bold\">per minute</div>
                 </div>
               </a>
             </li>

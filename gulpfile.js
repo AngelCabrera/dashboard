@@ -6,7 +6,7 @@ const browsersync = require('browser-sync');
 gulp.task('connect-sync', function () {
     connect.server({}, () => {
         browsersync({
-            proxy: '127.0.0.1/thefutures'
+            proxy: '127.0.0.1/thefutures/dashboard'
         });
     });
     gulp.watch('public/styles/main.css').on('change', function () {
