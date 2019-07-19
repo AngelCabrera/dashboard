@@ -48,19 +48,22 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
     public function block_headlinks($context, array $blocks = [])
     {
         $macros = $this->macros;
+        // line 3
+        echo "<link rel=\"stylesheet\" href=\"/thefutures/styles/breads.css\">
+";
     }
 
-    // line 4
+    // line 5
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 5
+        // line 6
         echo "<!-- Main content Header-->
 <div class=\"row\">
     <div class=\"col\">
         <div class=\"index header\">
             <div>
-                <h1 class=\"\">Project Status</h1>
+                <h1 class=\"\">Project Progress</h1>
             </div>
         </div>
         <!--/ Main content Header-->
@@ -72,8 +75,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <th scope=\"col\">Project Name</th>
                     <th scope=\"col\">Received</th>
                     <th scope=\"col\">In Production</th>
-                    <th scope=\"col\">In review</th>
-                    <th scope=\"col\">Delivered</th>
+                    <th scope=\"col\">Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -84,9 +86,38 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </a>
                     </th>
                     <td>Mark</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope=\"row\">
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00002
+                        </a>
+                    </th>
+                    <td>Jacob</td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
                 </tr>
                 <tr>
@@ -96,55 +127,110 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </a>
                     </th>
                     <td>Jacob</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
+                </tr>
+
+                <tr>
+                    <th scope=\"row\">
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00002
+                        </a>
+                    </th>
+                    <td>Jacob</td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
                 </tr>
                 <tr>
                     <th scope=\"row\">
                         <a href=\"/dashboard/order-history/TC1031972989\">
-                            00003
+                            00002
                         </a>
                     </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00004
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/thefutures/dashboard/order-history/TC1031972989\">
-                            00005
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
+                    <td>Jacob</td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
                 </tr>
             </tbody>
         </table>
     </div>
 </div>
+
+<div>
+    <div class=\"container breadcrumbs-container\">
+        <h1 class=\"breadcrumbs-title\">Order Transcripts</h1>
+        <div class=\"right steps-container\">
+            <ul class=\"breadcrumbs unstyled\">
+
+                <li class=\"breadcrumb step-1 breadcrumb-active\">
+                    <div class=\"breadcrumb-number\">
+
+                    </div>
+                    <div class=\"breadcrumb-name\">
+                        Add Files
+                    </div>
+                </li>
+                <li class=\"breadcrumb-connector\">
+                    <div class=\"connector\"></div>
+                </li>
+                <li class=\"breadcrumb step-2\">
+                    <div class=\"breadcrumb-number\">
+
+                    </div>
+                    <div class=\"breadcrumb-name\">
+                        Sign In
+                    </div>
+                </li>
+                <li class=\"breadcrumb-connector\">
+                    <div class=\"connector\"></div>
+                </li>
+                <li class=\"breadcrumb step-3 last\">
+                    <div class=\"breadcrumb-number\">
+
+                    </div>
+                    <div class=\"breadcrumb-name\">
+                        Pay
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class=\"clear\"></div>
+    </div>
+</div>
 ";
     }
 
-    // line 95
+    // line 179
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -162,13 +248,14 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 
     public function getDebugInfo()
     {
-        return array (  148 => 95,  58 => 5,  54 => 4,  48 => 2,  37 => 1,);
+        return array (  234 => 179,  61 => 6,  57 => 5,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'layout2.twig' %}
 {% block headlinks %}
+<link rel=\"stylesheet\" href=\"/thefutures/styles/breads.css\">
 {% endblock %}
 {% block content %}
 <!-- Main content Header-->
@@ -176,7 +263,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
     <div class=\"col\">
         <div class=\"index header\">
             <div>
-                <h1 class=\"\">Project Status</h1>
+                <h1 class=\"\">Project Progress</h1>
             </div>
         </div>
         <!--/ Main content Header-->
@@ -188,8 +275,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <th scope=\"col\">Project Name</th>
                     <th scope=\"col\">Received</th>
                     <th scope=\"col\">In Production</th>
-                    <th scope=\"col\">In review</th>
-                    <th scope=\"col\">Delivered</th>
+                    <th scope=\"col\">Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -200,9 +286,38 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </a>
                     </th>
                     <td>Mark</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope=\"row\">
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00002
+                        </a>
+                    </th>
+                    <td>Jacob</td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
                 </tr>
                 <tr>
@@ -212,49 +327,104 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </a>
                     </th>
                     <td>Jacob</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
+                </tr>
+
+                <tr>
+                    <th scope=\"row\">
+                        <a href=\"/dashboard/order-history/TC1031972989\">
+                            00002
+                        </a>
+                    </th>
+                    <td>Jacob</td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
                 </tr>
                 <tr>
                     <th scope=\"row\">
                         <a href=\"/dashboard/order-history/TC1031972989\">
-                            00003
+                            00002
                         </a>
                     </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/dashboard/order-history/TC1031972989\">
-                            00004
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                </tr>
-                <tr>
-                    <th scope=\"row\">
-                        <a href=\"/thefutures/dashboard/order-history/TC1031972989\">
-                            00005
-                        </a>
-                    </th>
-                    <td>Larry the Bird</td>
-                    <td><button type=\"button\" class=\"btn btn-default btn-circle\"><i class=\"\"></i></td>
-                    <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
-                    <td>N/A</td>
+                    <td>Jacob</td>
+                    <td>
+                        <div class=\"pulsating-dot\">
+                            <div class=\"pulsating-dot__ripple\">
+                                <span></span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td><button type=\"button\" class=\"btn btn-success btn-circle\"><i class=\"fa fa-check\"></i></td>
                 </tr>
             </tbody>
         </table>
+    </div>
+</div>
+
+<div>
+    <div class=\"container breadcrumbs-container\">
+        <h1 class=\"breadcrumbs-title\">Order Transcripts</h1>
+        <div class=\"right steps-container\">
+            <ul class=\"breadcrumbs unstyled\">
+
+                <li class=\"breadcrumb step-1 breadcrumb-active\">
+                    <div class=\"breadcrumb-number\">
+
+                    </div>
+                    <div class=\"breadcrumb-name\">
+                        Add Files
+                    </div>
+                </li>
+                <li class=\"breadcrumb-connector\">
+                    <div class=\"connector\"></div>
+                </li>
+                <li class=\"breadcrumb step-2\">
+                    <div class=\"breadcrumb-number\">
+
+                    </div>
+                    <div class=\"breadcrumb-name\">
+                        Sign In
+                    </div>
+                </li>
+                <li class=\"breadcrumb-connector\">
+                    <div class=\"connector\"></div>
+                </li>
+                <li class=\"breadcrumb step-3 last\">
+                    <div class=\"breadcrumb-number\">
+
+                    </div>
+                    <div class=\"breadcrumb-name\">
+                        Pay
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class=\"clear\"></div>
     </div>
 </div>
 {% endblock %}
