@@ -73,6 +73,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                 <tr>
                     <th scope=\"col\">#</th>
                     <th scope=\"col\">Project Name</th>
+                    <th scope=\"col\">Placed</th>
+                    <th scope=\"col\">Placed By</th>
                     <th scope=\"col\">Received</th>
                     <th scope=\"col\">In Production</th>
                     <th scope=\"col\">Status</th>
@@ -85,7 +87,10 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00001
                         </a>
                     </th>
-                    <td>Mark</td>
+
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
                     <td>
                         <div class=\"pulsating-dot\">
@@ -98,6 +103,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td>
+                        <div style=\"width: 100; background: #f91c52;\" class=\"text-center\">
+                            <p class=\"text-white mb-0\">
+                                Awating Approval
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr>
@@ -106,7 +116,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
@@ -126,7 +138,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
@@ -147,7 +161,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
@@ -167,7 +183,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
@@ -230,7 +248,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 ";
     }
 
-    // line 179
+    // line 197
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -248,7 +266,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 
     public function getDebugInfo()
     {
-        return array (  234 => 179,  61 => 6,  57 => 5,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  252 => 197,  61 => 6,  57 => 5,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -273,6 +291,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                 <tr>
                     <th scope=\"col\">#</th>
                     <th scope=\"col\">Project Name</th>
+                    <th scope=\"col\">Placed</th>
+                    <th scope=\"col\">Placed By</th>
                     <th scope=\"col\">Received</th>
                     <th scope=\"col\">In Production</th>
                     <th scope=\"col\">Status</th>
@@ -285,7 +305,10 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00001
                         </a>
                     </th>
-                    <td>Mark</td>
+
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
                     <td>
                         <div class=\"pulsating-dot\">
@@ -298,6 +321,11 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                         </div>
                     </td>
                     <td>
+                        <div style=\"width: 100; background: #f91c52;\" class=\"text-center\">
+                            <p class=\"text-white mb-0\">
+                                Awating Approval
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr>
@@ -306,7 +334,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
@@ -326,7 +356,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
@@ -347,7 +379,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
@@ -367,7 +401,9 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             00002
                         </a>
                     </th>
-                    <td>Jacob</td>
+                    <td>FAVICON for The Futures</td>
+                    <td>19/06/2019</td>
+                    <td>William</td>
                     <td>
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
