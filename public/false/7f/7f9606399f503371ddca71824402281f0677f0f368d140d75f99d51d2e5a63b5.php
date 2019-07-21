@@ -81,10 +81,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         <div class=\"card-header\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
-                    <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
+                    <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
                 </li>
                 <li class=\"nav-item \">
-                    <a id=\"video\" class=\"nav-link\">Video Editing (By invite Only)</a>
+                    <a id=\"video\" class=\"nav-link m-0\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
         </div>
@@ -370,10 +370,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         <div class=\"card-header\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
-                    <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
+                    <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
                 </li>
                 <li class=\"nav-item \">
-                    <a id=\"video\" class=\"nav-link\">Video Editing (By invite Only)</a>
+                    <a id=\"video\" class=\"nav-link m-0\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
         </div>
