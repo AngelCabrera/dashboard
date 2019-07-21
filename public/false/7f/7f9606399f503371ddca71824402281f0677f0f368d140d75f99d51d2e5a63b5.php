@@ -63,6 +63,18 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 <div class=\"index header\">
     <h1 class=\"\">Project Request Form</h1>
 </div>
+<div id=\"request-bullet-points\" class=\"mt-2 mb-4\">
+    <ul class=\"my-3\">
+        <li class=\"text-muted \">
+            Making a request is super simple. Only complete the form
+            below.
+        </li>
+        <li class=\"text-muted\">
+            Your reques will be put in a queue and delivered in order of
+            arrival.
+        </li>
+    </ul>
+</div>
 <div class=\"row\">
     <div class=\"col\">
         <div>
@@ -78,21 +90,6 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                     </ul>
                 </div>
                 <div class=\"card-body\">
-                    <ul>
-                        <li class=\"text-muted\">
-                            Making a request is super simple. Only complete the form
-                            below.
-                        </li>
-                        <li class=\"text-muted py-1\">
-                            Your reques will be put in a queue and delivered in order of
-                            arrival.
-                        </li>
-                        <li class=\"text-muted\">
-                            You can also maye your request by writing directly to
-                            request@thefutures.io
-                        </li>
-                    </ul>
-                    <hr>
                     <div>
                         <h5 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h5>
                         <small class=\"mt-0 text-muted\">Be as detailed as possible.</small>
@@ -216,11 +213,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 165
+    // line 162
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 166
+        // line 163
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -261,7 +258,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  224 => 166,  220 => 165,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  221 => 163,  217 => 162,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -275,6 +272,18 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 <!-- Main content Header-->
 <div class=\"index header\">
     <h1 class=\"\">Project Request Form</h1>
+</div>
+<div id=\"request-bullet-points\" class=\"mt-2 mb-4\">
+    <ul class=\"my-3\">
+        <li class=\"text-muted \">
+            Making a request is super simple. Only complete the form
+            below.
+        </li>
+        <li class=\"text-muted\">
+            Your reques will be put in a queue and delivered in order of
+            arrival.
+        </li>
+    </ul>
 </div>
 <div class=\"row\">
     <div class=\"col\">
@@ -291,21 +300,6 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                     </ul>
                 </div>
                 <div class=\"card-body\">
-                    <ul>
-                        <li class=\"text-muted\">
-                            Making a request is super simple. Only complete the form
-                            below.
-                        </li>
-                        <li class=\"text-muted py-1\">
-                            Your reques will be put in a queue and delivered in order of
-                            arrival.
-                        </li>
-                        <li class=\"text-muted\">
-                            You can also maye your request by writing directly to
-                            request@thefutures.io
-                        </li>
-                    </ul>
-                    <hr>
                     <div>
                         <h5 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h5>
                         <small class=\"mt-0 text-muted\">Be as detailed as possible.</small>

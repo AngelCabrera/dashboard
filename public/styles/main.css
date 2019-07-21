@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url("navbar.css");
 @import url("sidebar.css");
+@import url("request.css");
 
 @font-face {
     font-family: 'brandon_grotesquebold';
@@ -99,9 +100,7 @@ thead tr th {
 }
 
 /*---------------------- <CONTENT HEADER> ------------------------*/
-.header {
-    margin-bottom: 2rem;
-}
+
 
 /*------------------- </CONTENT HEADER> --------------------------*/
 table.table th a {
