@@ -68,9 +68,8 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         echo "
 <div>
     <div class=\"project-request\" class=\"mt-5\">
-        <p class=\"mb-1\">Making a request is super simple, only complete the form
-            below. Your request will be put in a queue and delivered in order of
-            arrival </p>
+        <p class=\"mb-1\">Making a request is super simple, only complete the 3 steps below and press submit. Your request
+            will be put in a queue and delivered in order of arrival.</p>
         <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
@@ -194,12 +193,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                             </div>
                                         </div>
                                         ";
-        // line 156
+        // line 155
         echo "                                    </div>
                                 </div>
                             </div>
                             ";
-        // line 162
+        // line 161
         echo "                        </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
@@ -245,7 +244,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             </label>
                         </div>
                         ";
-        // line 209
+        // line 208
         echo "                    </div>
                 </div>
             </div>
@@ -261,11 +260,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 225
+    // line 224
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 226
+        // line 225
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -335,7 +334,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  269 => 226,  265 => 225,  249 => 209,  203 => 162,  198 => 156,  68 => 22,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  268 => 225,  264 => 224,  248 => 208,  202 => 161,  197 => 155,  68 => 22,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -364,9 +363,8 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
 <div>
     <div class=\"project-request\" class=\"mt-5\">
-        <p class=\"mb-1\">Making a request is super simple, only complete the form
-            below. Your request will be put in a queue and delivered in order of
-            arrival </p>
+        <p class=\"mb-1\">Making a request is super simple, only complete the 3 steps below and press submit. Your request
+            will be put in a queue and delivered in order of arrival.</p>
         <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
