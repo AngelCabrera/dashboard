@@ -59,7 +59,7 @@ nav.navbar {
     color: var(--futures-font-color);
 }
 
-.active {
+nav .active {
     color: var(--futures-color) !important;
 }
 

@@ -28,6 +28,7 @@ body {
 
 :root {
     --futures-color: #f91c52;
+    --futures-color-purple: #a383ff;
     --futures-font-color: #4a4a4a;
     --futures-hover-font-color: #212529;
     --futures-secondary-font: 'brandon_grotesquebold', sans-serif;
@@ -99,6 +100,24 @@ thead tr th {
     font-size: 0.875rem;
 }
 
+.btn-transparent {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.futures-color-purple {
+    color: var(--futures-color-purple) !important;
+}
+
+.md-form .active {
+    color: var(--futures-color) !important;
+}
+
+.md-form label {
+    font-size: 14px;
+}
+
 /*---------------------- <CONTENT HEADER> ------------------------*/
 
 
@@ -136,6 +155,10 @@ h2 {
 h1 {
     font-size: 28px !important;
     font-weight: bold !important;
+}
+
+h2 {
+    font-size: 22px !important;
 }
 
 tbody {
