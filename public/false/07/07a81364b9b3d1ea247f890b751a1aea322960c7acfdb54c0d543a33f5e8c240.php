@@ -139,6 +139,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </ul>
         </li>
         <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"#\">About</a>
+        </li>
+        <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">Support</a>
         </li>
         <!-- Dropdown -->
@@ -182,14 +185,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </div>
           <div class=\"sidebar-menu\">
             <div class=\"sidebar-link py-2 ";
-        // line 142
+        // line 145
         if ((($context["active"] ?? null) == "tickets")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 144
+        // line 147
         if ((($context["active"] ?? null) == "tickets")) {
             echo "active";
         }
@@ -198,14 +201,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 148
+        // line 151
         if ((($context["active"] ?? null) == "status")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 150
+        // line 153
         if ((($context["active"] ?? null) == "status")) {
             echo "active";
         }
@@ -214,14 +217,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2  ";
-        // line 154
+        // line 157
         if ((($context["active"] ?? null) == "order")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 156
+        // line 159
         if ((($context["active"] ?? null) == "order")) {
             echo "active";
         }
@@ -230,14 +233,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 160
+        // line 163
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 162
+        // line 165
         if ((($context["active"] ?? null) == "manage")) {
             echo "active";
         }
@@ -246,14 +249,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 166
+        // line 169
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 168
+        // line 171
         if ((($context["active"] ?? null) == "settings")) {
             echo "active";
         }
@@ -297,9 +300,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid pt-0 pl-5\">
           <div class=\"main-content\">
             ";
-        // line 207
+        // line 210
         $this->displayBlock('content', $context, $blocks);
-        // line 208
+        // line 211
         echo "          </div>
         </div>
       </main>
@@ -323,9 +326,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 230
+        // line 233
         $this->displayBlock('scripts', $context, $blocks);
-        // line 231
+        // line 234
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -340,13 +343,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 207
+    // line 210
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 230
+    // line 233
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -364,7 +367,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  350 => 230,  344 => 207,  338 => 50,  329 => 231,  327 => 230,  303 => 208,  301 => 207,  257 => 168,  250 => 166,  241 => 162,  234 => 160,  225 => 156,  218 => 154,  209 => 150,  202 => 148,  193 => 144,  186 => 142,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  353 => 233,  347 => 210,  341 => 50,  332 => 234,  330 => 233,  306 => 211,  304 => 210,  260 => 171,  253 => 169,  244 => 165,  237 => 163,  228 => 159,  221 => 157,  212 => 153,  205 => 151,  196 => 147,  189 => 145,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -466,6 +469,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             </li>
 
           </ul>
+        </li>
+        <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"#\">About</a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">Support</a>
