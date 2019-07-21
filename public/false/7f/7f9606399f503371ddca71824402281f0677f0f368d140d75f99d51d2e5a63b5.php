@@ -253,7 +253,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         </div>
         <div class=\"card-footer\">
             <div class=\"m-0 text-right\">
-                <button class=\"m-0 btn btn-futures-request\">Submit Request</button>
+                <button class=\"m-0 btn btn-futures\">Submit Request</button>
             </div>
         </div>
     </div>
@@ -556,7 +556,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         </div>
         <div class=\"card-footer\">
             <div class=\"m-0 text-right\">
-                <button class=\"m-0 btn btn-futures-request\">Submit Request</button>
+                <button class=\"m-0 btn btn-futures\">Submit Request</button>
             </div>
         </div>
     </div>
