@@ -177,7 +177,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                         <div class=\"file-upload-content\">
                                             <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
                                             <div class=\"image-title-wrap\">
-
+                                                <span class=\"image-title\">Uploaded Image</span>
+                                                <button type=\"button\" onclick=\"removeUpload()\"
+                                                    class=\"remove-image\">Remove
+                                                    <span class=\"image-title\">Uploaded Image</span></button>
                                             </div>
                                         </div>
                                         <div class=\"mt-2 text-center\">
@@ -189,7 +192,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 </div>
                             </div>
                             ";
-        // line 139
+        // line 142
         echo "                        </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
@@ -244,11 +247,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 194
+    // line 197
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 195
+        // line 198
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -317,7 +320,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  252 => 195,  248 => 194,  193 => 139,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  255 => 198,  251 => 197,  196 => 142,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -446,7 +449,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                         <div class=\"file-upload-content\">
                                             <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
                                             <div class=\"image-title-wrap\">
-
+                                                <span class=\"image-title\">Uploaded Image</span>
+                                                <button type=\"button\" onclick=\"removeUpload()\"
+                                                    class=\"remove-image\">Remove
+                                                    <span class=\"image-title\">Uploaded Image</span></button>
                                             </div>
                                         </div>
                                         <div class=\"mt-2 text-center\">
