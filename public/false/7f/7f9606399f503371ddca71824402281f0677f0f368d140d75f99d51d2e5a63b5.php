@@ -60,15 +60,15 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         $macros = $this->macros;
         // line 7
         echo "<!-- Main content Header-->
+<div class=\"index header\">
+    <h1 class=\"\">Project Request Form</h1>
+</div>
 <div class=\"row\">
     <div class=\"col\">
-        <div class=\"index header\">
-            <h1 class=\"\">Project Request Form</h1>
-        </div>
         <div>
-            <div class=\"project-request\">
-                <div class=\"\">
-                    <ul class=\"nav nav-tabs\">
+            <div class=\"project-request card\">
+                <div class=\"card-header\">
+                    <ul class=\"nav nav-tabs card-header-tabs\">
                         <li class=\"nav-item\">
                             <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
                         </li>
@@ -147,48 +147,6 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                         </div>
                         <hr>
                         <div>
-                            <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
-                            <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
-                                logos, word docs, images, etc).</small>
-
-                            <div class=\" my-2\">
-                                <div class=\"custom-file\">
-                                    <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
-                                        aria-describedby=\"inputGroupFileAddon01\">
-                                    <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
-                                </div>
-                            </div>
-                            <div>
-                                <small class=\"\">Please make sure that your file upload does not exceed 10MB in
-                                    Total</small>
-                            </div>
-                        </div>
-                        <hr>
-                        <div>
-                            <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
-                            <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
-                            <div>
-                                <!-- Default inline 1-->
-                                <div class=\"custom-control custom-checkbox custom-control-inline\">
-                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
-                                    <label class=\"custom-control-label\" for=\"defaultInline1\">PNG</label>
-                                </div>
-
-                                <!-- Default inline 2-->
-                                <div class=\"custom-control custom-checkbox custom-control-inline\">
-                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline2\">
-                                    <label class=\"custom-control-label\" for=\"defaultInline2\">JPG</label>
-                                </div>
-
-                                <!-- Default inline 3-->
-                                <div class=\"custom-control custom-checkbox custom-control-inline\">
-                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline3\">
-                                    <label class=\"custom-control-label\" for=\"defaultInline3\">PDF</label>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div>
                             <div class=\"custom-control custom-checkbox\">
                                 <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
                                 <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
@@ -206,15 +164,63 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             </div>
         </div>
     </div>
+    <div class=\"col\">
+        <div class=\"card\">
+            <div class=\"card-body\">
+                <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
+                <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
+                    logos, word docs, images, etc).</small>
+
+                <div class=\" my-2\">
+                    <div class=\"custom-file\">
+                        <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
+                            aria-describedby=\"inputGroupFileAddon01\">
+                        <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
+                    </div>
+                </div>
+                <div>
+                    <small class=\"\">Please make sure that your file upload does not exceed 10MB in
+                        Total</small>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class=\"card mt-4\">
+                <div class=\"card-body\">
+                    <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
+                    <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
+                    <div>
+                        <!-- Default inline 1-->
+                        <div class=\"custom-control custom-checkbox custom-control-inline\">
+                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
+                            <label class=\"custom-control-label\" for=\"defaultInline1\">PNG</label>
+                        </div>
+
+                        <!-- Default inline 2-->
+                        <div class=\"custom-control custom-checkbox custom-control-inline\">
+                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline2\">
+                            <label class=\"custom-control-label\" for=\"defaultInline2\">JPG</label>
+                        </div>
+
+                        <!-- Default inline 3-->
+                        <div class=\"custom-control custom-checkbox custom-control-inline\">
+                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline3\">
+                            <label class=\"custom-control-label\" for=\"defaultInline3\">PDF</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 ";
     }
 
-    // line 159
+    // line 165
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 160
+        // line 166
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -255,7 +261,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  218 => 160,  214 => 159,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  224 => 166,  220 => 165,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -267,15 +273,15 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 {% endblock %}
 {% block content %}
 <!-- Main content Header-->
+<div class=\"index header\">
+    <h1 class=\"\">Project Request Form</h1>
+</div>
 <div class=\"row\">
     <div class=\"col\">
-        <div class=\"index header\">
-            <h1 class=\"\">Project Request Form</h1>
-        </div>
         <div>
-            <div class=\"project-request\">
-                <div class=\"\">
-                    <ul class=\"nav nav-tabs\">
+            <div class=\"project-request card\">
+                <div class=\"card-header\">
+                    <ul class=\"nav nav-tabs card-header-tabs\">
                         <li class=\"nav-item\">
                             <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
                         </li>
@@ -354,48 +360,6 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                         </div>
                         <hr>
                         <div>
-                            <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
-                            <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
-                                logos, word docs, images, etc).</small>
-
-                            <div class=\" my-2\">
-                                <div class=\"custom-file\">
-                                    <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
-                                        aria-describedby=\"inputGroupFileAddon01\">
-                                    <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
-                                </div>
-                            </div>
-                            <div>
-                                <small class=\"\">Please make sure that your file upload does not exceed 10MB in
-                                    Total</small>
-                            </div>
-                        </div>
-                        <hr>
-                        <div>
-                            <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
-                            <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
-                            <div>
-                                <!-- Default inline 1-->
-                                <div class=\"custom-control custom-checkbox custom-control-inline\">
-                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
-                                    <label class=\"custom-control-label\" for=\"defaultInline1\">PNG</label>
-                                </div>
-
-                                <!-- Default inline 2-->
-                                <div class=\"custom-control custom-checkbox custom-control-inline\">
-                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline2\">
-                                    <label class=\"custom-control-label\" for=\"defaultInline2\">JPG</label>
-                                </div>
-
-                                <!-- Default inline 3-->
-                                <div class=\"custom-control custom-checkbox custom-control-inline\">
-                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline3\">
-                                    <label class=\"custom-control-label\" for=\"defaultInline3\">PDF</label>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div>
                             <div class=\"custom-control custom-checkbox\">
                                 <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
                                 <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
@@ -409,6 +373,54 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                     </form>
 
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=\"col\">
+        <div class=\"card\">
+            <div class=\"card-body\">
+                <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
+                <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
+                    logos, word docs, images, etc).</small>
+
+                <div class=\" my-2\">
+                    <div class=\"custom-file\">
+                        <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
+                            aria-describedby=\"inputGroupFileAddon01\">
+                        <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
+                    </div>
+                </div>
+                <div>
+                    <small class=\"\">Please make sure that your file upload does not exceed 10MB in
+                        Total</small>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class=\"card mt-4\">
+                <div class=\"card-body\">
+                    <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
+                    <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
+                    <div>
+                        <!-- Default inline 1-->
+                        <div class=\"custom-control custom-checkbox custom-control-inline\">
+                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
+                            <label class=\"custom-control-label\" for=\"defaultInline1\">PNG</label>
+                        </div>
+
+                        <!-- Default inline 2-->
+                        <div class=\"custom-control custom-checkbox custom-control-inline\">
+                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline2\">
+                            <label class=\"custom-control-label\" for=\"defaultInline2\">JPG</label>
+                        </div>
+
+                        <!-- Default inline 3-->
+                        <div class=\"custom-control custom-checkbox custom-control-inline\">
+                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline3\">
+                            <label class=\"custom-control-label\" for=\"defaultInline3\">PDF</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
