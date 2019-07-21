@@ -62,7 +62,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
         echo "<!-- Main content Header-->
 <div class=\"row\">
     <div class=\"col\">
-        <div class=\"index header\">
+        <div class=\"index header mb-4\">
             <div>
                 <h1 class=\"\">Project Progress</h1>
             </div>
@@ -256,7 +256,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
 <!-- Main content Header-->
 <div class=\"row\">
     <div class=\"col\">
-        <div class=\"index header\">
+        <div class=\"index header mb-4\">
             <div>
                 <h1 class=\"\">Project Progress</h1>
             </div>

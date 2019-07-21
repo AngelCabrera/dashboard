@@ -274,7 +274,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Shuttle (Soon)
+                  Knowledge Base (Soon)
                 </a>
               </div>
             </div>
@@ -559,7 +559,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Shuttle (Soon)
+                  Knowledge Base (Soon)
                 </a>
               </div>
             </div>

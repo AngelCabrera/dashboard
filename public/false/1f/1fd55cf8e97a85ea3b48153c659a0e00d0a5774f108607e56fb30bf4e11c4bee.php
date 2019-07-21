@@ -48,17 +48,8 @@ class __TwigTemplate_db847fb5b25e69471d5caae957248f10d2b2538fb26c12403186c0c3939
         $macros = $this->macros;
         // line 3
         echo "<!-- Main content Header-->
-<div class=\"header\">
-  <h1 class=\"main-title\">Order History</h1>
-  <button class=\"btn btn-futures dropdown-toggle mr-4\" type=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\"
-    aria-expanded=\"false\">NEW ORDER</button>
-  <div class=\"dropdown-menu\">
-    <a class=\"dropdown-item\" href=\"#\">Action</a>
-    <a class=\"dropdown-item\" href=\"#\">Another action</a>
-    <a class=\"dropdown-item\" href=\"#\">Something else here</a>
-    <div class=\"dropdown-divider\"></div>
-    <a class=\"dropdown-item\" href=\"#\">Separated link</a>
-  </div>
+<div class=\"header  mb-4\">
+  <h1 class=\"main-title\">Project History</h1>
 </div>
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
@@ -133,10 +124,9 @@ class __TwigTemplate_db847fb5b25e69471d5caae957248f10d2b2538fb26c12403186c0c3939
   </table>
 </div>
 
-<div class=\"float-right\">
-  <a class=\"btn red-button\">Export as .CSV</a>
-</div>
-
+";
+        // line 84
+        echo "
 <!--/ Main content Data Display-->
 ";
     }
@@ -153,7 +143,7 @@ class __TwigTemplate_db847fb5b25e69471d5caae957248f10d2b2538fb26c12403186c0c3939
 
     public function getDebugInfo()
     {
-        return array (  50 => 3,  46 => 2,  35 => 1,);
+        return array (  129 => 84,  50 => 3,  46 => 2,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -161,17 +151,8 @@ class __TwigTemplate_db847fb5b25e69471d5caae957248f10d2b2538fb26c12403186c0c3939
         return new Source("{% extends 'layout2.twig' %}
 {% block content %}
 <!-- Main content Header-->
-<div class=\"header\">
-  <h1 class=\"main-title\">Order History</h1>
-  <button class=\"btn btn-futures dropdown-toggle mr-4\" type=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\"
-    aria-expanded=\"false\">NEW ORDER</button>
-  <div class=\"dropdown-menu\">
-    <a class=\"dropdown-item\" href=\"#\">Action</a>
-    <a class=\"dropdown-item\" href=\"#\">Another action</a>
-    <a class=\"dropdown-item\" href=\"#\">Something else here</a>
-    <div class=\"dropdown-divider\"></div>
-    <a class=\"dropdown-item\" href=\"#\">Separated link</a>
-  </div>
+<div class=\"header  mb-4\">
+  <h1 class=\"main-title\">Project History</h1>
 </div>
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
@@ -246,9 +227,10 @@ class __TwigTemplate_db847fb5b25e69471d5caae957248f10d2b2538fb26c12403186c0c3939
   </table>
 </div>
 
+{# 
 <div class=\"float-right\">
   <a class=\"btn red-button\">Export as .CSV</a>
-</div>
+</div> #}
 
 <!--/ Main content Data Display-->
 {% endblock %}", "order-history.twig", "/opt/lampp/htdocs/thefutures/resources/views/order-history.twig");
