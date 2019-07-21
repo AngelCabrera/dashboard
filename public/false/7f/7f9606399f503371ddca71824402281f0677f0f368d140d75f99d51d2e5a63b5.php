@@ -78,12 +78,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
 <div>
     <div class=\"project-request\">
-        <div class=\"card-header\" style=\"padding-left: 11px;\">
+        <div class=\"card-header\" style=\"\">
             <ul class=\"nav nav-tabs card-header-tabs\">
-                <li class=\"nav-item\">
+                <li class=\"nav-item mb-2\">
                     <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
                 </li>
-                <li class=\"nav-item \">
+                <li class=\"nav-item mb-2\">
                     <a id=\"video\" class=\"nav-link m-0\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
@@ -365,12 +365,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
 <div>
     <div class=\"project-request\">
-        <div class=\"card-header\" style=\"padding-left: 11px;\">
+        <div class=\"card-header\" style=\"\">
             <ul class=\"nav nav-tabs card-header-tabs\">
-                <li class=\"nav-item\">
+                <li class=\"nav-item mb-2\">
                     <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
                 </li>
-                <li class=\"nav-item \">
+                <li class=\"nav-item mb-2\">
                     <a id=\"video\" class=\"nav-link m-0\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
