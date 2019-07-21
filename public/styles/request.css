@@ -2,3 +2,11 @@
     background-color: #e9ecef;
     border: 1px solid rgb(206, 212, 218);
 }
+
+#request-addmore-button {
+    cursor: pointer;
+}
+
+#request-addmore-button:hover {
+    color: #8b959e;
+}

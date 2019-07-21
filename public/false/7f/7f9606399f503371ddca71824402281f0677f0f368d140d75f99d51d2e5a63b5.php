@@ -76,7 +76,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
     </ul>
 </div>
 <div class=\"row\">
-    <div class=\"col\">
+    <div class=\"col-7\">
         <div>
             <div class=\"project-request card\">
                 <div class=\"card-header\">
@@ -109,9 +109,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 We love lists, please list the specific things you wish to see on your piece.
                                 Our creatives are always more efficient when you are able to itemise your requests.
                             </small>
-                            <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
-                                <label for=\"form3\">Please list the specific things you wish to see on your piece</label>
+                            <div class=\"md-form\">
+                                <input type=\"text\" id=\"form1\" class=\"form-control\" required>
+                                <label for=\"form1\">1. </label>
+                            </div>
+                            <div class=\"text-right font-weight-bold\" id=\"request-addmore-button\">
+                                + ADD MORE
                             </div>
                         </div>
                         <hr>
@@ -142,18 +145,6 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                     them in this box.</label>
                             </div>
                         </div>
-                        <hr>
-                        <div>
-                            <div class=\"custom-control custom-checkbox\">
-                                <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
-                                <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
-                                    final copy and/or content for this request. I have read and accept the <a
-                                        href=\"#\">Terms of
-                                        Service</a></label>
-                            </div>
-                        </div>
-                        <hr>
-                        <button class=\"mx-0 float-right btn btn-futures\">Send Request</button>
                     </form>
 
 
@@ -163,7 +154,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
     </div>
     <div class=\"col\">
         <div class=\"card\">
-            <div class=\"card-body\">
+            <div class=\"card-body py-4\">
                 <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
                 <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
                     logos, word docs, images, etc).</small>
@@ -183,7 +174,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         </div>
         <div>
             <div class=\"card mt-4\">
-                <div class=\"card-body\">
+                <div class=\"card-body py-4\">
                     <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                     <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
                     <div>
@@ -208,16 +199,28 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 </div>
             </div>
         </div>
+        <hr>
+        <div>
+            <div class=\"custom-control custom-checkbox\">
+                <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
+                <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
+                    final copy and/or content for this request. I have read and accept the <a href=\"#\">Terms
+                        of
+                        Service</a></label>
+            </div>
+        </div>
+        <hr>
+        <button class=\"mx-0 float-right btn btn-futures\">Send Request</button>
     </div>
 </div>
 ";
     }
 
-    // line 162
+    // line 165
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 163
+        // line 166
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -235,14 +238,6 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         });
     }
 </script>
-<script>
-    \$('textarea').each(function () {
-        this.setAttribute('style', 'height:' + (this.scrollHeight / 1.3) + 'px;overflow-y:hidden;');
-    }).on('input', function () {
-        this.style.height = 'auto';
-        this.style.height = (this.scrollHeight / 1.3) + 'px';
-    });
-</script>
 ";
     }
 
@@ -258,7 +253,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  221 => 163,  217 => 162,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  224 => 166,  220 => 165,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -286,7 +281,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
     </ul>
 </div>
 <div class=\"row\">
-    <div class=\"col\">
+    <div class=\"col-7\">
         <div>
             <div class=\"project-request card\">
                 <div class=\"card-header\">
@@ -319,9 +314,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 We love lists, please list the specific things you wish to see on your piece.
                                 Our creatives are always more efficient when you are able to itemise your requests.
                             </small>
-                            <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
-                                <label for=\"form3\">Please list the specific things you wish to see on your piece</label>
+                            <div class=\"md-form\">
+                                <input type=\"text\" id=\"form1\" class=\"form-control\" required>
+                                <label for=\"form1\">1. </label>
+                            </div>
+                            <div class=\"text-right font-weight-bold\" id=\"request-addmore-button\">
+                                + ADD MORE
                             </div>
                         </div>
                         <hr>
@@ -352,18 +350,6 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                     them in this box.</label>
                             </div>
                         </div>
-                        <hr>
-                        <div>
-                            <div class=\"custom-control custom-checkbox\">
-                                <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
-                                <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
-                                    final copy and/or content for this request. I have read and accept the <a
-                                        href=\"#\">Terms of
-                                        Service</a></label>
-                            </div>
-                        </div>
-                        <hr>
-                        <button class=\"mx-0 float-right btn btn-futures\">Send Request</button>
                     </form>
 
 
@@ -373,7 +359,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
     </div>
     <div class=\"col\">
         <div class=\"card\">
-            <div class=\"card-body\">
+            <div class=\"card-body py-4\">
                 <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
                 <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
                     logos, word docs, images, etc).</small>
@@ -393,7 +379,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         </div>
         <div>
             <div class=\"card mt-4\">
-                <div class=\"card-body\">
+                <div class=\"card-body py-4\">
                     <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                     <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
                     <div>
@@ -418,6 +404,18 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 </div>
             </div>
         </div>
+        <hr>
+        <div>
+            <div class=\"custom-control custom-checkbox\">
+                <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
+                <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
+                    final copy and/or content for this request. I have read and accept the <a href=\"#\">Terms
+                        of
+                        Service</a></label>
+            </div>
+        </div>
+        <hr>
+        <button class=\"mx-0 float-right btn btn-futures\">Send Request</button>
     </div>
 </div>
 {% endblock %}
@@ -442,14 +440,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         });
     }
 </script>
-<script>
+{# <script>
     \$('textarea').each(function () {
         this.setAttribute('style', 'height:' + (this.scrollHeight / 1.3) + 'px;overflow-y:hidden;');
     }).on('input', function () {
         this.style.height = 'auto';
         this.style.height = (this.scrollHeight / 1.3) + 'px';
     });
-</script>
+</script> #}
 {% endblock %}", "request.twig", "/opt/lampp/htdocs/thefutures/resources/views/request.twig");
     }
 }
