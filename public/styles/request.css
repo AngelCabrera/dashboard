@@ -10,3 +10,8 @@
 #request-addmore-button:hover {
     color: #8b959e;
 }
+
+#graphic,
+#video {
+    padding-top: 12px;
+}
