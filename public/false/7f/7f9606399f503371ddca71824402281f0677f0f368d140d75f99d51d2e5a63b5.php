@@ -206,7 +206,9 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <a href=\"#\"> Terms of Service</a>
                             </label>
                         </div>
-                        <button class=\"mx-0 btn btn-futures\">Send Request</button>
+                        <div class=\"mt-4\">
+                            <button class=\"mx-0 btn btn-futures\">Send Request</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -217,11 +219,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 166
+    // line 168
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 167
+        // line 169
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -254,7 +256,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  225 => 167,  221 => 166,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  227 => 169,  223 => 168,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -412,7 +414,9 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <a href=\"#\"> Terms of Service</a>
                             </label>
                         </div>
-                        <button class=\"mx-0 btn btn-futures\">Send Request</button>
+                        <div class=\"mt-4\">
+                            <button class=\"mx-0 btn btn-futures\">Send Request</button>
+                        </div>
                     </div>
                 </div>
             </div>
