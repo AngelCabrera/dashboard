@@ -251,27 +251,28 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <a href=\"#\"> Terms of Service</a>
                             </label>
                         </div>
-                        <div class=\"mt-4 text-right\">
-                            <button class=\"mx-0 btn btn-futures\">Submit Request</button>
-                        </div>
-                    </div>
+                        ";
+        // line 207
+        echo "                    </div>
                 </div>
             </div>
         </div>
-
-
-        <hr class=\"mt-4\">
+        <div class=\"card-footer\">
+            <div class=\"m-0 text-right\">
+                <button class=\"mx-0 btn btn-futures\">Submit Request</button>
+            </div>
+        </div>
     </div>
 
 </div>
 ";
     }
 
-    // line 221
+    // line 223
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 222
+        // line 224
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -341,7 +342,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  275 => 222,  271 => 221,  210 => 160,  205 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  276 => 224,  272 => 223,  256 => 207,  210 => 160,  205 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -549,16 +550,18 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <a href=\"#\"> Terms of Service</a>
                             </label>
                         </div>
-                        <div class=\"mt-4 text-right\">
+                        {# <div class=\"mt-4 text-right\">
                             <button class=\"mx-0 btn btn-futures\">Submit Request</button>
-                        </div>
+                        </div> #}
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <hr class=\"mt-4\">
+        <div class=\"card-footer\">
+            <div class=\"m-0 text-right\">
+                <button class=\"mx-0 btn btn-futures\">Submit Request</button>
+            </div>
+        </div>
     </div>
 
 </div>
