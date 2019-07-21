@@ -155,11 +155,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
     <div class=\"col\">
         <div class=\"card\">
             <div class=\"card-body py-4\">
-                <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
-                <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
-                    logos, word docs, images, etc).</small>
-
-                <div class=\" my-2\">
+                <div class=\"\">
+                    <h5 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h5>
+                    <small class=\"mt-1 text-muted\">Upload anything you may want in your design (photos, fonts,
+                        logos, word docs, images, etc).</small>
+                </div>
+                <div class=\"my-3\">
                     <div class=\"custom-file\">
                         <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
                             aria-describedby=\"inputGroupFileAddon01\">
@@ -177,7 +178,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 <div class=\"card-body py-4\">
                     <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                     <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
-                    <div>
+                    <div class=\"my-2\">
                         <!-- Default inline 1-->
                         <div class=\"custom-control custom-checkbox custom-control-inline\">
                             <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
@@ -204,9 +205,9 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             <div class=\"custom-control custom-checkbox\">
                 <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
                 <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
-                    final copy and/or content for this request. I have read and accept the <a href=\"#\">Terms
-                        of
-                        Service</a></label>
+                    final copy and/or content for this request. I have read and accept the
+                    <a href=\"#\"> Terms of Service</a>
+                </label>
             </div>
         </div>
         <hr>
@@ -216,11 +217,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 165
+    // line 166
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 166
+        // line 167
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -253,7 +254,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  224 => 166,  220 => 165,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  225 => 167,  221 => 166,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -360,11 +361,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
     <div class=\"col\">
         <div class=\"card\">
             <div class=\"card-body py-4\">
-                <h5 class=\"mb-0 font-weight-bold card-title\">2. Upload Assets</h5>
-                <small class=\"mt-0 text-muted\">Upload anything you may want in your design (photos, fonts,
-                    logos, word docs, images, etc).</small>
-
-                <div class=\" my-2\">
+                <div class=\"\">
+                    <h5 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h5>
+                    <small class=\"mt-1 text-muted\">Upload anything you may want in your design (photos, fonts,
+                        logos, word docs, images, etc).</small>
+                </div>
+                <div class=\"my-3\">
                     <div class=\"custom-file\">
                         <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
                             aria-describedby=\"inputGroupFileAddon01\">
@@ -382,7 +384,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 <div class=\"card-body py-4\">
                     <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                     <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
-                    <div>
+                    <div class=\"my-2\">
                         <!-- Default inline 1-->
                         <div class=\"custom-control custom-checkbox custom-control-inline\">
                             <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultInline1\">
@@ -409,9 +411,9 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             <div class=\"custom-control custom-checkbox\">
                 <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
                 <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
-                    final copy and/or content for this request. I have read and accept the <a href=\"#\">Terms
-                        of
-                        Service</a></label>
+                    final copy and/or content for this request. I have read and accept the
+                    <a href=\"#\"> Terms of Service</a>
+                </label>
             </div>
         </div>
         <hr>
