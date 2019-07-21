@@ -22,14 +22,14 @@
 </div>
 
 <div>
-    <div class="project-request card">
+    <div class="project-request">
         <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs">
                 <li class="nav-item">
                     <a id="graphic" class="nav-link active">Graphic Design</a>
                 </li>
-                <li class="nav-item">
-                    <a id="video" class="nav-link">Video Editing</a>
+                <li class="nav-item ">
+                    <a id="video" class="nav-link">Video Editing (By invite Only)</a>
                 </li>
             </ul>
         </div>
@@ -108,30 +108,48 @@
                                 <div class="card-body p-1">
                                     <div class="file-upload">
                                         <div class="image-upload-wrap">
-                                            <input class="file-upload-input" type='file' onchange="readURL(this);"
-                                                accept="image/*" />
+                                            <input class="file-upload-input" multiple type='file'
+                                                onchange="readURL(this);" accept="image/*" />
+
                                             <div class="drag-text">
-                                                <div>
-                                                    <i class="fas fa-cloud-upload-alt"></i>
-                                                    <p class="mb-0"> Drag and drop your files
-                                                        here
+                                                <div class="d-block">
+                                                    <button class="btn btn-circle btn-xl bg-futures text-white d-inline"
+                                                        type="button"
+                                                        onclick="$('.file-upload-input').trigger( 'click' )">
+                                                        <i class="fas fa-plus"></i>
+                                                    </button>
+                                                    <p class="mb-0 d-inline">Upload your files
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="file-upload-content">
-                                            <img class="file-upload-image" src="#" alt="your image" />
                                             <div class="image-title-wrap">
-                                                <span class="image-title">Uploaded Image</span>
-                                                <button type="button" onclick="removeUpload()"
-                                                    class="remove-image">Remove
-                                                    <span class="image-title">Uploaded Image</span></button>
+                                                <div class="d-flex justify-content-between align-items-center file-uploaded"
+                                                    style="border-bottom: 1px solid #ced4da;">
+                                                    <p class="mb-0 image-title">
+                                                    </p>
+                                                    <a><i class="fas fa-times"></i></a>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center file-uploaded"
+                                                    style="border-bottom: 1px solid #ced4da;">
+                                                    <p class="mb-0 image-title">
+                                                    </p>
+                                                    <a><i class="fas fa-times"></i></a>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center file-uploaded"
+                                                    style="border-bottom: 1px solid #ced4da;">
+                                                    <p class="mb-0 image-title">
+                                                    </p>
+                                                    <a><i class="fas fa-times"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="mt-2 text-center">
-                                            <button class="btn file-upload-btn" type="button"
-                                                onclick="$('.file-upload-input').trigger( 'click' )">Browse
-                                            </button>
+                                            {# <button class="btn btn-circle btn-xl bg-futures text-white" type="button"
+                                                onclick="$('.file-upload-input').trigger( 'click' )">
+                                                <i class="fas fa-plus"></i>
+                                            </button> #}
                                         </div>
                                     </div>
                                 </div>
@@ -226,6 +244,7 @@
                 $('.file-upload-content').show();
 
                 $('.image-title').html(input.files[0].name);
+                $('.image-title').html(input.files[1].name);
             };
 
             reader.readAsDataURL(input.files[0]);

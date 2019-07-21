@@ -337,11 +337,11 @@ tbody td {
 }
 
 .btn-circle.btn-xl {
-    width: 70px;
-    height: 70px;
-    padding: 10px 14px;
+    width: 40px;
+    height: 40px;
+    padding: 5px 7px;
     border-radius: 35px;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.33;
 }
 
@@ -486,11 +486,15 @@ tbody td {
     font-size: 28px;
 }
 
+.drag-text p {
+    font-size: 22px;
+    font-weight: 500px;
+}
+
 .drag-text {
-    font-weight: 100;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 .file-upload-image {
@@ -524,4 +528,9 @@ tbody td {
 .remove-image:active {
     border: 0;
     transition: all 0.2s ease;
+}
+
+.file-uploaded {
+    margin: 0 .625rem;
+    padding: 0.5rem 0.625rem;
 }

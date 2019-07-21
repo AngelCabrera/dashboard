@@ -77,14 +77,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 </div>
 
 <div>
-    <div class=\"project-request card\">
+    <div class=\"project-request\">
         <div class=\"card-header\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
                     <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
                 </li>
-                <li class=\"nav-item\">
-                    <a id=\"video\" class=\"nav-link\">Video Editing</a>
+                <li class=\"nav-item \">
+                    <a id=\"video\" class=\"nav-link\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
         </div>
@@ -163,36 +163,52 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <div class=\"card-body p-1\">
                                     <div class=\"file-upload\">
                                         <div class=\"image-upload-wrap\">
-                                            <input class=\"file-upload-input\" type='file' onchange=\"readURL(this);\"
-                                                accept=\"image/*\" />
+                                            <input class=\"file-upload-input\" multiple type='file'
+                                                onchange=\"readURL(this);\" accept=\"image/*\" />
+
                                             <div class=\"drag-text\">
-                                                <div>
-                                                    <i class=\"fas fa-cloud-upload-alt\"></i>
-                                                    <p class=\"mb-0\"> Drag and drop your files
-                                                        here
+                                                <div class=\"d-block\">
+                                                    <button class=\"btn btn-circle btn-xl bg-futures text-white d-inline\"
+                                                        type=\"button\"
+                                                        onclick=\"\$('.file-upload-input').trigger( 'click' )\">
+                                                        <i class=\"fas fa-plus\"></i>
+                                                    </button>
+                                                    <p class=\"mb-0 d-inline\">Upload your files
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class=\"file-upload-content\">
-                                            <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
                                             <div class=\"image-title-wrap\">
-                                                <span class=\"image-title\">Uploaded Image</span>
-                                                <button type=\"button\" onclick=\"removeUpload()\"
-                                                    class=\"remove-image\">Remove
-                                                    <span class=\"image-title\">Uploaded Image</span></button>
+                                                <div class=\"d-flex justify-content-between align-items-center file-uploaded\"
+                                                    style=\"border-bottom: 1px solid #ced4da;\">
+                                                    <p class=\"mb-0 image-title\">
+                                                    </p>
+                                                    <a><i class=\"fas fa-times\"></i></a>
+                                                </div>
+                                                <div class=\"d-flex justify-content-between align-items-center file-uploaded\"
+                                                    style=\"border-bottom: 1px solid #ced4da;\">
+                                                    <p class=\"mb-0 image-title\">
+                                                    </p>
+                                                    <a><i class=\"fas fa-times\"></i></a>
+                                                </div>
+                                                <div class=\"d-flex justify-content-between align-items-center file-uploaded\"
+                                                    style=\"border-bottom: 1px solid #ced4da;\">
+                                                    <p class=\"mb-0 image-title\">
+                                                    </p>
+                                                    <a><i class=\"fas fa-times\"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class=\"mt-2 text-center\">
-                                            <button class=\"btn file-upload-btn\" type=\"button\"
-                                                onclick=\"\$('.file-upload-input').trigger( 'click' )\">Browse
-                                            </button>
-                                        </div>
+                                            ";
+        // line 153
+        echo "                                        </div>
                                     </div>
                                 </div>
                             </div>
                             ";
-        // line 142
+        // line 160
         echo "                        </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
@@ -247,11 +263,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 197
+    // line 215
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 198
+        // line 216
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -283,6 +299,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 \$('.file-upload-content').show();
 
                 \$('.image-title').html(input.files[0].name);
+                \$('.image-title').html(input.files[1].name);
             };
 
             reader.readAsDataURL(input.files[0]);
@@ -320,7 +337,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  255 => 198,  251 => 197,  196 => 142,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  271 => 216,  267 => 215,  212 => 160,  206 => 153,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -349,14 +366,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 </div>
 
 <div>
-    <div class=\"project-request card\">
+    <div class=\"project-request\">
         <div class=\"card-header\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
                     <a id=\"graphic\" class=\"nav-link active\">Graphic Design</a>
                 </li>
-                <li class=\"nav-item\">
-                    <a id=\"video\" class=\"nav-link\">Video Editing</a>
+                <li class=\"nav-item \">
+                    <a id=\"video\" class=\"nav-link\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
         </div>
@@ -435,30 +452,48 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <div class=\"card-body p-1\">
                                     <div class=\"file-upload\">
                                         <div class=\"image-upload-wrap\">
-                                            <input class=\"file-upload-input\" type='file' onchange=\"readURL(this);\"
-                                                accept=\"image/*\" />
+                                            <input class=\"file-upload-input\" multiple type='file'
+                                                onchange=\"readURL(this);\" accept=\"image/*\" />
+
                                             <div class=\"drag-text\">
-                                                <div>
-                                                    <i class=\"fas fa-cloud-upload-alt\"></i>
-                                                    <p class=\"mb-0\"> Drag and drop your files
-                                                        here
+                                                <div class=\"d-block\">
+                                                    <button class=\"btn btn-circle btn-xl bg-futures text-white d-inline\"
+                                                        type=\"button\"
+                                                        onclick=\"\$('.file-upload-input').trigger( 'click' )\">
+                                                        <i class=\"fas fa-plus\"></i>
+                                                    </button>
+                                                    <p class=\"mb-0 d-inline\">Upload your files
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class=\"file-upload-content\">
-                                            <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
                                             <div class=\"image-title-wrap\">
-                                                <span class=\"image-title\">Uploaded Image</span>
-                                                <button type=\"button\" onclick=\"removeUpload()\"
-                                                    class=\"remove-image\">Remove
-                                                    <span class=\"image-title\">Uploaded Image</span></button>
+                                                <div class=\"d-flex justify-content-between align-items-center file-uploaded\"
+                                                    style=\"border-bottom: 1px solid #ced4da;\">
+                                                    <p class=\"mb-0 image-title\">
+                                                    </p>
+                                                    <a><i class=\"fas fa-times\"></i></a>
+                                                </div>
+                                                <div class=\"d-flex justify-content-between align-items-center file-uploaded\"
+                                                    style=\"border-bottom: 1px solid #ced4da;\">
+                                                    <p class=\"mb-0 image-title\">
+                                                    </p>
+                                                    <a><i class=\"fas fa-times\"></i></a>
+                                                </div>
+                                                <div class=\"d-flex justify-content-between align-items-center file-uploaded\"
+                                                    style=\"border-bottom: 1px solid #ced4da;\">
+                                                    <p class=\"mb-0 image-title\">
+                                                    </p>
+                                                    <a><i class=\"fas fa-times\"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class=\"mt-2 text-center\">
-                                            <button class=\"btn file-upload-btn\" type=\"button\"
-                                                onclick=\"\$('.file-upload-input').trigger( 'click' )\">Browse
-                                            </button>
+                                            {# <button class=\"btn btn-circle btn-xl bg-futures text-white\" type=\"button\"
+                                                onclick=\"\$('.file-upload-input').trigger( 'click' )\">
+                                                <i class=\"fas fa-plus\"></i>
+                                            </button> #}
                                         </div>
                                     </div>
                                 </div>
@@ -553,6 +588,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 \$('.file-upload-content').show();
 
                 \$('.image-title').html(input.files[0].name);
+                \$('.image-title').html(input.files[1].name);
             };
 
             reader.readAsDataURL(input.files[0]);
