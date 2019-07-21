@@ -177,9 +177,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                         <div class=\"file-upload-content\">
                                             <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
                                             <div class=\"image-title-wrap\">
-                                                <button type=\"button\" onclick=\"removeUpload()\"
-                                                    class=\"remove-image\">Remove
-                                                    <span class=\"image-title\">Uploaded Image</span></button>
+
                                             </div>
                                         </div>
                                         <div class=\"mt-2 text-center\">
@@ -191,7 +189,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 </div>
                             </div>
                             ";
-        // line 141
+        // line 139
         echo "                        </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
@@ -246,11 +244,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 196
+    // line 194
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 197
+        // line 195
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -268,6 +266,42 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         });
     }
 </script>
+
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                \$('.image-upload-wrap').hide();
+
+                \$('.file-upload-image').attr('src', e.target.result);
+                \$('.file-upload-content').show();
+
+                \$('.image-title').html(input.files[0].name);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+
+        } else {
+            removeUpload();
+        }
+    }
+
+    function removeUpload() {
+        \$('.file-upload-input').replaceWith(\$('.file-upload-input').clone());
+        \$('.file-upload-content').hide();
+        \$('.image-upload-wrap').show();
+    }
+    \$('.image-upload-wrap').bind('dragover', function () {
+        \$('.image-upload-wrap').addClass('image-dropping');
+    });
+    \$('.image-upload-wrap').bind('dragleave', function () {
+        \$('.image-upload-wrap').removeClass('image-dropping');
+    });
+</script>
+
 ";
     }
 
@@ -283,7 +317,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  254 => 197,  250 => 196,  195 => 141,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  252 => 195,  248 => 194,  193 => 139,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -412,9 +446,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                         <div class=\"file-upload-content\">
                                             <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
                                             <div class=\"image-title-wrap\">
-                                                <button type=\"button\" onclick=\"removeUpload()\"
-                                                    class=\"remove-image\">Remove
-                                                    <span class=\"image-title\">Uploaded Image</span></button>
+
                                             </div>
                                         </div>
                                         <div class=\"mt-2 text-center\">
@@ -501,6 +533,42 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         });
     }
 </script>
+
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                \$('.image-upload-wrap').hide();
+
+                \$('.file-upload-image').attr('src', e.target.result);
+                \$('.file-upload-content').show();
+
+                \$('.image-title').html(input.files[0].name);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+
+        } else {
+            removeUpload();
+        }
+    }
+
+    function removeUpload() {
+        \$('.file-upload-input').replaceWith(\$('.file-upload-input').clone());
+        \$('.file-upload-content').hide();
+        \$('.image-upload-wrap').show();
+    }
+    \$('.image-upload-wrap').bind('dragover', function () {
+        \$('.image-upload-wrap').addClass('image-dropping');
+    });
+    \$('.image-upload-wrap').bind('dragleave', function () {
+        \$('.image-upload-wrap').removeClass('image-dropping');
+    });
+</script>
+
 {# <script>
     \$('textarea').each(function () {
         this.setAttribute('style', 'height:' + (this.scrollHeight / 1.3) + 'px;overflow-y:hidden;');
