@@ -77,13 +77,13 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 </div>
 
 <div>
-    <div class=\"project-request\">
-        <div class=\"card-header\" style=\"\">
+    <div class=\"project-request\" style=\"\">
+        <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
-                <li class=\"nav-item mb-2\">
+                <li class=\"nav-item\">
                     <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
                 </li>
-                <li class=\"nav-item mb-2\">
+                <li class=\"nav-item \">
                     <a id=\"video\" class=\"nav-link m-0\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
@@ -213,8 +213,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 Total</small>
                         </div>
                     </div>
+
                     <div class=\"\">
                         <div class=\"mt-4\">
+                            <hr>
                             <div class=\"py-4\">
                                 <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                                 <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
@@ -240,6 +242,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             </div>
                         </div>
                     </div>
+                    <hr>
                     <div class=\"\">
                         <div class=\"custom-control custom-checkbox\">
                             <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
@@ -256,16 +259,19 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             </div>
         </div>
 
+
+        <hr class=\"mt-4\">
     </div>
+
 </div>
 ";
     }
 
-    // line 215
+    // line 221
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 216
+        // line 222
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -335,7 +341,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  269 => 216,  265 => 215,  210 => 160,  205 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  275 => 222,  271 => 221,  210 => 160,  205 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -364,13 +370,13 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 </div>
 
 <div>
-    <div class=\"project-request\">
-        <div class=\"card-header\" style=\"\">
+    <div class=\"project-request\" style=\"\">
+        <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
-                <li class=\"nav-item mb-2\">
+                <li class=\"nav-item\">
                     <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
                 </li>
-                <li class=\"nav-item mb-2\">
+                <li class=\"nav-item \">
                     <a id=\"video\" class=\"nav-link m-0\">Video Editing (By invite Only)</a>
                 </li>
             </ul>
@@ -505,8 +511,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 Total</small>
                         </div>
                     </div>
+
                     <div class=\"\">
                         <div class=\"mt-4\">
+                            <hr>
                             <div class=\"py-4\">
                                 <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                                 <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
@@ -532,6 +540,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             </div>
                         </div>
                     </div>
+                    <hr>
                     <div class=\"\">
                         <div class=\"custom-control custom-checkbox\">
                             <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
@@ -548,7 +557,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             </div>
         </div>
 
+
+        <hr class=\"mt-4\">
     </div>
+
 </div>
 {% endblock %}
 
