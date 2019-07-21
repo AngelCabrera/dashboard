@@ -78,7 +78,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
 <div>
     <div class=\"project-request\">
-        <div class=\"card-header\">
+        <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
                     <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
@@ -200,11 +200,9 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class=\"mt-2 text-center\">
-                                            ";
-        // line 153
-        echo "                                        </div>
-                                    </div>
+                                        ";
+        // line 154
+        echo "                                    </div>
                                 </div>
                             </div>
                             ";
@@ -337,7 +335,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  271 => 216,  267 => 215,  212 => 160,  206 => 153,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  269 => 216,  265 => 215,  210 => 160,  205 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -367,7 +365,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
 <div>
     <div class=\"project-request\">
-        <div class=\"card-header\">
+        <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
                     <a id=\"graphic\" class=\"nav-link active m-0\">Graphic Design</a>
@@ -489,12 +487,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class=\"mt-2 text-center\">
+                                        {# <div class=\"mt-2 text-center\">
                                             {# <button class=\"btn btn-circle btn-xl bg-futures text-white\" type=\"button\"
                                                 onclick=\"\$('.file-upload-input').trigger( 'click' )\">
                                                 <i class=\"fas fa-plus\"></i>
-                                            </button> #}
-                                        </div>
+                                            </button>
+                                        </div> #}
                                     </div>
                                 </div>
                             </div>
