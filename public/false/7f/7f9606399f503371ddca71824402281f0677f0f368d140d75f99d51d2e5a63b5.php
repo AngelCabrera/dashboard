@@ -88,7 +88,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 </li>
             </ul>
         </div>
-        <div class=\"card-body\">
+        <div class=\"mt-4\">
             <div class=\"row\">
                 <div class=\"col-7 pr-4\">
                     <div>
@@ -377,7 +377,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 </li>
             </ul>
         </div>
-        <div class=\"card-body\">
+        <div class=\"mt-4\">
             <div class=\"row\">
                 <div class=\"col-7 pr-4\">
                     <div>
