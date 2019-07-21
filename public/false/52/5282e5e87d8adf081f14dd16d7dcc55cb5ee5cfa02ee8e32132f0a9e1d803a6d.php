@@ -76,8 +76,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <th scope=\"col\">Project Name</th>
                     <th scope=\"col\">Placed</th>
                     <th scope=\"col\">Placed By</th>
-                    <th scope=\"col\">Received</th>
-                    <th scope=\"col\">In Production</th>
+                    <th scope=\"col\" class=\"text-center\">Received</th>
+                    <th scope=\"col\" class=\"text-center\">In Production</th>
                     <th scope=\"col\">Status</th>
                 </tr>
             </thead>
@@ -92,8 +92,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <td>FAVICON for The Futures</td>
                     <td>19/06/2019</td>
                     <td>William Villalobos</td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
-                    <td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
+                    <td class=\"text-center\">
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
                                 <span></span>
@@ -120,7 +120,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <td>FAVICON for The Futures</td>
                     <td>19/06/2019</td>
                     <td>William</td>
-                    <td>
+                    <td class=\"text-center\">
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
                                 <span></span>
@@ -130,7 +130,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"up-next text-center\">
                             <p class=\"mb-0\">Up Next</p>
@@ -156,7 +156,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"on-queue text-center\">
                             <p class=\"mb-0\"> On Queue </p>
@@ -183,7 +183,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"on-queue text-center\">
                             <p class=\"mb-0\"> On Queue </p>
@@ -209,7 +209,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"on-queue text-center\">
                             <p class=\"mb-0\"> On Queue </p>
@@ -270,8 +270,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <th scope=\"col\">Project Name</th>
                     <th scope=\"col\">Placed</th>
                     <th scope=\"col\">Placed By</th>
-                    <th scope=\"col\">Received</th>
-                    <th scope=\"col\">In Production</th>
+                    <th scope=\"col\" class=\"text-center\">Received</th>
+                    <th scope=\"col\" class=\"text-center\">In Production</th>
                     <th scope=\"col\">Status</th>
                 </tr>
             </thead>
@@ -286,8 +286,8 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <td>FAVICON for The Futures</td>
                     <td>19/06/2019</td>
                     <td>William Villalobos</td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
-                    <td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"><i class=\"\"></i></td>
+                    <td class=\"text-center\">
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
                                 <span></span>
@@ -314,7 +314,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                     <td>FAVICON for The Futures</td>
                     <td>19/06/2019</td>
                     <td>William</td>
-                    <td>
+                    <td class=\"text-center\">
                         <div class=\"pulsating-dot\">
                             <div class=\"pulsating-dot__ripple\">
                                 <span></span>
@@ -324,7 +324,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"up-next text-center\">
                             <p class=\"mb-0\">Up Next</p>
@@ -350,7 +350,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"on-queue text-center\">
                             <p class=\"mb-0\"> On Queue </p>
@@ -377,7 +377,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"on-queue text-center\">
                             <p class=\"mb-0\"> On Queue </p>
@@ -403,7 +403,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
                             </div>
                         </div>
                     </td>
-                    <td><button type=\"button\" class=\"btn btn-circle\"></td>
+                    <td class=\"text-center\"><button type=\"button\" class=\"btn btn-circle\"></td>
                     <td>
                         <div style=\"width: 100;\" class=\"on-queue text-center\">
                             <p class=\"mb-0\"> On Queue </p>

@@ -25,6 +25,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
+            'headlinks' => [$this, 'block_headlinks'],
             'content' => [$this, 'block_content'],
         ];
     }
@@ -42,11 +43,20 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 2
+    public function block_headlinks($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 3
+        echo "
+";
+    }
+
+    // line 5
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 4
+        // line 6
         echo "<div class=\"row\">
     <div class=\"col-8\">
         <div class=\"header-2\">
@@ -268,13 +278,15 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  50 => 4,  46 => 3,  35 => 1,);
+        return array (  60 => 6,  56 => 5,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'layout2.twig'  %}
+{% block headlinks %}
 
+{% endblock %}
 {% block content %}
 <div class=\"row\">
     <div class=\"col-8\">
