@@ -171,7 +171,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 Total</small>
                         </div>
                     </div>
-                    <div class=\"p-2\">
+                    <div class=\"\">
                         <div class=\"mt-4\">
                             <div class=\"card-body py-4\">
                                 <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
@@ -379,7 +379,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 Total</small>
                         </div>
                     </div>
-                    <div class=\"p-2\">
+                    <div class=\"\">
                         <div class=\"mt-4\">
                             <div class=\"card-body py-4\">
                                 <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
