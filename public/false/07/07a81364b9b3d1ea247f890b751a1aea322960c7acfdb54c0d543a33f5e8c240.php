@@ -139,32 +139,26 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </ul>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Enterprise</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">About</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Contact</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\"><i class=\"far fa-bell\"></i></a>
+          <a class=\"nav-link\" href=\"#\">Support</a>
         </li>
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Hi William</a>
           <ul class=\"dropdown-menu p-0 mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0 pt-2\">
-              <a class=\"\" href=\"/thefutures/dashboard/\">My Files</a>
+              <a class=\"\" href=\"/thefutures/dashboard/\">Place a Request</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"/thefutures/dashboard/order-history\" class=\"\">Order History</a>
+              <a href=\"/thefutures/dashboard/order-history\" class=\"\">Project Progress</a>
+            </li>
+            <li class=\"dropdown-item p-0\">
+              <a href=\"#\" class=\"\">Project History</a>
             </li>
             <li class=\"dropdown-item p-0\">
               <a href=\"#\" class=\"\">Manage Team</a>
             </li>
             <li class=\" dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Settings</a>
+              <a href=\"#\" class=\"\">Account Settings</a>
             </li>
           </ul>
         </li>
@@ -188,14 +182,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </div>
           <div class=\"sidebar-menu\">
             <div class=\"sidebar-link py-2 ";
-        // line 148
+        // line 142
         if ((($context["active"] ?? null) == "tickets")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 150
+        // line 144
         if ((($context["active"] ?? null) == "tickets")) {
             echo "active";
         }
@@ -204,14 +198,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 154
+        // line 148
         if ((($context["active"] ?? null) == "status")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 156
+        // line 150
         if ((($context["active"] ?? null) == "status")) {
             echo "active";
         }
@@ -220,14 +214,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2  ";
-        // line 160
+        // line 154
         if ((($context["active"] ?? null) == "order")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 162
+        // line 156
         if ((($context["active"] ?? null) == "order")) {
             echo "active";
         }
@@ -236,14 +230,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 166
+        // line 160
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 168
+        // line 162
         if ((($context["active"] ?? null) == "manage")) {
             echo "active";
         }
@@ -252,14 +246,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 172
+        // line 166
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 174
+        // line 168
         if ((($context["active"] ?? null) == "settings")) {
             echo "active";
         }
@@ -303,9 +297,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid pt-0 pl-5\">
           <div class=\"main-content\">
             ";
-        // line 213
+        // line 207
         $this->displayBlock('content', $context, $blocks);
-        // line 214
+        // line 208
         echo "          </div>
         </div>
       </main>
@@ -329,9 +323,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 236
+        // line 230
         $this->displayBlock('scripts', $context, $blocks);
-        // line 237
+        // line 231
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -346,13 +340,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 213
+    // line 207
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 236
+    // line 230
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -370,7 +364,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  356 => 236,  350 => 213,  344 => 50,  335 => 237,  333 => 236,  309 => 214,  307 => 213,  263 => 174,  256 => 172,  247 => 168,  240 => 166,  231 => 162,  224 => 160,  215 => 156,  208 => 154,  199 => 150,  192 => 148,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  350 => 230,  344 => 207,  338 => 50,  329 => 231,  327 => 230,  303 => 208,  301 => 207,  257 => 168,  250 => 166,  241 => 162,  234 => 160,  225 => 156,  218 => 154,  209 => 150,  202 => 148,  193 => 144,  186 => 142,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -474,32 +468,26 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </ul>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Enterprise</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">About</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Contact</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\"><i class=\"far fa-bell\"></i></a>
+          <a class=\"nav-link\" href=\"#\">Support</a>
         </li>
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
           <a href=\"#\" id=\"menu\" data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle \">Hi William</a>
           <ul class=\"dropdown-menu p-0 mt-2 rounded-0  border-0 z-depth-1\">
             <li class=\"dropdown-item p-0 pt-2\">
-              <a class=\"\" href=\"/thefutures/dashboard/\">My Files</a>
+              <a class=\"\" href=\"/thefutures/dashboard/\">Place a Request</a>
             </li>
             <li class=\"dropdown-item p-0\">
-              <a href=\"/thefutures/dashboard/order-history\" class=\"\">Order History</a>
+              <a href=\"/thefutures/dashboard/order-history\" class=\"\">Project Progress</a>
+            </li>
+            <li class=\"dropdown-item p-0\">
+              <a href=\"#\" class=\"\">Project History</a>
             </li>
             <li class=\"dropdown-item p-0\">
               <a href=\"#\" class=\"\">Manage Team</a>
             </li>
             <li class=\" dropdown-item p-0\">
-              <a href=\"#\" class=\"\">Settings</a>
+              <a href=\"#\" class=\"\">Account Settings</a>
             </li>
           </ul>
         </li>
