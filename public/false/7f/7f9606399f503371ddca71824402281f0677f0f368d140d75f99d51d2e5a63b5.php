@@ -63,21 +63,14 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 <div class=\"index header\">
     <h1 class=\"\">Project Request Form</h1>
 </div>
-<div id=\"request-bullet-points\" class=\"mt-2 mb-4\">
-    <ul class=\"my-3\">
-        <li class=\"text-muted \">
-            Making a request is super simple. Only complete the form
-            below.
-        </li>
-        <li class=\"text-muted\">
-            Your reques will be put in a queue and delivered in order of
-            arrival.
-        </li>
-    </ul>
-</div>
-
+";
+        // line 22
+        echo "
 <div>
-    <div class=\"project-request\" style=\"\">
+    <div class=\"project-request\" class=\"mt-5\">
+        <p>Your request will be put in a queue and delivered in order of
+            arrival | Making a request is super simple, only complete the form
+            below.</p>
         <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
@@ -201,12 +194,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                             </div>
                                         </div>
                                         ";
-        // line 154
+        // line 156
         echo "                                    </div>
                                 </div>
                             </div>
                             ";
-        // line 160
+        // line 162
         echo "                        </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
@@ -252,7 +245,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             </label>
                         </div>
                         ";
-        // line 207
+        // line 209
         echo "                    </div>
                 </div>
             </div>
@@ -268,11 +261,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 223
+    // line 225
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 224
+        // line 226
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -342,7 +335,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  276 => 224,  272 => 223,  256 => 207,  210 => 160,  205 => 154,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  269 => 226,  265 => 225,  249 => 209,  203 => 162,  198 => 156,  68 => 22,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -357,21 +350,23 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 <div class=\"index header\">
     <h1 class=\"\">Project Request Form</h1>
 </div>
-<div id=\"request-bullet-points\" class=\"mt-2 mb-4\">
+{# <div id=\"request-bullet-points\" class=\"mt-2 mb-4\">
     <ul class=\"my-3\">
         <li class=\"text-muted \">
-            Making a request is super simple. Only complete the form
-            below.
+
         </li>
         <li class=\"text-muted\">
             Your reques will be put in a queue and delivered in order of
             arrival.
         </li>
     </ul>
-</div>
+</div> #}
 
 <div>
-    <div class=\"project-request\" style=\"\">
+    <div class=\"project-request\" class=\"mt-5\">
+        <p>Your request will be put in a queue and delivered in order of
+            arrival | Making a request is super simple, only complete the form
+            below.</p>
         <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
