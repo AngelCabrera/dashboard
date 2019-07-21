@@ -151,8 +151,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
                 </div>
                 <div class=\"col\">
-
-                    <div class=\"card-body py-4\">
+                    <div class=\"\">
                         <div class=\"\">
                             <h5 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h5>
                             <small class=\"mt-1 text-muted\">Upload anything you may want in your design (photos,
@@ -160,12 +159,40 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 logos, word docs, images, etc).</small>
                         </div>
                         <div class=\"my-3\">
-                            <div class=\"custom-file\">
-                                <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
-                                    aria-describedby=\"inputGroupFileAddon01\">
-                                <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
+                            <div class=\"card file-upload-card\">
+                                <div class=\"card-body p-1\">
+                                    <div class=\"file-upload\">
+                                        <div class=\"image-upload-wrap\">
+                                            <input class=\"file-upload-input\" type='file' onchange=\"readURL(this);\"
+                                                accept=\"image/*\" />
+                                            <div class=\"drag-text\">
+                                                <div>
+                                                    <i class=\"fas fa-cloud-upload-alt\"></i>
+                                                    <p class=\"mb-0\"> Drag and drop your files
+                                                        here
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=\"file-upload-content\">
+                                            <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
+                                            <div class=\"image-title-wrap\">
+                                                <button type=\"button\" onclick=\"removeUpload()\"
+                                                    class=\"remove-image\">Remove
+                                                    <span class=\"image-title\">Uploaded Image</span></button>
+                                            </div>
+                                        </div>
+                                        <div class=\"mt-2 text-center\">
+                                            <button class=\"btn file-upload-btn\" type=\"button\"
+                                                onclick=\"\$('.file-upload-input').trigger( 'click' )\">Browse
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                            ";
+        // line 141
+        echo "                        </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
                                 Total</small>
@@ -173,7 +200,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                     </div>
                     <div class=\"\">
                         <div class=\"mt-4\">
-                            <div class=\"card-body py-4\">
+                            <div class=\"py-4\">
                                 <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                                 <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
                                 <div class=\"my-2\">
@@ -198,7 +225,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             </div>
                         </div>
                     </div>
-                    <div class=\"card-body\">
+                    <div class=\"\">
                         <div class=\"custom-control custom-checkbox\">
                             <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
                             <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
@@ -206,8 +233,8 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <a href=\"#\"> Terms of Service</a>
                             </label>
                         </div>
-                        <div class=\"mt-4\">
-                            <button class=\"mx-0 btn btn-futures\">Send Request</button>
+                        <div class=\"mt-4 text-right\">
+                            <button class=\"mx-0 btn btn-futures\">Submit Request</button>
                         </div>
                     </div>
                 </div>
@@ -219,11 +246,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 168
+    // line 196
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 169
+        // line 197
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -256,7 +283,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  227 => 169,  223 => 168,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  254 => 197,  250 => 196,  195 => 141,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -359,8 +386,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
                 </div>
                 <div class=\"col\">
-
-                    <div class=\"card-body py-4\">
+                    <div class=\"\">
                         <div class=\"\">
                             <h5 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h5>
                             <small class=\"mt-1 text-muted\">Upload anything you may want in your design (photos,
@@ -368,11 +394,40 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 logos, word docs, images, etc).</small>
                         </div>
                         <div class=\"my-3\">
-                            <div class=\"custom-file\">
-                                <input type=\"file\" multiple class=\"custom-file-input\" id=\"inputGroupFile01\"
-                                    aria-describedby=\"inputGroupFileAddon01\">
-                                <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>
+                            <div class=\"card file-upload-card\">
+                                <div class=\"card-body p-1\">
+                                    <div class=\"file-upload\">
+                                        <div class=\"image-upload-wrap\">
+                                            <input class=\"file-upload-input\" type='file' onchange=\"readURL(this);\"
+                                                accept=\"image/*\" />
+                                            <div class=\"drag-text\">
+                                                <div>
+                                                    <i class=\"fas fa-cloud-upload-alt\"></i>
+                                                    <p class=\"mb-0\"> Drag and drop your files
+                                                        here
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=\"file-upload-content\">
+                                            <img class=\"file-upload-image\" src=\"#\" alt=\"your image\" />
+                                            <div class=\"image-title-wrap\">
+                                                <button type=\"button\" onclick=\"removeUpload()\"
+                                                    class=\"remove-image\">Remove
+                                                    <span class=\"image-title\">Uploaded Image</span></button>
+                                            </div>
+                                        </div>
+                                        <div class=\"mt-2 text-center\">
+                                            <button class=\"btn file-upload-btn\" type=\"button\"
+                                                onclick=\"\$('.file-upload-input').trigger( 'click' )\">Browse
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            {# <div class=\"file-upload-wrapper\">
+                                <input type=\"file\" id=\"input-file-now\" class=\"file-upload\" />
+                            </div> #}
                         </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
@@ -381,7 +436,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                     </div>
                     <div class=\"\">
                         <div class=\"mt-4\">
-                            <div class=\"card-body py-4\">
+                            <div class=\"py-4\">
                                 <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
                                 <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
                                 <div class=\"my-2\">
@@ -406,7 +461,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             </div>
                         </div>
                     </div>
-                    <div class=\"card-body\">
+                    <div class=\"\">
                         <div class=\"custom-control custom-checkbox\">
                             <input type=\"checkbox\" class=\"custom-control-input\" id=\"defaultUnchecked\">
                             <label class=\"custom-control-label\" for=\"defaultUnchecked\">I confirm I have providad all
@@ -414,8 +469,8 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <a href=\"#\"> Terms of Service</a>
                             </label>
                         </div>
-                        <div class=\"mt-4\">
-                            <button class=\"mx-0 btn btn-futures\">Send Request</button>
+                        <div class=\"mt-4 text-right\">
+                            <button class=\"mx-0 btn btn-futures\">Submit Request</button>
                         </div>
                     </div>
                 </div>
