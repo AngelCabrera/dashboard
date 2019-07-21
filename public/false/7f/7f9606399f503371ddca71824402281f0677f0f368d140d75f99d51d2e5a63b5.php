@@ -68,9 +68,9 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         echo "
 <div>
     <div class=\"project-request\" class=\"mt-5\">
-        <p class=\"mb-1\">Your request will be put in a queue and delivered in order of
-            arrival | Making a request is super simple, only complete the form
-            below.</p>
+        <p class=\"mb-1\">Making a request is super simple, only complete the form
+            below. Your request will be put in a queue and delivered in order of
+            arrival </p>
         <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
@@ -364,9 +364,9 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
 <div>
     <div class=\"project-request\" class=\"mt-5\">
-        <p class=\"mb-1\">Your request will be put in a queue and delivered in order of
-            arrival | Making a request is super simple, only complete the form
-            below.</p>
+        <p class=\"mb-1\">Making a request is super simple, only complete the form
+            below. Your request will be put in a queue and delivered in order of
+            arrival </p>
         <div class=\"card-header\" style=\"padding-left: 11px;\">
             <ul class=\"nav nav-tabs card-header-tabs\">
                 <li class=\"nav-item\">
