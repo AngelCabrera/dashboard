@@ -297,7 +297,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid pt-0 pl-5\">
+        <div class=\"container-fluid pt-0\">
           <div class=\"main-content\">
             ";
         // line 210
@@ -579,7 +579,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid pt-0 pl-5\">
+        <div class=\"container-fluid pt-0\">
           <div class=\"main-content\">
             {% block content %}{% endblock %}
           </div>
