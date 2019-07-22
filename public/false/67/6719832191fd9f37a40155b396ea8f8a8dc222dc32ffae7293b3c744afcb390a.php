@@ -100,6 +100,10 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         overflow-x: hidden;
     }
 
+    .msger-buttons {
+        padding: 10px;
+    }
+
     .msger-chat::-webkit-scrollbar {
         width: 6px;
     }
@@ -208,11 +212,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 161
+    // line 165
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 162
+        // line 166
         echo "<div class=\"header\">
     <h1>Design Room</h1>
     <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
@@ -269,8 +273,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
             </main>
             <div class=\"msger-buttons d-flex justify-content-center\">
-                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Make Video</a>
-                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Screengrab</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Make Video</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Screengrab</a>
             </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
@@ -284,7 +288,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 251
+        // line 255
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
@@ -478,7 +482,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  288 => 251,  216 => 162,  212 => 161,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  292 => 255,  220 => 166,  216 => 165,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -535,6 +539,10 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         max-height: 560px;
         overflow: scroll;
         overflow-x: hidden;
+    }
+
+    .msger-buttons {
+        padding: 10px;
     }
 
     .msger-chat::-webkit-scrollbar {
@@ -700,8 +708,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
             </main>
             <div class=\"msger-buttons d-flex justify-content-center\">
-                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Make Video</a>
-                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Screengrab</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Make Video</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Screengrab</a>
             </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
