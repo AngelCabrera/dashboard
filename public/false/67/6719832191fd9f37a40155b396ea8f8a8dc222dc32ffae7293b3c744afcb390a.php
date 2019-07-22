@@ -75,7 +75,9 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         justify-content: space-between;
         width: 100%;
         max-width: 867px;
-        min-height: 400px;
+        min-height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
         border: var(--border);
         border-radius: 5px;
         background: var(--msger-bg);
@@ -93,8 +95,10 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-chat {
         flex: 1;
-        overflow-y: auto;
         padding: 10px;
+        max-height: 450px;
+        overflow: scroll;
+        overflow-x: hidden;
     }
 
     .msger-chat::-webkit-scrollbar {
@@ -205,16 +209,23 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 158
+    // line 162
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 159
+        // line 163
         echo "<div class=\"header\">
     <h1>Design Room</h1>
-    <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
-    <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
-    <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
+    <div class=\"row py-2\" style=\"border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
+        <div class=\"col\">
+            <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
+            <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
+        </div>
+        <div class=\"col\">
+            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
+            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed By:</span> William Villalobos</p>
+        </div>
+    </div>
 </div>
 <div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
@@ -270,7 +281,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 237
+        // line 248
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
@@ -281,11 +292,13 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <div class=\"field-set\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Description: </div>
-                            <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all my
+                            <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
+                                my
                                 other tasks until this one is finished.
                                 Detail List:
                                 1) Please create thumbnails with each of the pictures attached.
-                                2) Please use do the thumbnails with the style/template similar to the ones being done
+                                2) Please use do the thumbnails with the style/template similar to the ones being
+                                done
                                 for Fadela
                                 Hilali 3) But please DO NOT use Fadela's colours (use the 2 colours attached as the
                                 brand
@@ -462,7 +475,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  274 => 237,  213 => 159,  209 => 158,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  285 => 248,  217 => 163,  213 => 162,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -496,7 +509,9 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         justify-content: space-between;
         width: 100%;
         max-width: 867px;
-        min-height: 400px;
+        min-height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
         border: var(--border);
         border-radius: 5px;
         background: var(--msger-bg);
@@ -514,8 +529,10 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-chat {
         flex: 1;
-        overflow-y: auto;
         padding: 10px;
+        max-height: 450px;
+        overflow: scroll;
+        overflow-x: hidden;
     }
 
     .msger-chat::-webkit-scrollbar {
@@ -627,9 +644,16 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 {% block content %}
 <div class=\"header\">
     <h1>Design Room</h1>
-    <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
-    <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
-    <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
+    <div class=\"row py-2\" style=\"border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
+        <div class=\"col\">
+            <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
+            <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
+        </div>
+        <div class=\"col\">
+            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
+            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed By:</span> William Villalobos</p>
+        </div>
+    </div>
 </div>
 <div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
@@ -713,11 +737,13 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <div class=\"field-set\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Description: </div>
-                            <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all my
+                            <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
+                                my
                                 other tasks until this one is finished.
                                 Detail List:
                                 1) Please create thumbnails with each of the pictures attached.
-                                2) Please use do the thumbnails with the style/template similar to the ones being done
+                                2) Please use do the thumbnails with the style/template similar to the ones being
+                                done
                                 for Fadela
                                 Hilali 3) But please DO NOT use Fadela's colours (use the 2 colours attached as the
                                 brand
