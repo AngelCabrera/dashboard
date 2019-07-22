@@ -66,7 +66,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
   <div class=\"settings\">
-    <h2>Scale Your Design</h2>
+    <h2>Save Money</h2>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Email</div>
@@ -303,7 +303,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
   <div class=\"settings\">
-    <h2>Scale Your Design</h2>
+    <h2>Save Money</h2>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Email</div>
