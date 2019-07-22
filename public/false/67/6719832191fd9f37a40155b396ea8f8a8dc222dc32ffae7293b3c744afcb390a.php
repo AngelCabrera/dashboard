@@ -291,7 +291,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         // line 255
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
-                            <div class=\"col-3 little-title\">Title of the Request</div>
+                            <div class=\"col-3 little-title\">Title of the Request:</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
@@ -743,7 +743,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <hr> #}
                     <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
-                            <div class=\"col-3 little-title\">Title of the Request</div>
+                            <div class=\"col-3 little-title\">Title of the Request:</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
