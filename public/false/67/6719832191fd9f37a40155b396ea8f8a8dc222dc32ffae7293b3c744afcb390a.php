@@ -237,6 +237,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         </div>
         <div class=\"col\">
             <p class=\"m-0\"><span class=\"little-title\">Status:</span> Open Ticket</p>
+            <p class=\"m-0\"><span class=\"little-title\">Delivered:</span> N/A</p>
         </div>
     </div>
 </div>
@@ -298,7 +299,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 265
+        // line 266
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 little-title\">Title of the Request:</div>
@@ -371,18 +372,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                         <div class=\"row\">
                             <div class=\"col little-title\">Archivo.docx</div>
                             <div class=\"col text-right\">
-                                <a href=\"#\">EDIT</a>
-                                |
-                                <a href=\"#\">SHARE</a>
-                                |
-                                <a href=\"#\">DOWNLOAD</a>
+                                <a href=\"#\">Add</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 little-title\">Project Delivered: </div>
-                            <div class=\"col-7\">May 8</div>
                         </div>
                     </div>
                     <div class=\"row\">
@@ -491,7 +482,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  302 => 265,  227 => 173,  223 => 172,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  303 => 266,  227 => 173,  223 => 172,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -681,6 +672,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         </div>
         <div class=\"col\">
             <p class=\"m-0\"><span class=\"little-title\">Status:</span> Open Ticket</p>
+            <p class=\"m-0\"><span class=\"little-title\">Delivered:</span> N/A</p>
         </div>
     </div>
 </div>
@@ -832,18 +824,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                         <div class=\"row\">
                             <div class=\"col little-title\">Archivo.docx</div>
                             <div class=\"col text-right\">
-                                <a href=\"#\">EDIT</a>
-                                |
-                                <a href=\"#\">SHARE</a>
-                                |
-                                <a href=\"#\">DOWNLOAD</a>
+                                <a href=\"#\">Add</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 little-title\">Project Delivered: </div>
-                            <div class=\"col-7\">May 8</div>
                         </div>
                     </div>
                     <div class=\"row\">
