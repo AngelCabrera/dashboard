@@ -175,8 +175,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-inputarea {
         display: flex;
         padding: 10px;
-        border-top: var(--border);
-        background: #eee;
     }
 
     .msger-inputarea * {
@@ -188,6 +186,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-input {
         flex: 1;
+        border: var(--border);
+        outline: none;
     }
 
     .msger-send-btn {
@@ -603,8 +603,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-inputarea {
         display: flex;
         padding: 10px;
-        border-top: var(--border);
-        background: #eee;
     }
 
     .msger-inputarea * {
@@ -616,6 +614,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-input {
         flex: 1;
+        border: var(--border);
+        outline: none;
     }
 
     .msger-send-btn {
