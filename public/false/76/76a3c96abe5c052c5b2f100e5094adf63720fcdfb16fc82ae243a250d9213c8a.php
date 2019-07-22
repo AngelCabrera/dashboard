@@ -81,6 +81,31 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
   </div>
   <hr>
   <div class=\"mt-5\">
+    <h2 class=\"mb-3\">Invited</h2>
+    <div class=\"data table-responsive text-nowrap\">
+      <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
+        <thead>
+          <tr>
+            <th scope=\"col\">Name</th>
+            <th scope=\"col\">Email</th>
+            <th scope=\"col\">Invited On</th>
+            <th scope=\"col\">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope=\"row\">
+              Oliver Sinclair
+            </th>
+            <td>oliver@thefutures.io</td>
+            <td>22/07/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class=\"mt-5\">
     <h2 class=\"mb-3\">Active</h2>
     <div class=\"data table-responsive text-nowrap\">
       <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
@@ -191,6 +216,31 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
     </form>
   </div>
   <hr>
+  <div class=\"mt-5\">
+    <h2 class=\"mb-3\">Invited</h2>
+    <div class=\"data table-responsive text-nowrap\">
+      <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
+        <thead>
+          <tr>
+            <th scope=\"col\">Name</th>
+            <th scope=\"col\">Email</th>
+            <th scope=\"col\">Invited On</th>
+            <th scope=\"col\">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope=\"row\">
+              Oliver Sinclair
+            </th>
+            <td>oliver@thefutures.io</td>
+            <td>22/07/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
   <div class=\"mt-5\">
     <h2 class=\"mb-3\">Active</h2>
     <div class=\"data table-responsive text-nowrap\">
