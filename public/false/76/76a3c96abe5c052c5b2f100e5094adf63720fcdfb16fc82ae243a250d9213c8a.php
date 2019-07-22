@@ -73,7 +73,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
       </div>
       <div class=\"row\">
         <div class=\"col\">
-          <a class=\"futures-color-purple btn-transparent\">+ Invite another user</a>
+          <a href=\"\" class=\"btn-transparent\">+ Invite another user</a>
         </div>
       </div>
       <button class=\"mt-4 ml-0 btn btn-futures\">Send Invites</a>
@@ -100,7 +100,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             <td>oliver@thefutures.io</td>
             <td>22/07/2019</td>
             <td>
-              <a href=\"\" class=\"futures-color-purple\">Revoke</a>
+              <a href=\"\">Revoke</a>
             </td>
           </tr>
         </tbody>
@@ -129,7 +129,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             <td>Manager</td>
             <td>21/06/2019</td>
             <td>
-              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Demote to
+              <a href=\"\">Revoke</a> | <a href=\"\">Demote to
                 User</a>
             </td>
           </tr>
@@ -141,7 +141,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             <td>User</td>
             <td>22/06/2019</td>
             <td>
-              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Promote to
+              <a href=\"\">Revoke</a> | <a href=\"\">Promote to
                 Manager</a>
             </td>
           </tr>
@@ -217,7 +217,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
       </div>
       <div class=\"row\">
         <div class=\"col\">
-          <a class=\"futures-color-purple btn-transparent\">+ Invite another user</a>
+          <a href=\"\" class=\"btn-transparent\">+ Invite another user</a>
         </div>
       </div>
       <button class=\"mt-4 ml-0 btn btn-futures\">Send Invites</a>
@@ -244,7 +244,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             <td>oliver@thefutures.io</td>
             <td>22/07/2019</td>
             <td>
-              <a href=\"\" class=\"futures-color-purple\">Revoke</a>
+              <a href=\"\">Revoke</a>
             </td>
           </tr>
         </tbody>
@@ -273,7 +273,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             <td>Manager</td>
             <td>21/06/2019</td>
             <td>
-              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Demote to
+              <a href=\"\">Revoke</a> | <a href=\"\">Demote to
                 User</a>
             </td>
           </tr>
@@ -285,7 +285,7 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             <td>User</td>
             <td>22/06/2019</td>
             <td>
-              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Promote to
+              <a href=\"\">Revoke</a> | <a href=\"\">Promote to
                 Manager</a>
             </td>
           </tr>

@@ -126,6 +126,10 @@ table.table th a {
     color: var(--futures-color) !important;
 }
 
+table.table a {
+    color: #007bff;
+}
+
 table.table a:hover {
     text-decoration: underline;
 }
@@ -567,5 +571,3 @@ thead th {
 .history-table th {
     padding: .75rem;
 }
-
-.progress-table {}
