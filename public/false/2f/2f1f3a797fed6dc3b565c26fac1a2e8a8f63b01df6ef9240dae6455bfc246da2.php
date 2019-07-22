@@ -86,7 +86,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <h2>Account Details</h2>
     <div class=\"field-set\">
       <div class=\"row\">
@@ -104,7 +104,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <div>
       <h2>Business Details
       </h2>
@@ -153,7 +153,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <div>
       <h2>Personal Details
       </h2>
@@ -202,7 +202,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <h2>Membership Settings</h2>
     <div class=\"row\">
       <div class=\"col\">
@@ -220,7 +220,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <div>
       <h2>Order Preferences</h2>
     </div>
@@ -312,7 +312,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <h2>Account Details</h2>
     <div class=\"field-set\">
       <div class=\"row\">
@@ -330,7 +330,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <div>
       <h2>Business Details
       </h2>
@@ -379,7 +379,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <div>
       <h2>Personal Details
       </h2>
@@ -428,7 +428,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <h2>Membership Settings</h2>
     <div class=\"row\">
       <div class=\"col\">
@@ -446,7 +446,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings\">
+  <div class=\"settings pt-0\">
     <div>
       <h2>Order Preferences</h2>
     </div>
