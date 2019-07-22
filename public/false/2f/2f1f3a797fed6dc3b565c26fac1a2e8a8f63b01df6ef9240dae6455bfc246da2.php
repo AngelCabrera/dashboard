@@ -75,21 +75,21 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col font-weight-bold\">Temporary</div>
         <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col font-weight-bold\">Temporary</div>
         <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
   </div>
   <div class=\"settings\">
-    <h2>Account Settings</h2>
+    <h2>Account Details</h2>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Email</div>
@@ -104,17 +104,10 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col font-weight-bold\">API Key</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">SHOW</a></div>
-      </div>
-    </div>
   </div>
   <div class=\"settings\">
     <div>
-      <h2>Personal Settings
+      <h2>Personal Details
         <span class=\"float-right\">
           <a class=\"pr-4 settings-buttons\" href=\"#\">Edit</a>
         </span>
@@ -253,21 +246,21 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col font-weight-bold\">Temporary</div>
         <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col font-weight-bold\">Temporary</div>
         <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
   </div>
   <div class=\"settings\">
-    <h2>Account Settings</h2>
+    <h2>Account Details</h2>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Email</div>
@@ -282,17 +275,10 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col font-weight-bold\">API Key</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">SHOW</a></div>
-      </div>
-    </div>
   </div>
   <div class=\"settings\">
     <div>
-      <h2>Personal Settings
+      <h2>Personal Details
         <span class=\"float-right\">
           <a class=\"pr-4 settings-buttons\" href=\"#\">Edit</a>
         </span>
