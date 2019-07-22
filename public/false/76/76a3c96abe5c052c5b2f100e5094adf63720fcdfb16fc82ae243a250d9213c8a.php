@@ -79,7 +79,61 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
       <button class=\"mt-4 ml-0 btn btn-futures\">Send Invites</a>
     </form>
   </div>
-
+  <hr>
+  <div class=\"mt-5\">
+    <h2 class=\"mb-3\">Active</h2>
+    <div class=\"data table-responsive text-nowrap\">
+      <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
+        <thead>
+          <tr>
+            <th scope=\"col\">Name</th>
+            <th scope=\"col\">Email</th>
+            <th scope=\"col\">Role</th>
+            <th scope=\"col\">Joined On</th>
+            <th scope=\"col\">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope=\"row\">
+              William
+            </th>
+            <td>william@thefutures.io</td>
+            <td>Manager</td>
+            <td>21/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Angel
+            </th>
+            <td>angel@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              William
+            </th>
+            <td>william@thefutures.io</td>
+            <td>Manager</td>
+            <td>21/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Angel
+            </th>
+            <td>angel@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 <!--/ Main content Data Display-->
 ";
@@ -136,7 +190,61 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
       <button class=\"mt-4 ml-0 btn btn-futures\">Send Invites</a>
     </form>
   </div>
-
+  <hr>
+  <div class=\"mt-5\">
+    <h2 class=\"mb-3\">Active</h2>
+    <div class=\"data table-responsive text-nowrap\">
+      <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
+        <thead>
+          <tr>
+            <th scope=\"col\">Name</th>
+            <th scope=\"col\">Email</th>
+            <th scope=\"col\">Role</th>
+            <th scope=\"col\">Joined On</th>
+            <th scope=\"col\">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope=\"row\">
+              William
+            </th>
+            <td>william@thefutures.io</td>
+            <td>Manager</td>
+            <td>21/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Angel
+            </th>
+            <td>angel@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              William
+            </th>
+            <td>william@thefutures.io</td>
+            <td>Manager</td>
+            <td>21/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Angel
+            </th>
+            <td>angel@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 <!--/ Main content Data Display-->
 {% endblock %}", "manage-team.twig", "/opt/lampp/htdocs/thefutures/resources/views/manage-team.twig");
