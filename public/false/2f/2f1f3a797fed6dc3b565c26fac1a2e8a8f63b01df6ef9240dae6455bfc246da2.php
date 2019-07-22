@@ -58,6 +58,37 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     Default values are subject to change according to your billing account owner
   </div>
   <div class=\"settings\">
+    <h2>Temporary Settings</h2>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Email</div>
+        <div class=\"col\">williamvillalobos@gmail.com</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Password</div>
+        <div class=\"col\">******</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col\">******</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col\">******</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+      </div>
+    </div>
+  </div>
+  <div class=\"settings\">
     <h2>Account Settings</h2>
     <div class=\"field-set\">
       <div class=\"row\">
@@ -203,6 +234,37 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
 <div>
   <div class=\"alert bg-primary text-white notice-bar\" role=\"alert\" style=\"margin-top: 30px;\">
     Default values are subject to change according to your billing account owner
+  </div>
+  <div class=\"settings\">
+    <h2>Temporary Settings</h2>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Email</div>
+        <div class=\"col\">williamvillalobos@gmail.com</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Password</div>
+        <div class=\"col\">******</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col\">******</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">API Key</div>
+        <div class=\"col\">******</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">SHOW</a></div>
+      </div>
+    </div>
   </div>
   <div class=\"settings\">
     <h2>Account Settings</h2>
