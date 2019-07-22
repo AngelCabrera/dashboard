@@ -54,9 +54,6 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
 <div>
-  <div class=\"alert bg-primary text-white notice-bar\" role=\"alert\" style=\"margin-top: 30px;\">
-    Default values are subject to change according to your billing account owner
-  </div>
   <div class=\"settings\">
     <h2>Temporary Settings</h2>
     <div class=\"field-set\">
@@ -88,6 +85,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <h2>Account Details</h2>
     <div class=\"field-set\">
@@ -105,6 +103,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <div>
       <h2>Business Details
@@ -153,6 +152,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <div>
       <h2>Personal Details
@@ -201,7 +201,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
-
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <h2>Membership Settings</h2>
     <div class=\"row\">
@@ -219,6 +219,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <div>
       <h2>Order Preferences</h2>
@@ -279,9 +280,6 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
 <div>
-  <div class=\"alert bg-primary text-white notice-bar\" role=\"alert\" style=\"margin-top: 30px;\">
-    Default values are subject to change according to your billing account owner
-  </div>
   <div class=\"settings\">
     <h2>Temporary Settings</h2>
     <div class=\"field-set\">
@@ -313,6 +311,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <h2>Account Details</h2>
     <div class=\"field-set\">
@@ -330,6 +329,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <div>
       <h2>Business Details
@@ -378,6 +378,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <div>
       <h2>Personal Details
@@ -426,7 +427,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
-
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <h2>Membership Settings</h2>
     <div class=\"row\">
@@ -444,6 +445,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
+  <hr style=\"border-top: 1px solid var(--futures-color); margin-top: 2rem;\">
   <div class=\"settings\">
     <div>
       <h2>Order Preferences</h2>
