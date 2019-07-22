@@ -210,7 +210,13 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     {
         $macros = $this->macros;
         // line 159
-        echo "<div class=\"row\">
+        echo "<div class=\"header\">
+    <h1>Design Room</h1>
+    <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
+    <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
+    <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
+</div>
+<div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
         <div class=\"msger\">
             <header class=\"msger-header text-center\">
@@ -258,25 +264,14 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-5 pt-1\">
-        <div class=\"header-2\">
-            <h1 class=\"main-title\">#ID: 00001</h1>
-        </div>
+    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
         <div>
-            <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
-            FAVICON for The Futures
-        </div>
-        <div>
-            <b style=\"font-weight: 700; margin-right: 10px;\">Placed date:</b>
-            22/07/2019
-        </div>
-        <div>
-            <div class=\"my-3\">
+            <div class=\"\">
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 242
-        echo "                    <div class=\"field-set\">
+        // line 237
+        echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
@@ -467,7 +462,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  279 => 242,  213 => 159,  209 => 158,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  274 => 237,  213 => 159,  209 => 158,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -630,7 +625,13 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 </style>
 {% endblock %}
 {% block content %}
-<div class=\"row\">
+<div class=\"header\">
+    <h1>Design Room</h1>
+    <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
+    <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
+    <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
+</div>
+<div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
         <div class=\"msger\">
             <header class=\"msger-header text-center\">
@@ -678,20 +679,9 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-5 pt-1\">
-        <div class=\"header-2\">
-            <h1 class=\"main-title\">#ID: 00001</h1>
-        </div>
+    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
         <div>
-            <b style=\"font-weight: 700; margin-right: 10px;\">Project name:</b>
-            FAVICON for The Futures
-        </div>
-        <div>
-            <b style=\"font-weight: 700; margin-right: 10px;\">Placed date:</b>
-            22/07/2019
-        </div>
-        <div>
-            <div class=\"my-3\">
+            <div class=\"\">
                 <!-- Card content -->
                 <div class=\"\">
                     {# <div class=\"d-flex justify-content-between\">
@@ -713,7 +703,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                         </div>
                     </div>
                     <hr> #}
-                    <div class=\"field-set\">
+                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
