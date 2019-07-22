@@ -230,36 +230,6 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       </div>
     </div>
   </div>
-  <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings pt-0\">
-    <div>
-      <h2>Order Preferences</h2>
-    </div>
-    <div class=\"field-set\">
-      <h5>
-        Global Settings
-        <span class=\"float-right\">
-          <a href=\"#\" class=\"settings-buttons\">
-            EDIT
-          </a>
-        </span>
-      </h5>
-    </div>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col font-weight-bold\">First Name</div>
-        <div class=\"col\">William</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
-      </div>
-    </div>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col font-weight-bold\">Last Name</div>
-        <div class=\"col\">Villalobos</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
-      </div>
-    </div>
-  </div>
 </div>
 <!--/ Main content Data Display-->
 ";
@@ -464,36 +434,6 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       <div class=\"col\">
         <a class=\"btn gray-button\">CANCEL MEMBERSHIP</a>
         <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Repudiandae odio porr</p>
-      </div>
-    </div>
-  </div>
-  <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
-  <div class=\"settings pt-0\">
-    <div>
-      <h2>Order Preferences</h2>
-    </div>
-    <div class=\"field-set\">
-      <h5>
-        Global Settings
-        <span class=\"float-right\">
-          <a href=\"#\" class=\"settings-buttons\">
-            EDIT
-          </a>
-        </span>
-      </h5>
-    </div>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col font-weight-bold\">First Name</div>
-        <div class=\"col\">William</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
-      </div>
-    </div>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col font-weight-bold\">Last Name</div>
-        <div class=\"col\">Villalobos</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
       </div>
     </div>
   </div>
