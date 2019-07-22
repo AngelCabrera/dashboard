@@ -75,7 +75,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         justify-content: space-between;
         width: 100%;
         max-width: 867px;
-        margin: 25px 10px;
         min-height: 400px;
         border: var(--border);
         border-radius: 5px;
@@ -206,13 +205,13 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 159
+    // line 158
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 160
+        // line 159
         echo "<div class=\"row\">
-    <div class=\"col-5\">
+    <div class=\"col-5 pr-4\">
         <div class=\"msger\">
             <header class=\"msger-header text-center\">
                 Design Room ID# 00001
@@ -259,7 +258,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-7\">
+    <div class=\"col-7 pt-1\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
         </div>
@@ -276,7 +275,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 243
+        // line 242
         echo "                    <div class=\"field-set\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
@@ -371,7 +370,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </div>
         </div>
     </div>
-
 </div>
 
 <!-- Chat zone -->
@@ -469,7 +467,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  280 => 243,  214 => 160,  210 => 159,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  279 => 242,  213 => 159,  209 => 158,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -503,7 +501,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         justify-content: space-between;
         width: 100%;
         max-width: 867px;
-        margin: 25px 10px;
         min-height: 400px;
         border: var(--border);
         border-radius: 5px;
@@ -634,7 +631,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 {% endblock %}
 {% block content %}
 <div class=\"row\">
-    <div class=\"col-5\">
+    <div class=\"col-5 pr-4\">
         <div class=\"msger\">
             <header class=\"msger-header text-center\">
                 Design Room ID# 00001
@@ -681,7 +678,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-7\">
+    <div class=\"col-7 pt-1\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
         </div>
@@ -810,7 +807,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </div>
         </div>
     </div>
-
 </div>
 
 <!-- Chat zone -->
