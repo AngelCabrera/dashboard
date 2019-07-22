@@ -29,7 +29,7 @@ body {
 :root {
     --futures-color: #f91c52;
     --futures-color-purple: #a383ff;
-    --futures-font-color: #4a4a4a;
+    --futures-font-color: #212529;
     --futures-hover-font-color: #212529;
     --futures-secondary-font: 'brandon_grotesquebold', sans-serif;
     --futures-secondary-font: 'Nunito', sans-serif;

@@ -216,7 +216,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         // line 163
         echo "<div class=\"header\">
     <h1>Design Room</h1>
-    <div class=\"row py-2\" style=\"border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
+    <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
         <div class=\"col\">
             <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
             <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
@@ -275,14 +275,14 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
+    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden; border: 2px solid #ededed;\">
         <div>
             <div class=\"\">
                 <!-- Card content -->
                 <div class=\"\">
                     ";
         // line 248
-        echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
+        echo "                    <div class=\"field-set\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
@@ -644,7 +644,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 {% block content %}
 <div class=\"header\">
     <h1>Design Room</h1>
-    <div class=\"row py-2\" style=\"border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
+    <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
         <div class=\"col\">
             <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
             <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
@@ -703,7 +703,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
+    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden; border: 2px solid #ededed;\">
         <div>
             <div class=\"\">
                 <!-- Card content -->
@@ -727,7 +727,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                         </div>
                     </div>
                     <hr> #}
-                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
+                    <div class=\"field-set\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
