@@ -228,6 +228,9 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             <p class=\"m-0\"><span class=\"little-title\">Placed Date:</span> 22/07/2019</p>
             <p class=\"m-0\"><span class=\"little-title\">Placed By:</span> William Villalobos</p>
         </div>
+        <div class=\"col\">
+            <p class=\"m-0\"><span class=\"little-title\">Status:</span> Open Ticket</p>
+        </div>
     </div>
 </div>
 <div class=\"row mt-4\">
@@ -288,7 +291,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 255
+        // line 258
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 little-title\">Title of the Request:</div>
@@ -482,7 +485,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  292 => 255,  220 => 166,  216 => 165,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  295 => 258,  220 => 166,  216 => 165,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -662,6 +665,9 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         <div class=\"col\">
             <p class=\"m-0\"><span class=\"little-title\">Placed Date:</span> 22/07/2019</p>
             <p class=\"m-0\"><span class=\"little-title\">Placed By:</span> William Villalobos</p>
+        </div>
+        <div class=\"col\">
+            <p class=\"m-0\"><span class=\"little-title\">Status:</span> Open Ticket</p>
         </div>
     </div>
 </div>
