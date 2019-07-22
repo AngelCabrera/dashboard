@@ -94,60 +94,114 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Email</div>
         <div class=\"col\">williamvillalobos@gmail.com</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">CHANGE</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Password</div>
         <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">CHANGE</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
   </div>
   <div class=\"settings\">
     <div>
-      <h2>Personal Details
-        <span class=\"float-right\">
-          <a class=\"pr-4 settings-buttons\" href=\"#\">Edit</a>
-        </span>
+      <h2>Business Details
       </h2>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">First Name</div>
         <div class=\"col\">William</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Last Name</div>
         <div class=\"col\">Villalobos</div>
-        <div class=\"col text-right\"><a class=\"settings-buttons\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
   </div>
+  <div class=\"settings\">
+    <div>
+      <h2>Personal Details
+      </h2>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">First Name</div>
+        <div class=\"col\">William</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Last Name</div>
+        <div class=\"col\">Villalobos</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+  </div>
+
   <div class=\"settings\">
     <h2>Membership Settings</h2>
     <div class=\"row\">
@@ -183,14 +237,14 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       <div class=\"row\">
         <div class=\"col font-weight-bold\">First Name</div>
         <div class=\"col\">William</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Last Name</div>
         <div class=\"col\">Villalobos</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
       </div>
     </div>
   </div>
@@ -265,60 +319,114 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Email</div>
         <div class=\"col\">williamvillalobos@gmail.com</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">CHANGE</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Password</div>
         <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\">CHANGE</a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
   </div>
   <div class=\"settings\">
     <div>
-      <h2>Personal Details
-        <span class=\"float-right\">
-          <a class=\"pr-4 settings-buttons\" href=\"#\">Edit</a>
-        </span>
+      <h2>Business Details
       </h2>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">First Name</div>
         <div class=\"col\">William</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Last Name</div>
         <div class=\"col\">Villalobos</div>
-        <div class=\"col text-right\"><a class=\"settings-buttons\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
   </div>
+  <div class=\"settings\">
+    <div>
+      <h2>Personal Details
+      </h2>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">First Name</div>
+        <div class=\"col\">William</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Last Name</div>
+        <div class=\"col\">Villalobos</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+        <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col\">Temporary</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+      </div>
+    </div>
+  </div>
+
   <div class=\"settings\">
     <h2>Membership Settings</h2>
     <div class=\"row\">
@@ -354,14 +462,14 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
       <div class=\"row\">
         <div class=\"col font-weight-bold\">First Name</div>
         <div class=\"col\">William</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
         <div class=\"col font-weight-bold\">Last Name</div>
         <div class=\"col\">Villalobos</div>
-        <div class=\"col text-right\"><a class=\"pr-4\" href=\"#\"></a></div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\"></a></div>
       </div>
     </div>
   </div>
