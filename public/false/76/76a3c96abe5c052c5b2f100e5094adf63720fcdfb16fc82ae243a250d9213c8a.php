@@ -99,13 +99,15 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             </th>
             <td>oliver@thefutures.io</td>
             <td>22/07/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+            <td>
+              <a href=\"\" class=\"futures-color-purple\">Revoke</a>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
-  <div class=\"mt-5\">
+  <div class=\"mt-4\">
     <h2 class=\"mb-3\">Active</h2>
     <div class=\"data table-responsive text-nowrap\">
       <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
@@ -121,39 +123,45 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
         <tbody>
           <tr>
             <th scope=\"row\">
+              William Villalobos
+            </th>
+            <td>william@thefutures.io</td>
+            <td>Manager</td>
+            <td>21/06/2019</td>
+            <td>
+              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Demote to
+                User</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Angel Cabrera
+            </th>
+            <td>angel@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td>
+              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Promote to
+                Manager</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Alejandro
+            </th>
+            <td>Alejandro@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td>Revoked</td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
               William
             </th>
             <td>william@thefutures.io</td>
             <td>Manager</td>
             <td>21/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
-          </tr>
-          <tr>
-            <th scope=\"row\">
-              Angel
-            </th>
-            <td>angel@thefutures.io</td>
-            <td>User</td>
-            <td>22/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
-          </tr>
-          <tr>
-            <th scope=\"row\">
-              William
-            </th>
-            <td>william@thefutures.io</td>
-            <td>Manager</td>
-            <td>21/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
-          </tr>
-          <tr>
-            <th scope=\"row\">
-              Angel
-            </th>
-            <td>angel@thefutures.io</td>
-            <td>User</td>
-            <td>22/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+            <td>Owner</td>
           </tr>
         </tbody>
       </table>
@@ -235,13 +243,15 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
             </th>
             <td>oliver@thefutures.io</td>
             <td>22/07/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+            <td>
+              <a href=\"\" class=\"futures-color-purple\">Revoke</a>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
-  <div class=\"mt-5\">
+  <div class=\"mt-4\">
     <h2 class=\"mb-3\">Active</h2>
     <div class=\"data table-responsive text-nowrap\">
       <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
@@ -257,39 +267,45 @@ class __TwigTemplate_bacfa6b66c04a6afcd5ba6d174c68fb8cda78879a8663148c0ea17f3959
         <tbody>
           <tr>
             <th scope=\"row\">
+              William Villalobos
+            </th>
+            <td>william@thefutures.io</td>
+            <td>Manager</td>
+            <td>21/06/2019</td>
+            <td>
+              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Demote to
+                User</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Angel Cabrera
+            </th>
+            <td>angel@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td>
+              <a class=\"futures-color-purple\" href=\"\">Revoke</a> | <a class=\"futures-color-purple\" href=\"\">Promote to
+                Manager</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
+              Alejandro
+            </th>
+            <td>Alejandro@thefutures.io</td>
+            <td>User</td>
+            <td>22/06/2019</td>
+            <td>Revoked</td>
+          </tr>
+          <tr>
+            <th scope=\"row\">
               William
             </th>
             <td>william@thefutures.io</td>
             <td>Manager</td>
             <td>21/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
-          </tr>
-          <tr>
-            <th scope=\"row\">
-              Angel
-            </th>
-            <td>angel@thefutures.io</td>
-            <td>User</td>
-            <td>22/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
-          </tr>
-          <tr>
-            <th scope=\"row\">
-              William
-            </th>
-            <td>william@thefutures.io</td>
-            <td>Manager</td>
-            <td>21/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
-          </tr>
-          <tr>
-            <th scope=\"row\">
-              Angel
-            </th>
-            <td>angel@thefutures.io</td>
-            <td>User</td>
-            <td>22/06/2019</td>
-            <td><a href=\"\"><i class=\"fas fa-link\"></i></a></td>
+            <td>Owner</td>
           </tr>
         </tbody>
       </table>
