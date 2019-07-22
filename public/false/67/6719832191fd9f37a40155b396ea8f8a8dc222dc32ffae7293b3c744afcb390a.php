@@ -242,7 +242,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     </div>
 </div>
 <div class=\"row mt-4\">
-    <div class=\"col-6 pr-4\">
+    <div class=\"pl-0 col-6 pr-4\">
         <div class=\"msger\">
             <header class=\"msger-header text-center little-title\">
                 Design Desk
@@ -677,7 +677,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     </div>
 </div>
 <div class=\"row mt-4\">
-    <div class=\"col-6 pr-4\">
+    <div class=\"pl-0 col-6 pr-4\">
         <div class=\"msger\">
             <header class=\"msger-header text-center little-title\">
                 Design Desk
