@@ -233,8 +233,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 <div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
         <div class=\"msger\">
-            <header class=\"msger-header text-center\">
-                Design Room ID# 00001
+            <header class=\"msger-header text-center font-weight-bold\">
+                Design Desk
             </header>
 
             <main class=\"msger-chat\">
@@ -273,8 +273,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
             </main>
             <div class=\"msger-buttons d-flex justify-content-center\">
-                <a href=\"#\" class=\"my-0 mx-4\">Make Video</a>
-                <a href=\"#\" class=\"my-0 mx-4\">Screengrab</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Give Video Feedback</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Give Screengrab Feddback</a>
             </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
@@ -668,8 +668,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 <div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
         <div class=\"msger\">
-            <header class=\"msger-header text-center\">
-                Design Room ID# 00001
+            <header class=\"msger-header text-center font-weight-bold\">
+                Design Desk
             </header>
 
             <main class=\"msger-chat\">
@@ -708,8 +708,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
             </main>
             <div class=\"msger-buttons d-flex justify-content-center\">
-                <a href=\"#\" class=\"my-0 mx-4\">Make Video</a>
-                <a href=\"#\" class=\"my-0 mx-4\">Screengrab</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Give Video Feedback</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Give Screengrab Feddback</a>
             </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
