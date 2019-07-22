@@ -199,7 +199,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         transition: background 0.23s;
     }
 
-
     .msger-chat {
         background-color: #fcfcfe;
     }
@@ -207,12 +206,59 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 160
+    // line 159
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 161
+        // line 160
         echo "<div class=\"row\">
+    <div class=\"col\">
+        <div class=\"msger\">
+            <header class=\"msger-header text-center\">
+                Design Room ID# 00001
+            </header>
+
+            <main class=\"msger-chat\">
+                <div class=\"msg left-msg\">
+                    <div class=\"msg-img\"
+                        style=\"background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)\"></div>
+
+                    <div class=\"msg-bubble\">
+                        <div class=\"msg-info\">
+                            <div class=\"msg-info-name\">William</div>
+
+                            <div class=\"msg-info-time\">12:45 - 22/06/19</div>
+                        </div>
+
+                        <div class=\"msg-text\">
+                            Hi, welcome to SimpleChat! Go ahead and send me a message. 😄
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"msg right-msg\">
+                    <div class=\"msg-img\"
+                        style=\"background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)\"></div>
+
+                    <div class=\"msg-bubble\">
+                        <div class=\"msg-info\">
+                            <div class=\"msg-info-name\">Angel</div>
+                            <div class=\"msg-info-time\">12:46 - 22/06/19</div>
+                        </div>
+
+                        <div class=\"msg-text\">
+                            You can change your name in JS section!
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <form class=\"msger-inputarea\">
+                <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
+                <button type=\"submit\" class=\"msger-send-btn\"><i class=\"fas fa-paper-plane\"></i></button>
+            </form>
+        </div>
+    </div>
     <div class=\"col-6\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
@@ -230,7 +276,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 197
+        // line 243
         echo "                    <div class=\"field-set\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
@@ -325,53 +371,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </div>
         </div>
     </div>
-    <div class=\"col\">
-        <div class=\"msger\">
-            <header class=\"msger-header text-center\">
-                Design Room ID# 00001
-            </header>
 
-            <main class=\"msger-chat\">
-                <div class=\"msg left-msg\">
-                    <div class=\"msg-img\"
-                        style=\"background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)\"></div>
-
-                    <div class=\"msg-bubble\">
-                        <div class=\"msg-info\">
-                            <div class=\"msg-info-name\">William</div>
-
-                            <div class=\"msg-info-time\">12:45 - 22/06/19</div>
-                        </div>
-
-                        <div class=\"msg-text\">
-                            Hi, welcome to SimpleChat! Go ahead and send me a message. 😄
-                        </div>
-                    </div>
-                </div>
-
-                <div class=\"msg right-msg\">
-                    <div class=\"msg-img\"
-                        style=\"background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)\"></div>
-
-                    <div class=\"msg-bubble\">
-                        <div class=\"msg-info\">
-                            <div class=\"msg-info-name\">Angel</div>
-                            <div class=\"msg-info-time\">12:46 - 22/06/19</div>
-                        </div>
-
-                        <div class=\"msg-text\">
-                            You can change your name in JS section!
-                        </div>
-                    </div>
-                </div>
-            </main>
-
-            <form class=\"msger-inputarea\">
-                <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
-                <button type=\"submit\" class=\"msger-send-btn\">Send</button>
-            </form>
-        </div>
-    </div>
 </div>
 
 <!-- Chat zone -->
@@ -469,7 +469,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  234 => 197,  215 => 161,  211 => 160,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  280 => 243,  214 => 160,  210 => 159,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -627,7 +627,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         transition: background 0.23s;
     }
 
-
     .msger-chat {
         background-color: #fcfcfe;
     }
@@ -635,6 +634,53 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 {% endblock %}
 {% block content %}
 <div class=\"row\">
+    <div class=\"col\">
+        <div class=\"msger\">
+            <header class=\"msger-header text-center\">
+                Design Room ID# 00001
+            </header>
+
+            <main class=\"msger-chat\">
+                <div class=\"msg left-msg\">
+                    <div class=\"msg-img\"
+                        style=\"background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)\"></div>
+
+                    <div class=\"msg-bubble\">
+                        <div class=\"msg-info\">
+                            <div class=\"msg-info-name\">William</div>
+
+                            <div class=\"msg-info-time\">12:45 - 22/06/19</div>
+                        </div>
+
+                        <div class=\"msg-text\">
+                            Hi, welcome to SimpleChat! Go ahead and send me a message. 😄
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"msg right-msg\">
+                    <div class=\"msg-img\"
+                        style=\"background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)\"></div>
+
+                    <div class=\"msg-bubble\">
+                        <div class=\"msg-info\">
+                            <div class=\"msg-info-name\">Angel</div>
+                            <div class=\"msg-info-time\">12:46 - 22/06/19</div>
+                        </div>
+
+                        <div class=\"msg-text\">
+                            You can change your name in JS section!
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <form class=\"msger-inputarea\">
+                <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
+                <button type=\"submit\" class=\"msger-send-btn\"><i class=\"fas fa-paper-plane\"></i></button>
+            </form>
+        </div>
+    </div>
     <div class=\"col-6\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
@@ -764,53 +810,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </div>
         </div>
     </div>
-    <div class=\"col\">
-        <div class=\"msger\">
-            <header class=\"msger-header text-center\">
-                Design Room ID# 00001
-            </header>
 
-            <main class=\"msger-chat\">
-                <div class=\"msg left-msg\">
-                    <div class=\"msg-img\"
-                        style=\"background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)\"></div>
-
-                    <div class=\"msg-bubble\">
-                        <div class=\"msg-info\">
-                            <div class=\"msg-info-name\">William</div>
-
-                            <div class=\"msg-info-time\">12:45 - 22/06/19</div>
-                        </div>
-
-                        <div class=\"msg-text\">
-                            Hi, welcome to SimpleChat! Go ahead and send me a message. 😄
-                        </div>
-                    </div>
-                </div>
-
-                <div class=\"msg right-msg\">
-                    <div class=\"msg-img\"
-                        style=\"background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)\"></div>
-
-                    <div class=\"msg-bubble\">
-                        <div class=\"msg-info\">
-                            <div class=\"msg-info-name\">Angel</div>
-                            <div class=\"msg-info-time\">12:46 - 22/06/19</div>
-                        </div>
-
-                        <div class=\"msg-text\">
-                            You can change your name in JS section!
-                        </div>
-                    </div>
-                </div>
-            </main>
-
-            <form class=\"msger-inputarea\">
-                <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
-                <button type=\"submit\" class=\"msger-send-btn\">Send</button>
-            </form>
-        </div>
-    </div>
 </div>
 
 <!-- Chat zone -->
