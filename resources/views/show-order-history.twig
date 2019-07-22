@@ -29,7 +29,6 @@
         max-width: 867px;
         margin: 25px 10px;
         min-height: 400px;
-        max-height: 700px;
         border: var(--border);
         border-radius: 5px;
         background: var(--msger-bg);
@@ -38,11 +37,11 @@
 
     .msger-header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 10px;
         border-bottom: var(--border);
-        background: #eee;
-        color: #666;
+        background: white;
+        color: var(--futures-color);
     }
 
     .msger-chat {
@@ -141,21 +140,17 @@
 
     .msger-input {
         flex: 1;
-        background: #ddd;
     }
 
     .msger-send-btn {
         margin-left: 10px;
-        background: rgb(0, 196, 65);
+        background: var(--futures-color);
         color: #fff;
         font-weight: bold;
         cursor: pointer;
         transition: background 0.23s;
     }
 
-    .msger-send-btn:hover {
-        background: rgb(0, 180, 50);
-    }
 
     .msger-chat {
         background-color: #fcfcfe;
@@ -295,13 +290,8 @@
     </div>
     <div class="col">
         <div class="msger">
-            <header class="msger-header">
-                <div class="msger-header-title">
-                    <i class="fas fa-comment-alt"></i> Tell us what do you think
-                </div>
-                <div class="msger-header-options">
-                    <span><i class="fas fa-cog"></i></span>
-                </div>
+            <header class="msger-header text-center">
+                Design Room ID# 00001
             </header>
 
             <main class="msger-chat">
@@ -312,7 +302,8 @@
                     <div class="msg-bubble">
                         <div class="msg-info">
                             <div class="msg-info-name">William</div>
-                            <div class="msg-info-time">12:45</div>
+
+                            <div class="msg-info-time">12:45 - 22/06/19</div>
                         </div>
 
                         <div class="msg-text">
@@ -328,7 +319,7 @@
                     <div class="msg-bubble">
                         <div class="msg-info">
                             <div class="msg-info-name">Angel</div>
-                            <div class="msg-info-time">12:46</div>
+                            <div class="msg-info-time">12:46 - 22/06/19</div>
                         </div>
 
                         <div class="msg-text">
@@ -387,7 +378,7 @@
       <div class="msg-bubble">
         <div class="msg-info">
           <div class="msg-info-name">${name}</div>
-          <div class="msg-info-time">${formatDate(new Date())}</div>
+          <div class="msg-info-time">${formatDate(new Date())} - 22/06/19</div>
         </div>
 
         <div class="msg-text">${text}</div>

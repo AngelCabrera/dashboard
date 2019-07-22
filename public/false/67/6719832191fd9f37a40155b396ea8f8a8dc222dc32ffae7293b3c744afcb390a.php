@@ -77,7 +77,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         max-width: 867px;
         margin: 25px 10px;
         min-height: 400px;
-        max-height: 700px;
         border: var(--border);
         border-radius: 5px;
         background: var(--msger-bg);
@@ -86,11 +85,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 10px;
         border-bottom: var(--border);
-        background: #eee;
-        color: #666;
+        background: white;
+        color: var(--futures-color);
     }
 
     .msger-chat {
@@ -189,21 +188,17 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-input {
         flex: 1;
-        background: #ddd;
     }
 
     .msger-send-btn {
         margin-left: 10px;
-        background: rgb(0, 196, 65);
+        background: var(--futures-color);
         color: #fff;
         font-weight: bold;
         cursor: pointer;
         transition: background 0.23s;
     }
 
-    .msger-send-btn:hover {
-        background: rgb(0, 180, 50);
-    }
 
     .msger-chat {
         background-color: #fcfcfe;
@@ -212,11 +207,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 165
+    // line 160
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 166
+        // line 161
         echo "<div class=\"row\">
     <div class=\"col-6\">
         <div class=\"header-2\">
@@ -235,7 +230,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 202
+        // line 197
         echo "                    <div class=\"field-set\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
@@ -332,13 +327,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     </div>
     <div class=\"col\">
         <div class=\"msger\">
-            <header class=\"msger-header\">
-                <div class=\"msger-header-title\">
-                    <i class=\"fas fa-comment-alt\"></i> Tell us what do you think
-                </div>
-                <div class=\"msger-header-options\">
-                    <span><i class=\"fas fa-cog\"></i></span>
-                </div>
+            <header class=\"msger-header text-center\">
+                Design Room ID# 00001
             </header>
 
             <main class=\"msger-chat\">
@@ -349,7 +339,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <div class=\"msg-bubble\">
                         <div class=\"msg-info\">
                             <div class=\"msg-info-name\">William</div>
-                            <div class=\"msg-info-time\">12:45</div>
+
+                            <div class=\"msg-info-time\">12:45 - 22/06/19</div>
                         </div>
 
                         <div class=\"msg-text\">
@@ -365,7 +356,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <div class=\"msg-bubble\">
                         <div class=\"msg-info\">
                             <div class=\"msg-info-name\">Angel</div>
-                            <div class=\"msg-info-time\">12:46</div>
+                            <div class=\"msg-info-time\">12:46 - 22/06/19</div>
                         </div>
 
                         <div class=\"msg-text\">
@@ -424,7 +415,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
       <div class=\"msg-bubble\">
         <div class=\"msg-info\">
           <div class=\"msg-info-name\">\${name}</div>
-          <div class=\"msg-info-time\">\${formatDate(new Date())}</div>
+          <div class=\"msg-info-time\">\${formatDate(new Date())} - 22/06/19</div>
         </div>
 
         <div class=\"msg-text\">\${text}</div>
@@ -478,7 +469,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  239 => 202,  220 => 166,  216 => 165,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  234 => 197,  215 => 161,  211 => 160,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -514,7 +505,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         max-width: 867px;
         margin: 25px 10px;
         min-height: 400px;
-        max-height: 700px;
         border: var(--border);
         border-radius: 5px;
         background: var(--msger-bg);
@@ -523,11 +513,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 10px;
         border-bottom: var(--border);
-        background: #eee;
-        color: #666;
+        background: white;
+        color: var(--futures-color);
     }
 
     .msger-chat {
@@ -626,21 +616,17 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-input {
         flex: 1;
-        background: #ddd;
     }
 
     .msger-send-btn {
         margin-left: 10px;
-        background: rgb(0, 196, 65);
+        background: var(--futures-color);
         color: #fff;
         font-weight: bold;
         cursor: pointer;
         transition: background 0.23s;
     }
 
-    .msger-send-btn:hover {
-        background: rgb(0, 180, 50);
-    }
 
     .msger-chat {
         background-color: #fcfcfe;
@@ -780,13 +766,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     </div>
     <div class=\"col\">
         <div class=\"msger\">
-            <header class=\"msger-header\">
-                <div class=\"msger-header-title\">
-                    <i class=\"fas fa-comment-alt\"></i> Tell us what do you think
-                </div>
-                <div class=\"msger-header-options\">
-                    <span><i class=\"fas fa-cog\"></i></span>
-                </div>
+            <header class=\"msger-header text-center\">
+                Design Room ID# 00001
             </header>
 
             <main class=\"msger-chat\">
@@ -797,7 +778,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <div class=\"msg-bubble\">
                         <div class=\"msg-info\">
                             <div class=\"msg-info-name\">William</div>
-                            <div class=\"msg-info-time\">12:45</div>
+
+                            <div class=\"msg-info-time\">12:45 - 22/06/19</div>
                         </div>
 
                         <div class=\"msg-text\">
@@ -813,7 +795,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <div class=\"msg-bubble\">
                         <div class=\"msg-info\">
                             <div class=\"msg-info-name\">Angel</div>
-                            <div class=\"msg-info-time\">12:46</div>
+                            <div class=\"msg-info-time\">12:46 - 22/06/19</div>
                         </div>
 
                         <div class=\"msg-text\">
@@ -872,7 +854,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
       <div class=\"msg-bubble\">
         <div class=\"msg-info\">
           <div class=\"msg-info-name\">\${name}</div>
-          <div class=\"msg-info-time\">\${formatDate(new Date())}</div>
+          <div class=\"msg-info-time\">\${formatDate(new Date())} - 22/06/19</div>
         </div>
 
         <div class=\"msg-text\">\${text}</div>
