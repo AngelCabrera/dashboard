@@ -102,6 +102,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-buttons {
         padding: 10px;
+        border-top: 1px solid #ddd;
     }
 
     .msger-chat::-webkit-scrollbar {
@@ -140,7 +141,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msg-bubble {
         max-width: 450px;
         padding: 15px;
-        border-radius: 4px;
+        border-radius: 8px;
         background: var(--left-msg-bg);
     }
 
@@ -212,11 +213,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 165
+    // line 166
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 166
+        // line 167
         echo "<div class=\"header\">
     <h1>Design Room</h1>
     <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
@@ -291,7 +292,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 258
+        // line 259
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 little-title\">Title of the Request:</div>
@@ -485,7 +486,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  295 => 258,  220 => 166,  216 => 165,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  296 => 259,  221 => 167,  217 => 166,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -546,6 +547,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     .msger-buttons {
         padding: 10px;
+        border-top: 1px solid #ddd;
     }
 
     .msger-chat::-webkit-scrollbar {
@@ -584,7 +586,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msg-bubble {
         max-width: 450px;
         padding: 15px;
-        border-radius: 4px;
+        border-radius: 8px;
         background: var(--left-msg-bg);
     }
 
