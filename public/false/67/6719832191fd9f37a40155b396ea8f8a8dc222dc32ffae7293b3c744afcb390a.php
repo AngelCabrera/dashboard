@@ -58,7 +58,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         $macros = $this->macros;
         // line 6
         echo "<div class=\"row\">
-    <div class=\"col-8\">
+    <div class=\"col-12\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
         </div>
@@ -192,7 +192,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     integrity=\"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN\" crossorigin=\"anonymous\">
 
 
-<div class=\"comments\">
+<div class=\"comments mt-5\">
     <h2 class=\" text-center\">Leave us your comments below</h2>
     <div class=\"card\">
         <div class=\"card-body comment\">
@@ -314,7 +314,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 {% endblock %}
 {% block content %}
 <div class=\"row\">
-    <div class=\"col-8\">
+    <div class=\"col-12\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
         </div>
@@ -465,7 +465,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     integrity=\"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN\" crossorigin=\"anonymous\">
 
 
-<div class=\"comments\">
+<div class=\"comments mt-5\">
     <h2 class=\" text-center\">Leave us your comments below</h2>
     <div class=\"card\">
         <div class=\"card-body comment\">
