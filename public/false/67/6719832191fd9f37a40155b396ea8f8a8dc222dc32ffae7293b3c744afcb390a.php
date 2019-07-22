@@ -75,8 +75,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         justify-content: space-between;
         width: 100%;
         max-width: 867px;
-        min-height: 100vh;
-        max-height: 100vh;
+        height: 700px;
         overflow: hidden;
         border: var(--border);
         border-radius: 5px;
@@ -96,7 +95,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-chat {
         flex: 1;
         padding: 10px;
-        max-height: 450px;
+        max-height: 560px;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -209,11 +208,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 162
+    // line 161
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 163
+        // line 162
         echo "<div class=\"header\">
     <h1>Design Room</h1>
     <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
@@ -267,21 +266,25 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                         </div>
                     </div>
                 </div>
-            </main>
 
+            </main>
+            <div class=\"msger-buttons d-flex justify-content-center\">
+                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Make Video</a>
+                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Screengrab</a>
+            </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
                 <button type=\"submit\" class=\"msger-send-btn\"><i class=\"fas fa-paper-plane\"></i></button>
             </form>
         </div>
     </div>
-    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
+    <div class=\"col-6\" style=\"max-height: 700px; overflow-y: scroll; overflow-x: hidden;\">
         <div>
             <div class=\"\">
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 248
+        // line 251
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 font-weight-bold\">Title of the Request</div>
@@ -475,7 +478,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  285 => 248,  217 => 163,  213 => 162,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  288 => 251,  216 => 162,  212 => 161,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -509,8 +512,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         justify-content: space-between;
         width: 100%;
         max-width: 867px;
-        min-height: 100vh;
-        max-height: 100vh;
+        height: 700px;
         overflow: hidden;
         border: var(--border);
         border-radius: 5px;
@@ -530,7 +532,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-chat {
         flex: 1;
         padding: 10px;
-        max-height: 450px;
+        max-height: 560px;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -695,15 +697,19 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                         </div>
                     </div>
                 </div>
-            </main>
 
+            </main>
+            <div class=\"msger-buttons d-flex justify-content-center\">
+                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Make Video</a>
+                <a href=\"#\" class=\"my-0 btn btn-futures-outline\">Screengrab</a>
+            </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
                 <button type=\"submit\" class=\"msger-send-btn\"><i class=\"fas fa-paper-plane\"></i></button>
             </form>
         </div>
     </div>
-    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
+    <div class=\"col-6\" style=\"max-height: 700px; overflow-y: scroll; overflow-x: hidden;\">
         <div>
             <div class=\"\">
                 <!-- Card content -->

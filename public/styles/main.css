@@ -68,15 +68,6 @@ thead tr th {
     font-weight: 700 !important;
 }
 
-@media screen and (min-width: 628px) {
-    .main-content .header {}
-
-    .header .btn-futures::before {
-        content: 'place '
-    }
-}
-
-
 .btn-futures {
     color: white;
     background-color: var(--futures-color) !important;
@@ -86,6 +77,12 @@ thead tr th {
     padding-bottom: .875rem;
     letter-spacing: 0.1rem;
     margin-right: 1.5rem;
+}
+
+.btn-futures-outline {
+    background-color: white;
+    color: var(--futures-color);
+    border: 1px solid var(--futures-color);
 }
 
 .btn-futures:hover {

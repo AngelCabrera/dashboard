@@ -27,8 +27,7 @@
         justify-content: space-between;
         width: 100%;
         max-width: 867px;
-        min-height: 100vh;
-        max-height: 100vh;
+        height: 700px;
         overflow: hidden;
         border: var(--border);
         border-radius: 5px;
@@ -48,7 +47,7 @@
     .msger-chat {
         flex: 1;
         padding: 10px;
-        max-height: 450px;
+        max-height: 560px;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -213,15 +212,19 @@
                         </div>
                     </div>
                 </div>
-            </main>
 
+            </main>
+            <div class="msger-buttons d-flex justify-content-center">
+                <a href="#" class="my-0 btn btn-futures-outline">Make Video</a>
+                <a href="#" class="my-0 btn btn-futures-outline">Screengrab</a>
+            </div>
             <form class="msger-inputarea">
                 <input type="text" class="msger-input" placeholder="Enter your message...">
                 <button type="submit" class="msger-send-btn"><i class="fas fa-paper-plane"></i></button>
             </form>
         </div>
     </div>
-    <div class="col-6" style="max-height: 100vh; overflow-y: scroll; overflow-x: hidden;">
+    <div class="col-6" style="max-height: 700px; overflow-y: scroll; overflow-x: hidden;">
         <div>
             <div class="">
                 <!-- Card content -->
