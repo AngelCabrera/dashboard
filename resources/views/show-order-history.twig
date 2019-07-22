@@ -48,6 +48,10 @@
         flex: 1;
         padding: 10px;
         max-height: 560px;
+        overflow: hidden;
+    }
+
+    .msger-chat:hover {
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -60,6 +64,8 @@
     .msger-chat::-webkit-scrollbar {
         width: 6px;
     }
+
+    .msger-chat::-webkit-scrollbar:hover {}
 
     .msger-chat::-webkit-scrollbar-track {
         background: #ddd;
@@ -359,7 +365,6 @@
     const msgerForm = get(".msger-inputarea");
     const msgerInput = get(".msger-input");
     const msgerChat = get(".msger-chat");
-
     const BOT_MSGS = [
         "Hi, how are you?",
         "Ohh... I can't understand what you trying to say. Sorry!",

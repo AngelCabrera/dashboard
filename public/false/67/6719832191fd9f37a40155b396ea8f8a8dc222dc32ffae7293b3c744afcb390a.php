@@ -96,6 +96,10 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         flex: 1;
         padding: 10px;
         max-height: 560px;
+        overflow: hidden;
+    }
+
+    .msger-chat:hover {
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -108,6 +112,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-chat::-webkit-scrollbar {
         width: 6px;
     }
+
+    .msger-chat::-webkit-scrollbar:hover {}
 
     .msger-chat::-webkit-scrollbar-track {
         background: #ddd;
@@ -213,11 +219,11 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 ";
     }
 
-    // line 166
+    // line 172
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 167
+        // line 173
         echo "<div class=\"header\">
     <h1>Design Room</h1>
     <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
@@ -292,7 +298,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <!-- Card content -->
                 <div class=\"\">
                     ";
-        // line 259
+        // line 265
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
                             <div class=\"col-3 little-title\">Title of the Request:</div>
@@ -396,7 +402,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     const msgerForm = get(\".msger-inputarea\");
     const msgerInput = get(\".msger-input\");
     const msgerChat = get(\".msger-chat\");
-
     const BOT_MSGS = [
         \"Hi, how are you?\",
         \"Ohh... I can't understand what you trying to say. Sorry!\",
@@ -486,7 +491,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  296 => 259,  221 => 167,  217 => 166,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  302 => 265,  227 => 173,  223 => 172,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -541,6 +546,10 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         flex: 1;
         padding: 10px;
         max-height: 560px;
+        overflow: hidden;
+    }
+
+    .msger-chat:hover {
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -553,6 +562,8 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-chat::-webkit-scrollbar {
         width: 6px;
     }
+
+    .msger-chat::-webkit-scrollbar:hover {}
 
     .msger-chat::-webkit-scrollbar-track {
         background: #ddd;
@@ -852,7 +863,6 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     const msgerForm = get(\".msger-inputarea\");
     const msgerInput = get(\".msger-input\");
     const msgerChat = get(\".msger-chat\");
-
     const BOT_MSGS = [
         \"Hi, how are you?\",
         \"Ohh... I can't understand what you trying to say. Sorry!\",
