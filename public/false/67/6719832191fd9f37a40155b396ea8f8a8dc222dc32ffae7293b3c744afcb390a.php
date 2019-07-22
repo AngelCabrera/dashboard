@@ -52,7 +52,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     :root {
         --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         --msger-bg: #fff;
-        --border: 2px solid #ddd;
+        --border: 1px solid #ddd;
         --left-msg-bg: #ececec;
         --right-msg-bg: #579ffb;
     }
@@ -140,7 +140,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msg-bubble {
         max-width: 450px;
         padding: 15px;
-        border-radius: 15px;
+        border-radius: 4px;
         background: var(--left-msg-bg);
     }
 
@@ -496,7 +496,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     :root {
         --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         --msger-bg: #fff;
-        --border: 2px solid #ddd;
+        --border: 1px solid #ddd;
         --left-msg-bg: #ececec;
         --right-msg-bg: #579ffb;
     }
@@ -584,7 +584,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msg-bubble {
         max-width: 450px;
         padding: 15px;
-        border-radius: 15px;
+        border-radius: 4px;
         background: var(--left-msg-bg);
     }
 
