@@ -69,7 +69,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
         </div>
         <!--/ Main content Header-->
         <!-- Main content Data Display-->
-        <table id=\"\" cellspacing=\"0\" class=\"table tickets-table table-hover\">
+        <table id=\"\" cellspacing=\"0\" class=\"table progress-table table-hover\">
             <thead>
                 <tr>
                     <th scope=\"col\">#ID</th>
@@ -263,7 +263,7 @@ class __TwigTemplate_6f3eeb691b83d05feab8eec97d89ea17b5559c6ef493fde8ee715b77263
         </div>
         <!--/ Main content Header-->
         <!-- Main content Data Display-->
-        <table id=\"\" cellspacing=\"0\" class=\"table tickets-table table-hover\">
+        <table id=\"\" cellspacing=\"0\" class=\"table progress-table table-hover\">
             <thead>
                 <tr>
                     <th scope=\"col\">#ID</th>

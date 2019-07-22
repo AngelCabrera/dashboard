@@ -54,7 +54,7 @@ class __TwigTemplate_db847fb5b25e69471d5caae957248f10d2b2538fb26c12403186c0c3939
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
 <div class=\"data table-responsive text-nowrap\">
-  <table id=\"\" cellspacing=\"0\" class=\"table tickets-table table-hover\">
+  <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
     <thead>
       <tr>
         <th scope=\"col\">#ID</th>
@@ -157,7 +157,7 @@ class __TwigTemplate_db847fb5b25e69471d5caae957248f10d2b2538fb26c12403186c0c3939
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
 <div class=\"data table-responsive text-nowrap\">
-  <table id=\"\" cellspacing=\"0\" class=\"table tickets-table table-hover\">
+  <table id=\"\" cellspacing=\"0\" class=\"table history-table table-hover\">
     <thead>
       <tr>
         <th scope=\"col\">#ID</th>

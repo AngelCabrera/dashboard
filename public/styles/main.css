@@ -348,10 +348,16 @@ thead th {
     padding-bottom: 1rem;
 }
 
-tbody th,
-tbody td {
-    padding-top: .5rem !important;
-    padding-bottom: .5rem !important;
+.progress-table tbody th,
+.progress-table tbody td {
+    padding-top: .300rem !important;
+    padding-bottom: .300rem !important;
+}
+
+.history-table tbody th,
+.history-table tbody td {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
 }
 
 .table td,
@@ -555,3 +561,10 @@ tbody td {
     margin: 0 .625rem;
     padding: 0.5rem 0.625rem;
 }
+
+.history-table td,
+.history-table th {
+    padding: .75rem;
+}
+
+.progress-table {}
