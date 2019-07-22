@@ -212,7 +212,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         $macros = $this->macros;
         // line 160
         echo "<div class=\"row\">
-    <div class=\"col\">
+    <div class=\"col-5\">
         <div class=\"msger\">
             <header class=\"msger-header text-center\">
                 Design Room ID# 00001
@@ -259,7 +259,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-6\">
+    <div class=\"col-7\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
         </div>
@@ -634,7 +634,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 {% endblock %}
 {% block content %}
 <div class=\"row\">
-    <div class=\"col\">
+    <div class=\"col-5\">
         <div class=\"msger\">
             <header class=\"msger-header text-center\">
                 Design Room ID# 00001
@@ -681,7 +681,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-6\">
+    <div class=\"col-7\">
         <div class=\"header-2\">
             <h1 class=\"main-title\">#ID: 00001</h1>
         </div>
