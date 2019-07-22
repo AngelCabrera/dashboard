@@ -205,15 +205,28 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-chat {
         background-color: #fcfcfe;
     }
+
+    .order-header {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-bottom: var(--border);
+        background: white;
+        color: var(--futures-color);
+    }
+
+    .order-content {
+        padding: 10px;
+    }
 </style>
 ";
     }
 
-    // line 162
+    // line 175
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 163
+        // line 176
         echo "<div class=\"header\">
     <h1>Design Room</h1>
     <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
@@ -275,104 +288,103 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden; border: 2px solid #ededed;\">
+    <div class=\"col-6\">
         <div>
             <div class=\"\">
                 <!-- Card content -->
-                <div class=\"\">
-                    ";
-        // line 248
-        echo "                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Title of the Request</div>
-                            <div class=\"col-7\">FAVICON for The Futures</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
-                        </div>
+                <div class=\"card\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
+                    <div class=\"order-header\">
+                        Order details
                     </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Description: </div>
-                            <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
-                                my
-                                other tasks until this one is finished.
-                                Detail List:
-                                1) Please create thumbnails with each of the pictures attached.
-                                2) Please use do the thumbnails with the style/template similar to the ones being
-                                done
-                                for Fadela
-                                Hilali 3) But please DO NOT use Fadela's colours (use the 2 colours attached as the
-                                brand
-                                colours) 4) The title of each thumbnail should be what is written on the file name
-                                (background fading image should just relate to the topic on title.
-                                5) Please find WETRANSFER attached with all files needed.</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                    <div class=\"order-content\">
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Title of the Request</div>
+                                <div class=\"col-7\">FAVICON for The Futures</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Specific Text (If Any): </div>
-                            <div class=\"col-7\">None</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Description: </div>
+                                <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
+                                    my
+                                    other tasks until this one is finished.
+                                    Detail List:
+                                    1) Please create thumbnails with each of the pictures attached.
+                                    2) Please use do the thumbnails with the style/template similar to the ones being
+                                    done
+                                    for Fadela
+                                    Hilali 3) But please DO NOT use Fadela's colours (use the 2 colours attached as the
+                                    brand
+                                    colours) 4) The title of each thumbnail should be what is written on the file name
+                                    (background fading image should just relate to the topic on title.
+                                    5) Please find WETRANSFER attached with all files needed.</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Size:</div>
-                            <div class=\"col-7\">None</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Specific Text (If Any): </div>
+                                <div class=\"col-7\">None</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Custom Size:</div>
-                            <div class=\"col-7\">000 Points x 000 Points</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Design Size:</div>
+                                <div class=\"col-7\">None</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">The Design is For:</div>
-                            <div class=\"col-7\">Digital</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Design Custom Size:</div>
+                                <div class=\"col-7\">000 Points x 000 Points</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Audience You Are Trying to Reach:</div>
-                            <div class=\"col-7\">Yoga Students / Yoga Teachers</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">The Design is For:</div>
+                                <div class=\"col-7\">Digital</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Links for inspiration:</div>
-                            <div class=\"col-7\"><a href=\"\" target=\"_blank\">https://we.tl/t-wbMeDtCmLL</a></div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Audience You Are Trying to Reach:</div>
+                                <div class=\"col-7\">Yoga Students / Yoga Teachers</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col font-weight-bold\">Archivo.docx</div>
-                            <div class=\"col text-right\">
-                                <a href=\"#\">EDIT</a>
-                                |
-                                <a href=\"#\">SHARE</a>
-                                |
-                                <a href=\"#\">DOWNLOAD</a>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Links for inspiration:</div>
+                                <div class=\"col-7\"><a href=\"\" target=\"_blank\">https://we.tl/t-wbMeDtCmLL</a></div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
+                        </div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col font-weight-bold\">Archivo.docx</div>
+                                <div class=\"col text-right\">
+                                    <a href=\"#\">EDIT</a>
+                                    |
+                                    <a href=\"#\">SHARE</a>
+                                    |
+                                    <a href=\"#\">DOWNLOAD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Project Delivered: </div>
+                                <div class=\"col-7\">May 8</div>
                             </div>
                         </div>
                     </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Project Delivered: </div>
-                            <div class=\"col-7\">May 8</div>
-                        </div>
-                    </div>
-                    <div class=\"row\">
-                        <div class=\"container\">
-                            <span class=\"text-muted\"></span>
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
@@ -475,7 +487,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
 
     public function getDebugInfo()
     {
-        return array (  285 => 248,  217 => 163,  213 => 162,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  230 => 176,  226 => 175,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -639,6 +651,19 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     .msger-chat {
         background-color: #fcfcfe;
     }
+
+    .order-header {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-bottom: var(--border);
+        background: white;
+        color: var(--futures-color);
+    }
+
+    .order-content {
+        padding: 10px;
+    }
 </style>
 {% endblock %}
 {% block content %}
@@ -703,121 +728,103 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </form>
         </div>
     </div>
-    <div class=\"col-6\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden; border: 2px solid #ededed;\">
+    <div class=\"col-6\">
         <div>
             <div class=\"\">
                 <!-- Card content -->
-                <div class=\"\">
-                    {# <div class=\"d-flex justify-content-between\">
-                        <div class=\"\">
-                            <div class=\"font-weight-bold\">Placed</div>
-                            <div>Date</div>
-                            <div>By William</div>
-                        </div>
-
-                        <div class=\"mx-4\">
-                            <div class=\"font-weight-bold\">Length</div>
-                            <div>5m</div>
-                            <div></div>
-                        </div>
-                        <div class=\"mx-4\">
-                            <div class=\"font-weight-bold\">Total</div>
-                            <div>\$5.00</div>
-                            <div>Print receipt</div>
-                        </div>
+                <div class=\"card\" style=\"max-height: 100vh; overflow-y: scroll; overflow-x: hidden;\">
+                    <div class=\"order-header\">
+                        Order details
                     </div>
-                    <hr> #}
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Title of the Request</div>
-                            <div class=\"col-7\">FAVICON for The Futures</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                    <div class=\"order-content\">
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Title of the Request</div>
+                                <div class=\"col-7\">FAVICON for The Futures</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Description: </div>
-                            <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
-                                my
-                                other tasks until this one is finished.
-                                Detail List:
-                                1) Please create thumbnails with each of the pictures attached.
-                                2) Please use do the thumbnails with the style/template similar to the ones being
-                                done
-                                for Fadela
-                                Hilali 3) But please DO NOT use Fadela's colours (use the 2 colours attached as the
-                                brand
-                                colours) 4) The title of each thumbnail should be what is written on the file name
-                                (background fading image should just relate to the topic on title.
-                                5) Please find WETRANSFER attached with all files needed.</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Description: </div>
+                                <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
+                                    my
+                                    other tasks until this one is finished.
+                                    Detail List:
+                                    1) Please create thumbnails with each of the pictures attached.
+                                    2) Please use do the thumbnails with the style/template similar to the ones being
+                                    done
+                                    for Fadela
+                                    Hilali 3) But please DO NOT use Fadela's colours (use the 2 colours attached as the
+                                    brand
+                                    colours) 4) The title of each thumbnail should be what is written on the file name
+                                    (background fading image should just relate to the topic on title.
+                                    5) Please find WETRANSFER attached with all files needed.</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Specific Text (If Any): </div>
-                            <div class=\"col-7\">None</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Specific Text (If Any): </div>
+                                <div class=\"col-7\">None</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Size:</div>
-                            <div class=\"col-7\">None</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Design Size:</div>
+                                <div class=\"col-7\">None</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Custom Size:</div>
-                            <div class=\"col-7\">000 Points x 000 Points</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Design Custom Size:</div>
+                                <div class=\"col-7\">000 Points x 000 Points</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">The Design is For:</div>
-                            <div class=\"col-7\">Digital</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">The Design is For:</div>
+                                <div class=\"col-7\">Digital</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Audience You Are Trying to Reach:</div>
-                            <div class=\"col-7\">Yoga Students / Yoga Teachers</div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Audience You Are Trying to Reach:</div>
+                                <div class=\"col-7\">Yoga Students / Yoga Teachers</div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Links for inspiration:</div>
-                            <div class=\"col-7\"><a href=\"\" target=\"_blank\">https://we.tl/t-wbMeDtCmLL</a></div>
-                            <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Links for inspiration:</div>
+                                <div class=\"col-7\"><a href=\"\" target=\"_blank\">https://we.tl/t-wbMeDtCmLL</a></div>
+                                <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col font-weight-bold\">Archivo.docx</div>
-                            <div class=\"col text-right\">
-                                <a href=\"#\">EDIT</a>
-                                |
-                                <a href=\"#\">SHARE</a>
-                                |
-                                <a href=\"#\">DOWNLOAD</a>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col font-weight-bold\">Archivo.docx</div>
+                                <div class=\"col text-right\">
+                                    <a href=\"#\">EDIT</a>
+                                    |
+                                    <a href=\"#\">SHARE</a>
+                                    |
+                                    <a href=\"#\">DOWNLOAD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=\"field-set\">
+                            <div class=\"row\">
+                                <div class=\"col-3 font-weight-bold\">Project Delivered: </div>
+                                <div class=\"col-7\">May 8</div>
                             </div>
                         </div>
                     </div>
-                    <div class=\"field-set\">
-                        <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Project Delivered: </div>
-                            <div class=\"col-7\">May 8</div>
-                        </div>
-                    </div>
-                    <div class=\"row\">
-                        <div class=\"container\">
-                            <span class=\"text-muted\"></span>
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
