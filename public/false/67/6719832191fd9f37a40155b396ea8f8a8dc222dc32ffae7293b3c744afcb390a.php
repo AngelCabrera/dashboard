@@ -221,19 +221,19 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     <h1>Design Room</h1>
     <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
         <div class=\"col\">
-            <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
-            <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
+            <p class=\"m-0\"><span class=\"little-title\">#ID:</span> 00001</p>
+            <p class=\"m-0\"><span class=\"little-title\">Project name:</span> FAVICON for The Futures</p>
         </div>
         <div class=\"col\">
-            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
-            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed By:</span> William Villalobos</p>
+            <p class=\"m-0\"><span class=\"little-title\">Placed Date:</span> 22/07/2019</p>
+            <p class=\"m-0\"><span class=\"little-title\">Placed By:</span> William Villalobos</p>
         </div>
     </div>
 </div>
 <div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
         <div class=\"msger\">
-            <header class=\"msger-header text-center font-weight-bold\">
+            <header class=\"msger-header text-center little-title\">
                 Design Desk
             </header>
 
@@ -274,7 +274,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </main>
             <div class=\"msger-buttons d-flex justify-content-center\">
                 <a href=\"#\" class=\"my-0 mx-4\">Give Video Feedback</a>
-                <a href=\"#\" class=\"my-0 mx-4\">Give Screengrab Feddback</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Give Screengrab Feedback</a>
             </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
@@ -291,14 +291,14 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
         // line 255
         echo "                    <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Title of the Request</div>
+                            <div class=\"col-3 little-title\">Title of the Request</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Description: </div>
+                            <div class=\"col-3 little-title\">Description: </div>
                             <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
                                 my
                                 other tasks until this one is finished.
@@ -317,49 +317,49 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Specific Text (If Any): </div>
+                            <div class=\"col-3 little-title\">Specific Text (If Any): </div>
                             <div class=\"col-7\">None</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Size:</div>
+                            <div class=\"col-3 little-title\">Design Size:</div>
                             <div class=\"col-7\">None</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Custom Size:</div>
+                            <div class=\"col-3 little-title\">Design Custom Size:</div>
                             <div class=\"col-7\">000 Points x 000 Points</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">The Design is For:</div>
+                            <div class=\"col-3 little-title\">The Design is For:</div>
                             <div class=\"col-7\">Digital</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Audience You Are Trying to Reach:</div>
+                            <div class=\"col-3 little-title\">Audience You Are Trying to Reach:</div>
                             <div class=\"col-7\">Yoga Students / Yoga Teachers</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Links for inspiration:</div>
+                            <div class=\"col-3 little-title\">Links for inspiration:</div>
                             <div class=\"col-7\"><a href=\"\" target=\"_blank\">https://we.tl/t-wbMeDtCmLL</a></div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col font-weight-bold\">Archivo.docx</div>
+                            <div class=\"col little-title\">Archivo.docx</div>
                             <div class=\"col text-right\">
                                 <a href=\"#\">EDIT</a>
                                 |
@@ -371,7 +371,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Project Delivered: </div>
+                            <div class=\"col-3 little-title\">Project Delivered: </div>
                             <div class=\"col-7\">May 8</div>
                         </div>
                     </div>
@@ -656,19 +656,19 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
     <h1>Design Room</h1>
     <div class=\"row py-2\" style=\"font-size: 14px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;\">
         <div class=\"col\">
-            <p class=\"m-0\"><span class=\"font-weight-bold\">#ID:</span> 00001</p>
-            <p class=\"m-0\"><span class=\"font-weight-bold\">Project name:</span> FAVICON for The Futures</p>
+            <p class=\"m-0\"><span class=\"little-title\">#ID:</span> 00001</p>
+            <p class=\"m-0\"><span class=\"little-title\">Project name:</span> FAVICON for The Futures</p>
         </div>
         <div class=\"col\">
-            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed Date:</span> 22/07/2019</p>
-            <p class=\"m-0\"><span class=\"font-weight-bold\">Placed By:</span> William Villalobos</p>
+            <p class=\"m-0\"><span class=\"little-title\">Placed Date:</span> 22/07/2019</p>
+            <p class=\"m-0\"><span class=\"little-title\">Placed By:</span> William Villalobos</p>
         </div>
     </div>
 </div>
 <div class=\"row mt-4\">
     <div class=\"col-6 pr-4\">
         <div class=\"msger\">
-            <header class=\"msger-header text-center font-weight-bold\">
+            <header class=\"msger-header text-center little-title\">
                 Design Desk
             </header>
 
@@ -709,7 +709,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
             </main>
             <div class=\"msger-buttons d-flex justify-content-center\">
                 <a href=\"#\" class=\"my-0 mx-4\">Give Video Feedback</a>
-                <a href=\"#\" class=\"my-0 mx-4\">Give Screengrab Feddback</a>
+                <a href=\"#\" class=\"my-0 mx-4\">Give Screengrab Feedback</a>
             </div>
             <form class=\"msger-inputarea\">
                 <input type=\"text\" class=\"msger-input\" placeholder=\"Enter your message...\">
@@ -724,18 +724,18 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                 <div class=\"\">
                     {# <div class=\"d-flex justify-content-between\">
                         <div class=\"\">
-                            <div class=\"font-weight-bold\">Placed</div>
+                            <div class=\"little-title\">Placed</div>
                             <div>Date</div>
                             <div>By William</div>
                         </div>
 
                         <div class=\"mx-4\">
-                            <div class=\"font-weight-bold\">Length</div>
+                            <div class=\"little-title\">Length</div>
                             <div>5m</div>
                             <div></div>
                         </div>
                         <div class=\"mx-4\">
-                            <div class=\"font-weight-bold\">Total</div>
+                            <div class=\"little-title\">Total</div>
                             <div>\$5.00</div>
                             <div>Print receipt</div>
                         </div>
@@ -743,14 +743,14 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     <hr> #}
                     <div class=\"field-set\" style=\"border-top: 1px solid #e1e1e1\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Title of the Request</div>
+                            <div class=\"col-3 little-title\">Title of the Request</div>
                             <div class=\"col-7\">FAVICON for The Futures</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Description: </div>
+                            <div class=\"col-3 little-title\">Description: </div>
                             <div class=\"col-7\">Hi. Can we please do this task right away. And pause the rest of all
                                 my
                                 other tasks until this one is finished.
@@ -769,49 +769,49 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Specific Text (If Any): </div>
+                            <div class=\"col-3 little-title\">Specific Text (If Any): </div>
                             <div class=\"col-7\">None</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Size:</div>
+                            <div class=\"col-3 little-title\">Design Size:</div>
                             <div class=\"col-7\">None</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Design Custom Size:</div>
+                            <div class=\"col-3 little-title\">Design Custom Size:</div>
                             <div class=\"col-7\">000 Points x 000 Points</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">The Design is For:</div>
+                            <div class=\"col-3 little-title\">The Design is For:</div>
                             <div class=\"col-7\">Digital</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Audience You Are Trying to Reach:</div>
+                            <div class=\"col-3 little-title\">Audience You Are Trying to Reach:</div>
                             <div class=\"col-7\">Yoga Students / Yoga Teachers</div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Links for inspiration:</div>
+                            <div class=\"col-3 little-title\">Links for inspiration:</div>
                             <div class=\"col-7\"><a href=\"\" target=\"_blank\">https://we.tl/t-wbMeDtCmLL</a></div>
                             <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">Edit</a></div>
                         </div>
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col font-weight-bold\">Archivo.docx</div>
+                            <div class=\"col little-title\">Archivo.docx</div>
                             <div class=\"col text-right\">
                                 <a href=\"#\">EDIT</a>
                                 |
@@ -823,7 +823,7 @@ class __TwigTemplate_b53db2102b69160252514ba4ac0592c0a3b295bee0815c39b7bd0b127ab
                     </div>
                     <div class=\"field-set\">
                         <div class=\"row\">
-                            <div class=\"col-3 font-weight-bold\">Project Delivered: </div>
+                            <div class=\"col-3 little-title\">Project Delivered: </div>
                             <div class=\"col-7\">May 8</div>
                         </div>
                     </div>
