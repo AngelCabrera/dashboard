@@ -13,8 +13,12 @@ nav.navbar {
     margin: 0 10px;
     font-size: 14px;
     font-weight: bold;
-    color: #8b959e !important;
     text-transform: uppercase;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #8b959e;
 }
 
 .nav-link:hover,

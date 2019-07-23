@@ -36,3 +36,12 @@
     padding:
         .5rem 1.25rem;
 }
+
+.card-header,
+.card-footer {
+    background-color: #fff;
+}
+
+.project-request .active {
+    color: black;
+}
