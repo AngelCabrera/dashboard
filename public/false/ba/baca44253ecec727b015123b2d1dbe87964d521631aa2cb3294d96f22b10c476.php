@@ -61,7 +61,14 @@ class __TwigTemplate_ea16808fc513e0ee3827fae0c40098e79bf86d3933aa68bd6af9373a8a6
 <div class=\"settings\">
     <div class=\"field-set\">
         <div class=\"row\">
-            <div class=\"col-2 little-title\">1 APU</div>
+            <div class=\"col-2 little-title\">
+                <div>
+                    1 APU
+                </div>
+                <div class=\"\">
+                    <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
+                </div>
+            </div>
             <div class=\"col-3\">Active Project Unit (APU)</div>
             <div class=\"col\">
                 <ul style=\"list-style-type: none\">
@@ -76,14 +83,14 @@ class __TwigTemplate_ea16808fc513e0ee3827fae0c40098e79bf86d3933aa68bd6af9373a8a6
                         new
                         subscription.
                     </li>
+                    <li>
+                        There is a minimum commitment of 30 days per added APU.
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
     <div class=\"mt-4\">
-        <div class=\"\">
-            <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
-        </div>
         <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
     </div>
 </div>
@@ -116,7 +123,14 @@ class __TwigTemplate_ea16808fc513e0ee3827fae0c40098e79bf86d3933aa68bd6af9373a8a6
 <div class=\"settings\">
     <div class=\"field-set\">
         <div class=\"row\">
-            <div class=\"col-2 little-title\">1 APU</div>
+            <div class=\"col-2 little-title\">
+                <div>
+                    1 APU
+                </div>
+                <div class=\"\">
+                    <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
+                </div>
+            </div>
             <div class=\"col-3\">Active Project Unit (APU)</div>
             <div class=\"col\">
                 <ul style=\"list-style-type: none\">
@@ -131,14 +145,14 @@ class __TwigTemplate_ea16808fc513e0ee3827fae0c40098e79bf86d3933aa68bd6af9373a8a6
                         new
                         subscription.
                     </li>
+                    <li>
+                        There is a minimum commitment of 30 days per added APU.
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
     <div class=\"mt-4\">
-        <div class=\"\">
-            <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
-        </div>
         <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
     </div>
 </div>
