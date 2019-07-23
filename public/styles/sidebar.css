@@ -1,3 +1,15 @@
+#little-sidebar {
+    background: var(--futures-color);
+}
+
+#little-sidebar .sidebar-icon {
+    padding: .600rem 1rem;
+}
+
+#little-sidebar .sidebar-icon-wrapper {
+    margin-top: 1rem;
+}
+
 /*---------- MIS ELEMENTOS --------------------*/
 
 #sidebar {
@@ -142,7 +154,6 @@ body {
     border-radius: 0 4px 4px 0px;
     margin: 0;
     transition-delay: 0.3s;
-    padding: .400rem .700rem;
     position: relative;
 }
 

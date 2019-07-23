@@ -175,54 +175,54 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   </nav>
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
-      <div class=\"position-absolute h-100\">
-        <div>
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
-            <i class=\"fas fa-bars\"></i>
+      <div id=\"little-sidebar\" class=\"position-absolute h-100\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a id=\"show-sidebar\" class=\"sidebar-icon text-white\" href=\"#\">
+            <i class=\"fas fa-angle-right\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-align-left\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-tasks\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-folder\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-user-friends\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-rocket\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fab fa-leanpub\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-cog\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-receipt\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-scroll\"></i>
           </a>
         </div>
@@ -568,54 +568,54 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   </nav>
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
-      <div class=\"position-absolute h-100\">
-        <div>
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
-            <i class=\"fas fa-bars\"></i>
+      <div id=\"little-sidebar\" class=\"position-absolute h-100\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a id=\"show-sidebar\" class=\"sidebar-icon text-white\" href=\"#\">
+            <i class=\"fas fa-angle-right\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-align-left\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-tasks\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-folder\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-user-friends\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-rocket\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fab fa-leanpub\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-cog\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-receipt\"></i>
           </a>
         </div>
-        <div class=\"mt-2\">
-          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+        <div class=\"sidebar-icon-wrapper\">
+          <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-scroll\"></i>
           </a>
         </div>
