@@ -63,6 +63,12 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
+    <div class=\"mt-4\">
+      <div class=\"\">
+        <a href=\"\" class=\"btn-transparent\">+ Invite another user</a>
+      </div>
+      <button class=\"mt-4 ml-0 btn btn-futures\">Send Invites</a>
+    </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
   <div class=\"settings\">
@@ -280,6 +286,12 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col\">williamvillalobos@gmail.com</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
+    </div>
+    <div class=\"mt-4\">
+      <div class=\"\">
+        <a href=\"\" class=\"btn-transparent\">+ Invite another user</a>
+      </div>
+      <button class=\"mt-4 ml-0 btn btn-futures\">Send Invites</a>
     </div>
   </div>
   <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
