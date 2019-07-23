@@ -61,7 +61,7 @@ class __TwigTemplate_ea16808fc513e0ee3827fae0c40098e79bf86d3933aa68bd6af9373a8a6
 <div class=\"settings\">
     <div class=\"field-set\">
         <div class=\"row\">
-            <div class=\"col-3 little-title\">
+            <div class=\"col-2 little-title\">
                 <div>
                     1 APU
                 </div>
@@ -123,7 +123,7 @@ class __TwigTemplate_ea16808fc513e0ee3827fae0c40098e79bf86d3933aa68bd6af9373a8a6
 <div class=\"settings\">
     <div class=\"field-set\">
         <div class=\"row\">
-            <div class=\"col-3 little-title\">
+            <div class=\"col-2 little-title\">
                 <div>
                     1 APU
                 </div>
