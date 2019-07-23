@@ -61,13 +61,25 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col-2 little-title\">1 APU</div>
         <div class=\"col-3\">Active Project Unit (APU)</div>
         <div class=\"col\">
-          <ul style=\"list-style-type: square\">
-            <li>An APU is the measurement on how many projects you can have started at once.</li>
-            <li>Next day delivery before midnight on a business day submission ratio applies to all projects, unless
+          <ul style=\"list-style-type: none\">
+
+            <li><i class=\"fas fa-check pr-2\"></i>An APU is the measurement on how many projects you can have started at
+              once.
+            </li>
+            <li><i class=\"fas fa-check pr-2\"></i>Next day delivery before midnight on a business day submission ratio
+              applies
+              to
+              all projects, unless
               stated otherwise by your account executive.</li>
-            <li>Adding APUs is a simple and effective way to add productivity and reduce costs to your Graphic Design
+            <li><i class=\"fas fa-check pr-2\"></i> Adding APUs is a simple and effective way to add productivity and
+              reduce
+              costs
+              to your Graphic Design
               production quota.</li>
-            <li>Every new APU you add to your membership benefits from a cost cut of 20% than that of buying a new
+            <li><i class=\"fas fa-check pr-2\"></i> Every new APU you add to your membership benefits from a cost cut of
+              20%
+              than
+              that of buying a new
               subscription.
             </li>
           </ul>
@@ -296,13 +308,25 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col-2 little-title\">1 APU</div>
         <div class=\"col-3\">Active Project Unit (APU)</div>
         <div class=\"col\">
-          <ul style=\"list-style-type: square\">
-            <li>An APU is the measurement on how many projects you can have started at once.</li>
-            <li>Next day delivery before midnight on a business day submission ratio applies to all projects, unless
+          <ul style=\"list-style-type: none\">
+
+            <li><i class=\"fas fa-check pr-2\"></i>An APU is the measurement on how many projects you can have started at
+              once.
+            </li>
+            <li><i class=\"fas fa-check pr-2\"></i>Next day delivery before midnight on a business day submission ratio
+              applies
+              to
+              all projects, unless
               stated otherwise by your account executive.</li>
-            <li>Adding APUs is a simple and effective way to add productivity and reduce costs to your Graphic Design
+            <li><i class=\"fas fa-check pr-2\"></i> Adding APUs is a simple and effective way to add productivity and
+              reduce
+              costs
+              to your Graphic Design
               production quota.</li>
-            <li>Every new APU you add to your membership benefits from a cost cut of 20% than that of buying a new
+            <li><i class=\"fas fa-check pr-2\"></i> Every new APU you add to your membership benefits from a cost cut of
+              20%
+              than
+              that of buying a new
               subscription.
             </li>
           </ul>
