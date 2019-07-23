@@ -58,7 +58,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <h2>Scale Your Design</h2>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Email</div>
+        <div class=\"col little-title\">Email</div>
         <div class=\"col\">williamvillalobos@gmail.com</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
@@ -70,14 +70,13 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <div class=\"field-set\">
       <div class=\"row\">
 
-        <div class=\"col font-weight-bold\">Frequency</div>
-        <div class=\"col font-weight-bold\">Monthly Cost</div>
+        <div class=\"col little-title\">Frequency</div>
+        <div class=\"col little-title\">Monthly Cost</div>
         <div class=\"col-2 text-right font-weight-bold\"></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-
         <div class=\"col\">Standard (Monthly)</div>
         <div class=\"col\">\$0.00/DPU</div>
         <div class=\"col-2 text-right\"><i class=\"fas fa-check\"></i></div>
@@ -113,14 +112,14 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <h2>Account Details</h2>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Email</div>
+        <div class=\"col little-title\">Email</div>
         <div class=\"col\">williamvillalobos@gmail.com</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Password</div>
+        <div class=\"col little-title\">Password</div>
         <div class=\"col\">******</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
@@ -134,42 +133,42 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">First Name</div>
+        <div class=\"col little-title\">First Name</div>
         <div class=\"col\">William</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Last Name</div>
+        <div class=\"col little-title\">Last Name</div>
         <div class=\"col\">Villalobos</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col little-title\">Phone</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col little-title\">Street</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col little-title\">City</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col little-title\">State</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
@@ -183,42 +182,42 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">First Name</div>
+        <div class=\"col little-title\">First Name</div>
         <div class=\"col\">William</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Last Name</div>
+        <div class=\"col little-title\">Last Name</div>
         <div class=\"col\">Villalobos</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col little-title\">Phone</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col little-title\">Street</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col little-title\">City</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col little-title\">State</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
@@ -277,7 +276,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <h2>Scale Your Design</h2>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Email</div>
+        <div class=\"col little-title\">Email</div>
         <div class=\"col\">williamvillalobos@gmail.com</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
@@ -289,14 +288,13 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <div class=\"field-set\">
       <div class=\"row\">
 
-        <div class=\"col font-weight-bold\">Frequency</div>
-        <div class=\"col font-weight-bold\">Monthly Cost</div>
+        <div class=\"col little-title\">Frequency</div>
+        <div class=\"col little-title\">Monthly Cost</div>
         <div class=\"col-2 text-right font-weight-bold\"></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-
         <div class=\"col\">Standard (Monthly)</div>
         <div class=\"col\">\$0.00/DPU</div>
         <div class=\"col-2 text-right\"><i class=\"fas fa-check\"></i></div>
@@ -332,14 +330,14 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <h2>Account Details</h2>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Email</div>
+        <div class=\"col little-title\">Email</div>
         <div class=\"col\">williamvillalobos@gmail.com</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Password</div>
+        <div class=\"col little-title\">Password</div>
         <div class=\"col\">******</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
@@ -353,42 +351,42 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">First Name</div>
+        <div class=\"col little-title\">First Name</div>
         <div class=\"col\">William</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Last Name</div>
+        <div class=\"col little-title\">Last Name</div>
         <div class=\"col\">Villalobos</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col little-title\">Phone</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col little-title\">Street</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col little-title\">City</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col little-title\">State</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
@@ -402,42 +400,42 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">First Name</div>
+        <div class=\"col little-title\">First Name</div>
         <div class=\"col\">William</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Last Name</div>
+        <div class=\"col little-title\">Last Name</div>
         <div class=\"col\">Villalobos</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Phone</div>
+        <div class=\"col little-title\">Phone</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Street</div>
+        <div class=\"col little-title\">Street</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">City</div>
+        <div class=\"col little-title\">City</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">State</div>
+        <div class=\"col little-title\">State</div>
         <div class=\"col\">Temporary</div>
         <div class=\"col-2 text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
       </div>
