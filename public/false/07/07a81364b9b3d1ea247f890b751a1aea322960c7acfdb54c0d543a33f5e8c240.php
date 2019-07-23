@@ -96,7 +96,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- Add your site or app content here -->
 
   <!--Navbar-->
-  <nav class=\"navbar navbar-expand-lg navbar-light\">
+  <nav class=\"navbar navbar-expand-md fixed-top navbar-light\">
     <!-- Navbar brand -->
     <a class=\"navbar-brand\" href=\"#\"><img src=\"https://thefutures.io/img/logotipo.png\" style=\"height: 3rem;\" alt=\"\"></a>
     <!-- Collapse button -->
@@ -442,7 +442,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- Add your site or app content here -->
 
   <!--Navbar-->
-  <nav class=\"navbar navbar-expand-lg navbar-light\">
+  <nav class=\"navbar navbar-expand-md fixed-top navbar-light\">
     <!-- Navbar brand -->
     <a class=\"navbar-brand\" href=\"#\"><img src=\"https://thefutures.io/img/logotipo.png\" style=\"height: 3rem;\" alt=\"\"></a>
     <!-- Collapse button -->

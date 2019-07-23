@@ -85,7 +85,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             <div class=\"row\">
                 <div class=\"col-7 pr-4\">
                     <div>
-                        <h5 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h5>
+                        <h2 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h2>
                         <small class=\"mt-0 text-muted\">Be as detailed as possible.</small>
                     </div>
                     <form action=\"\" class=\"mt-2\">
@@ -149,7 +149,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 <div class=\"col\">
                     <div class=\"\">
                         <div class=\"\">
-                            <h5 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h5>
+                            <h2 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h2>
                             <small class=\"mt-1 text-muted\">Upload anything you may want in your design (photos,
                                 fonts,
                                 logos, word docs, images, etc).</small>
@@ -214,7 +214,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                         <div class=\"mt-4\">
                             <hr>
                             <div class=\"py-4\">
-                                <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
+                                <h2 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h2>
                                 <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
                                 <div class=\"my-2\">
                                     <!-- Default inline 1-->
@@ -387,7 +387,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
             <div class=\"row\">
                 <div class=\"col-7 pr-4\">
                     <div>
-                        <h5 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h5>
+                        <h2 class=\"mb-0 font-weight-bold card-title\">1. Tell us about your design</h2>
                         <small class=\"mt-0 text-muted\">Be as detailed as possible.</small>
                     </div>
                     <form action=\"\" class=\"mt-2\">
@@ -451,7 +451,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                 <div class=\"col\">
                     <div class=\"\">
                         <div class=\"\">
-                            <h5 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h5>
+                            <h2 class=\"mb-1 font-weight-bold card-title\">2. Upload Assets</h2>
                             <small class=\"mt-1 text-muted\">Upload anything you may want in your design (photos,
                                 fonts,
                                 logos, word docs, images, etc).</small>
@@ -521,7 +521,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                         <div class=\"mt-4\">
                             <hr>
                             <div class=\"py-4\">
-                                <h5 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h5>
+                                <h2 class=\"mb-0 font-weight-bold card-title\">3. Files Needed</h2>
                                 <small class=\"mt-0 text-muted\">Pick the types of files you want to receive.</small>
                                 <div class=\"my-2\">
                                     <!-- Default inline 1-->
