@@ -25,7 +25,6 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
-            'headlinks' => [$this, 'block_headlinks'],
             'content' => [$this, 'block_content'],
         ];
     }
@@ -44,19 +43,10 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     }
 
     // line 2
-    public function block_headlinks($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        // line 3
-        echo "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\">
-";
-    }
-
-    // line 5
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 6
+        // line 3
         echo "<!-- Main content Header-->
 <div class=\"header\">
   <h1 class=\"main-title\">William Villalobos</h1>
@@ -64,35 +54,6 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
 <div>
-  <div class=\"settings\">
-    <h2>Scale Your Design</h2>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col-2 little-title\">1 APU</div>
-        <div class=\"col-3\">Active Project Unit (APU)</div>
-        <div class=\"col\">
-          <ul style=\"list-style-type: none\">
-
-            <li>Adding APUs is a simple and effective way to add productivity and reduce costs to your Graphic Design
-              production quota.</li>
-            <li>An APU is the measurement on how many projects you can have started at once.</li>
-            <li>Next day delivery before midnight on a business day submission ratio applies to all projects, unless
-              stated otherwise by your account executive.</li>
-            <li>Every new APU you add to your membership benefits from a cost cut of 20% than that of buying a new
-              subscription.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class=\"mt-4\">
-      <div class=\"\">
-        <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
-      </div>
-      <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
-    </div>
-  </div>
-  <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
   <div class=\"settings\">
     <h2>Membership Payment Settings</h2>
     <div class=\"field-set\">
@@ -286,15 +247,12 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
 
     public function getDebugInfo()
     {
-        return array (  60 => 6,  56 => 5,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  50 => 3,  46 => 2,  35 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'layout2.twig' %}
-{% block headlinks %}
-<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\">
-{% endblock %}
 {% block content %}
 <!-- Main content Header-->
 <div class=\"header\">
@@ -303,35 +261,6 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
 <!--/ Main content Header-->
 <!-- Main content Data Display-->
 <div>
-  <div class=\"settings\">
-    <h2>Scale Your Design</h2>
-    <div class=\"field-set\">
-      <div class=\"row\">
-        <div class=\"col-2 little-title\">1 APU</div>
-        <div class=\"col-3\">Active Project Unit (APU)</div>
-        <div class=\"col\">
-          <ul style=\"list-style-type: none\">
-
-            <li>Adding APUs is a simple and effective way to add productivity and reduce costs to your Graphic Design
-              production quota.</li>
-            <li>An APU is the measurement on how many projects you can have started at once.</li>
-            <li>Next day delivery before midnight on a business day submission ratio applies to all projects, unless
-              stated otherwise by your account executive.</li>
-            <li>Every new APU you add to your membership benefits from a cost cut of 20% than that of buying a new
-              subscription.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class=\"mt-4\">
-      <div class=\"\">
-        <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
-      </div>
-      <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
-    </div>
-  </div>
-  <hr style=\"border-top: 1px solid var(--futures-color); margin: 3rem 0;\">
   <div class=\"settings\">
     <h2>Membership Payment Settings</h2>
     <div class=\"field-set\">

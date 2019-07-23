@@ -257,22 +257,37 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               <div class=\"\">
                 <a class=\"text-link ";
         // line 171
-        if ((($context["active"] ?? null) == "settings")) {
+        if ((($context["active"] ?? null) == "productivity")) {
             echo "active";
         }
         echo "\"
-                  href=\"/thefutures/dashboard/settings\">Account Settings</a>
+                  href=\"/thefutures/dashboard/productivity\">Manage Productivity</a>
               </div>
             </div>
             <div class=\"sidebar-link py-2\">
               &nbsp;
             </div>
-
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
                   Knowledge Base (Soon)
                 </a>
+              </div>
+            </div>
+            <div class=\"sidebar-link py-2 ";
+        // line 185
+        if ((($context["active"] ?? null) == "settings")) {
+            echo "sidebar-active";
+        }
+        echo "\">
+              <div class=\"\">
+                <a class=\"text-link ";
+        // line 187
+        if ((($context["active"] ?? null) == "settings")) {
+            echo "active";
+        }
+        echo "\"
+                  href=\"/thefutures/dashboard/settings\">Account Settings</a>
               </div>
             </div>
             <div class=\"sidebar-link py-2\">
@@ -300,9 +315,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid pt-0\">
           <div class=\"main-content\">
             ";
-        // line 210
+        // line 215
         $this->displayBlock('content', $context, $blocks);
-        // line 211
+        // line 216
         echo "          </div>
         </div>
       </main>
@@ -326,9 +341,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 233
+        // line 238
         $this->displayBlock('scripts', $context, $blocks);
-        // line 234
+        // line 239
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -343,13 +358,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 210
+    // line 215
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 233
+    // line 238
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -367,7 +382,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  353 => 233,  347 => 210,  341 => 50,  332 => 234,  330 => 233,  306 => 211,  304 => 210,  260 => 171,  253 => 169,  244 => 165,  237 => 163,  228 => 159,  221 => 157,  212 => 153,  205 => 151,  196 => 147,  189 => 145,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  368 => 238,  362 => 215,  356 => 50,  347 => 239,  345 => 238,  321 => 216,  319 => 215,  286 => 187,  279 => 185,  260 => 171,  253 => 169,  244 => 165,  237 => 163,  228 => 159,  221 => 157,  212 => 153,  205 => 151,  196 => 147,  189 => 145,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -542,19 +557,24 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             </div>
             <div class=\"sidebar-link py-2 {% if active == \"settings\" %}sidebar-active{% endif %}\">
               <div class=\"\">
-                <a class=\"text-link {% if active == \"settings\" %}active{% endif %}\"
-                  href=\"/thefutures/dashboard/settings\">Account Settings</a>
+                <a class=\"text-link {% if active == \"productivity\" %}active{% endif %}\"
+                  href=\"/thefutures/dashboard/productivity\">Manage Productivity</a>
               </div>
             </div>
             <div class=\"sidebar-link py-2\">
               &nbsp;
             </div>
-
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
                   Knowledge Base (Soon)
                 </a>
+              </div>
+            </div>
+            <div class=\"sidebar-link py-2 {% if active == \"settings\" %}sidebar-active{% endif %}\">
+              <div class=\"\">
+                <a class=\"text-link {% if active == \"settings\" %}active{% endif %}\"
+                  href=\"/thefutures/dashboard/settings\">Account Settings</a>
               </div>
             </div>
             <div class=\"sidebar-link py-2\">
