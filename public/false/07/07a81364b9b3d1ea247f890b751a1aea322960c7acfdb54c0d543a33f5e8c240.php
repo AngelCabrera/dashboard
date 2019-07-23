@@ -176,52 +176,52 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
       <div id=\"little-sidebar\" class=\"position-absolute h-100\">
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a id=\"show-sidebar\" class=\"sidebar-icon text-white\" href=\"#\">
             <i class=\"fas fa-angle-right\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-align-left\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-tasks\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-folder\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-user-friends\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-rocket\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fab fa-leanpub\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-cog\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-receipt\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-scroll\"></i>
           </a>
@@ -569,52 +569,52 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
       <div id=\"little-sidebar\" class=\"position-absolute h-100\">
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a id=\"show-sidebar\" class=\"sidebar-icon text-white\" href=\"#\">
             <i class=\"fas fa-angle-right\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-align-left\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-tasks\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-folder\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-user-friends\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-rocket\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fab fa-leanpub\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-cog\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-receipt\"></i>
           </a>
         </div>
-        <div class=\"sidebar-icon-wrapper\">
+        <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
             <i class=\"fas fa-scroll\"></i>
           </a>
