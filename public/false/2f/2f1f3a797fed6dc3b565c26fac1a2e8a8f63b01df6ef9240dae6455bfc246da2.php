@@ -69,30 +69,42 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <h2>Save Money</h2>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Email</div>
-        <div class=\"col\">williamvillalobos@gmail.com</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col font-weight-bold\">Frequency</div>
+        <div class=\"col font-weight-bold\">Monthly Cost</div>
+        <div class=\"col text-right font-weight-bold\"></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Password</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col\">Standard (Monthly)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><i class=\"fas fa-check\"></i></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Temporary</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col\">Standard (Every 6 Months)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">UPGRADE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Temporary</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col\">Standard (Annual)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">UPGRADE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+
+        <div class=\"col\">Pro (Monthly)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">UPGRADE</a></div>
       </div>
     </div>
   </div>
@@ -276,30 +288,42 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     <h2>Save Money</h2>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Email</div>
-        <div class=\"col\">williamvillalobos@gmail.com</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col font-weight-bold\">Frequency</div>
+        <div class=\"col font-weight-bold\">Monthly Cost</div>
+        <div class=\"col text-right font-weight-bold\"></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Password</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col\">Standard (Monthly)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><i class=\"fas fa-check\"></i></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Temporary</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col\">Standard (Every 6 Months)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">UPGRADE</a></div>
       </div>
     </div>
     <div class=\"field-set\">
       <div class=\"row\">
-        <div class=\"col font-weight-bold\">Temporary</div>
-        <div class=\"col\">******</div>
-        <div class=\"col text-right\"><a class=\"\" href=\"#\">CHANGE</a></div>
+
+        <div class=\"col\">Standard (Annual)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">UPGRADE</a></div>
+      </div>
+    </div>
+    <div class=\"field-set\">
+      <div class=\"row\">
+
+        <div class=\"col\">Pro (Monthly)</div>
+        <div class=\"col\">\$0.00/DPU</div>
+        <div class=\"col text-right\"><a class=\"\" href=\"#\">UPGRADE</a></div>
       </div>
     </div>
   </div>
