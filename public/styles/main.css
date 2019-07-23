@@ -566,3 +566,15 @@ thead th {
 .history-table th {
     padding: .75rem;
 }
+
+.settings li {
+    padding-left: 1.3em;
+}
+
+.settings li:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
