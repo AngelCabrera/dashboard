@@ -69,7 +69,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"mt-4\">
       <div class=\"\">
-        <a href=\"\" class=\"btn-transparent\">+ Add another Apu</a>
+        <a href=\"\" class=\"btn-transparent\">+ Add Another Apu</a>
       </div>
       <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
     </div>
@@ -297,7 +297,7 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
     </div>
     <div class=\"mt-4\">
       <div class=\"\">
-        <a href=\"\" class=\"btn-transparent\">+ Add another Apu</a>
+        <a href=\"\" class=\"btn-transparent\">+ Add Another Apu</a>
       </div>
       <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
     </div>
