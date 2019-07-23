@@ -293,18 +293,17 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Transaction History
+                  Billing Settings
                 </a>
               </div>
             </div>
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Billing Settings
+                  Transaction History
                 </a>
               </div>
             </div>
-
           </div>
           <!-- sidebar-menu  -->
         </div>
@@ -315,9 +314,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         <div class=\"container-fluid pt-0\">
           <div class=\"main-content\">
             ";
-        // line 215
+        // line 214
         $this->displayBlock('content', $context, $blocks);
-        // line 216
+        // line 215
         echo "          </div>
         </div>
       </main>
@@ -341,9 +340,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 238
+        // line 237
         $this->displayBlock('scripts', $context, $blocks);
-        // line 239
+        // line 238
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -358,13 +357,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 215
+    // line 214
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 238
+    // line 237
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -382,7 +381,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  368 => 238,  362 => 215,  356 => 50,  347 => 239,  345 => 238,  321 => 216,  319 => 215,  286 => 187,  279 => 185,  260 => 171,  253 => 169,  244 => 165,  237 => 163,  228 => 159,  221 => 157,  212 => 153,  205 => 151,  196 => 147,  189 => 145,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  367 => 237,  361 => 214,  355 => 50,  346 => 238,  344 => 237,  320 => 215,  318 => 214,  286 => 187,  279 => 185,  260 => 171,  253 => 169,  244 => 165,  237 => 163,  228 => 159,  221 => 157,  212 => 153,  205 => 151,  196 => 147,  189 => 145,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -580,18 +579,17 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Transaction History
+                  Billing Settings
                 </a>
               </div>
             </div>
             <div class=\"sidebar-link py-2\">
               <div class=\"\">
                 <a class=\"text-link\" class=\"text-link\" href=\"#\">
-                  Billing Settings
+                  Transaction History
                 </a>
               </div>
             </div>
-
           </div>
           <!-- sidebar-menu  -->
         </div>
