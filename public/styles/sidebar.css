@@ -143,6 +143,7 @@ body {
     margin: 0;
     transition-delay: 0.3s;
     padding: .400rem .700rem;
+    position: relative;
 }
 
 .page-wrapper.toggled #show-sidebar {
@@ -405,10 +406,6 @@ body {
 
     width: 100%;
     padding-left: 0px;
-}
-
-.page-wrapper .page-content>div {
-    padding: 20px 40px;
 }
 
 .page-wrapper .page-content {

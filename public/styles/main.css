@@ -578,3 +578,7 @@ thead th {
     margin-left: -1.3em;
     width: 1.3em;
 }
+
+.page-content .container-fluid {
+    padding: 40px 80px;
+}

@@ -168,13 +168,60 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </ul>
       <!-- Links -->
   </nav>
-
-
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
-      <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
-        <i class=\"fas fa-bars\"></i>
-      </a>
+      <div class=\"position-absolute bg-white h-100\">
+        <div>
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-bars\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-align-left\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-tasks\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-folder\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-user-friends\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-rocket\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fab fa-leanpub\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-cog\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-receipt\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-scroll\"></i>
+          </a>
+        </div>
+      </div>
       <nav id=\"sidebar\" class=\"sidebar-wrapper\">
         <div class=\"sidebar-content\">
           <div class=\"sidebar-brand\">
@@ -185,14 +232,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           </div>
           <div class=\"sidebar-menu\">
             <div class=\"sidebar-link py-2 ";
-        // line 145
+        // line 192
         if ((($context["active"] ?? null) == "tickets")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 147
+        // line 194
         if ((($context["active"] ?? null) == "tickets")) {
             echo "active";
         }
@@ -201,14 +248,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 151
+        // line 198
         if ((($context["active"] ?? null) == "status")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 153
+        // line 200
         if ((($context["active"] ?? null) == "status")) {
             echo "active";
         }
@@ -217,14 +264,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2  ";
-        // line 157
+        // line 204
         if ((($context["active"] ?? null) == "order")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 159
+        // line 206
         if ((($context["active"] ?? null) == "order")) {
             echo "active";
         }
@@ -233,14 +280,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 163
+        // line 210
         if ((($context["active"] ?? null) == "manage")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 165
+        // line 212
         if ((($context["active"] ?? null) == "manage")) {
             echo "active";
         }
@@ -249,14 +296,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 169
+        // line 216
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 171
+        // line 218
         if ((($context["active"] ?? null) == "productivity")) {
             echo "active";
         }
@@ -275,14 +322,14 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
               </div>
             </div>
             <div class=\"sidebar-link py-2 ";
-        // line 185
+        // line 232
         if ((($context["active"] ?? null) == "settings")) {
             echo "sidebar-active";
         }
         echo "\">
               <div class=\"\">
                 <a class=\"text-link ";
-        // line 187
+        // line 234
         if ((($context["active"] ?? null) == "settings")) {
             echo "active";
         }
@@ -311,12 +358,12 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid pt-0\">
+        <div class=\"container-fluid\">
           <div class=\"main-content\">
             ";
-        // line 214
+        // line 261
         $this->displayBlock('content', $context, $blocks);
-        // line 215
+        // line 262
         echo "          </div>
         </div>
       </main>
@@ -340,9 +387,9 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   <!-- MDB core JavaScript -->
   <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js\"></script>
   ";
-        // line 237
+        // line 284
         $this->displayBlock('scripts', $context, $blocks);
-        // line 238
+        // line 285
         echo "  <script src=\"/thefutures/scripts/main.js\"></script>
   <script src=\"/scripts/main.js\"></script>
   <!-- Built with love using Web Starter Kit -->
@@ -357,13 +404,13 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         $macros = $this->macros;
     }
 
-    // line 214
+    // line 261
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 237
+    // line 284
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -381,7 +428,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  367 => 237,  361 => 214,  355 => 50,  346 => 238,  344 => 237,  320 => 215,  318 => 214,  286 => 187,  279 => 185,  260 => 171,  253 => 169,  244 => 165,  237 => 163,  228 => 159,  221 => 157,  212 => 153,  205 => 151,  196 => 147,  189 => 145,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  414 => 284,  408 => 261,  402 => 50,  393 => 285,  391 => 284,  367 => 262,  365 => 261,  333 => 234,  326 => 232,  307 => 218,  300 => 216,  291 => 212,  284 => 210,  275 => 206,  268 => 204,  259 => 200,  252 => 198,  243 => 194,  236 => 192,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -514,13 +561,60 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </ul>
       <!-- Links -->
   </nav>
-
-
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
-      <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
-        <i class=\"fas fa-bars\"></i>
-      </a>
+      <div class=\"position-absolute bg-white h-100\">
+        <div>
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-bars\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-align-left\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-tasks\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-folder\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-user-friends\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-rocket\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fab fa-leanpub\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-cog\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-receipt\"></i>
+          </a>
+        </div>
+        <div class=\"mt-4\">
+          <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
+            <i class=\"fas fa-scroll\"></i>
+          </a>
+        </div>
+      </div>
       <nav id=\"sidebar\" class=\"sidebar-wrapper\">
         <div class=\"sidebar-content\">
           <div class=\"sidebar-brand\">
@@ -597,7 +691,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
       </nav>
       <!-- sidebar-wrapper  -->
       <main class=\"page-content\">
-        <div class=\"container-fluid pt-0\">
+        <div class=\"container-fluid\">
           <div class=\"main-content\">
             {% block content %}{% endblock %}
           </div>
