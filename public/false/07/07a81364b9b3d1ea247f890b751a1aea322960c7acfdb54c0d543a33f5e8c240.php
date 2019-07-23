@@ -142,7 +142,12 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <a class=\"nav-link\" href=\"#\">About</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Support</a>
+          <a class=\"nav-link ";
+        // line 103
+        if ((($context["active"] ?? null) == "support")) {
+            echo "sidebar-active";
+        }
+        echo "\" href=\"support\">Support</a>
         </li>
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
@@ -170,53 +175,53 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   </nav>
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
-      <div class=\"position-absolute bg-white h-100\">
+      <div class=\"position-absolute h-100\">
         <div>
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-bars\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-align-left\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-tasks\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-folder\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-user-friends\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-rocket\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fab fa-leanpub\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-cog\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-receipt\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-scroll\"></i>
           </a>
@@ -428,7 +433,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
 
     public function getDebugInfo()
     {
-        return array (  414 => 284,  408 => 261,  402 => 50,  393 => 285,  391 => 284,  367 => 262,  365 => 261,  333 => 234,  326 => 232,  307 => 218,  300 => 216,  291 => 212,  284 => 210,  275 => 206,  268 => 204,  259 => 200,  252 => 198,  243 => 194,  236 => 192,  93 => 51,  91 => 50,  40 => 1,);
+        return array (  419 => 284,  413 => 261,  407 => 50,  398 => 285,  396 => 284,  372 => 262,  370 => 261,  338 => 234,  331 => 232,  312 => 218,  305 => 216,  296 => 212,  289 => 210,  280 => 206,  273 => 204,  264 => 200,  257 => 198,  248 => 194,  241 => 192,  147 => 103,  93 => 51,  91 => 50,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -535,7 +540,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
           <a class=\"nav-link\" href=\"#\">About</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Support</a>
+          <a class=\"nav-link {% if active == \"support\" %}sidebar-active{% endif %}\" href=\"support\">Support</a>
         </li>
         <!-- Dropdown -->
         <li class=\"nav-item dropdown\">
@@ -563,53 +568,53 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
   </nav>
   <div>
     <div class=\"page-wrapper chiller-theme toggled\">
-      <div class=\"position-absolute bg-white h-100\">
+      <div class=\"position-absolute h-100\">
         <div>
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-bars\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-align-left\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-tasks\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-folder\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-user-friends\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-rocket\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fab fa-leanpub\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-cog\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-receipt\"></i>
           </a>
         </div>
-        <div class=\"mt-4\">
+        <div class=\"mt-2\">
           <a id=\"show-sidebar\" class=\"btn btn-futures\" href=\"#\">
             <i class=\"fas fa-scroll\"></i>
           </a>

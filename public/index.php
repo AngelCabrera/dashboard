@@ -84,6 +84,10 @@ $map->get('productivity', '/thefutures/dashboard/productivity', [
     'action' => 'getProductivityAction'
 ]);
 
+$map->get('support', '/thefutures/dashboard/support', [
+    'controller' => 'App\Controllers\SupportController',
+    'action' => 'getSupportAction'
+]);
 
 $matcher = $routerContainer->getMatcher();
 $route = $matcher->match($request);
