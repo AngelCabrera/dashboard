@@ -110,7 +110,7 @@ body {
 /*----------------page-wrapper----------------*/
 
 .page-wrapper {
-    margin-bottom: 4rem;
+    min-height: 90vh;
 }
 
 .page-wrapper .theme {
@@ -155,7 +155,7 @@ body {
     height: 100%;
     max-height: 100%;
     position: absolute;
-    top: 66px;
+    top: 67px;
     left: -300px;
     z-index: 999;
 }

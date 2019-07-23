@@ -49,7 +49,7 @@
                             <label for="form1">Title of request</label>
                         </div>
                         <div class="md-form mb-4 pink-textarea active-pink-textarea">
-                            <textarea id="form2" class="md-textarea form-control" rows="2"></textarea>
+                            <textarea id="form2" class="md-textarea form-control" rows="1"></textarea>
                             <label for=" form2">Briefly Description of what you want to see in your project</label>
                         </div>
                         <div>
@@ -87,11 +87,13 @@
                                 <input type="text" id="form5" class="form-control" required>
                                 <label for="form5">Type of audience you are trying to reach.</label>
                             </div>
+                            <div>
+                                Share any links you would like us to see for inspiration. Just
+                                paste them in the box below.
+                            </div>
                             <div class="md-form mb-4 pink-textarea active-pink-textarea">
-                                <textarea id="form3" class="md-textarea form-control" rows="2"></textarea>
-                                <label for="form3">Share any links you would like us to see for inspiration. Just
-                                    paste
-                                    them in this box.</label>
+                                <textarea id="form3" class="md-textarea form-control" rows="1"></textarea>
+                                <label for="form3">Links</label>
                             </div>
                         </div>
                     </form>
@@ -277,7 +279,10 @@
         $('.image-upload-wrap').removeClass('image-dropping');
     });
 </script>
-
+<script src="/thefutures/scripts/autosize.js"></script>
+<script>
+    autosize(document.querySelectorAll('textarea'));
+</script>
 {# <script>
     $('textarea').each(function () {
         this.setAttribute('style', 'height:' + (this.scrollHeight / 1.3) + 'px;overflow-y:hidden;');

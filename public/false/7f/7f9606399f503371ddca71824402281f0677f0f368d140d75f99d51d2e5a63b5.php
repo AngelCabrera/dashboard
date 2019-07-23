@@ -95,7 +95,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             <label for=\"form1\">Title of request</label>
                         </div>
                         <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
+                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"1\"></textarea>
                             <label for=\" form2\">Briefly Description of what you want to see in your project</label>
                         </div>
                         <div>
@@ -133,11 +133,13 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <input type=\"text\" id=\"form5\" class=\"form-control\" required>
                                 <label for=\"form5\">Type of audience you are trying to reach.</label>
                             </div>
+                            <div>
+                                Share any links you would like us to see for inspiration. Just
+                                paste them in the box below.
+                            </div>
                             <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
-                                <label for=\"form3\">Share any links you would like us to see for inspiration. Just
-                                    paste
-                                    them in this box.</label>
+                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"1\"></textarea>
+                                <label for=\"form3\">Links</label>
                             </div>
                         </div>
                     </form>
@@ -195,12 +197,12 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                             </div>
                                         </div>
                                         ";
-        // line 157
+        // line 159
         echo "                                    </div>
                                 </div>
                             </div>
                             ";
-        // line 163
+        // line 165
         echo "                        </div>
                         <div>
                             <small class=\"\">Please make sure that your file upload does not exceed 10MB in
@@ -246,7 +248,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             </label>
                         </div>
                         ";
-        // line 210
+        // line 212
         echo "                    </div>
                 </div>
             </div>
@@ -262,11 +264,11 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 ";
     }
 
-    // line 226
+    // line 228
     public function block_scripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 227
+        // line 229
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js\"></script>
 <script>
     \$graphicDesing = document.getElementById('graphic');
@@ -320,7 +322,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         \$('.image-upload-wrap').removeClass('image-dropping');
     });
 </script>
-
+<script src=\"/thefutures/scripts/autosize.js\"></script>
+<script>
+    autosize(document.querySelectorAll('textarea'));
+</script>
 ";
     }
 
@@ -336,7 +341,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
 
     public function getDebugInfo()
     {
-        return array (  270 => 227,  266 => 226,  250 => 210,  204 => 163,  199 => 157,  68 => 22,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  272 => 229,  268 => 228,  252 => 212,  206 => 165,  201 => 159,  68 => 22,  62 => 7,  58 => 6,  52 => 3,  48 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -392,7 +397,7 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                             <label for=\"form1\">Title of request</label>
                         </div>
                         <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
+                            <textarea id=\"form2\" class=\"md-textarea form-control\" rows=\"1\"></textarea>
                             <label for=\" form2\">Briefly Description of what you want to see in your project</label>
                         </div>
                         <div>
@@ -430,11 +435,13 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
                                 <input type=\"text\" id=\"form5\" class=\"form-control\" required>
                                 <label for=\"form5\">Type of audience you are trying to reach.</label>
                             </div>
+                            <div>
+                                Share any links you would like us to see for inspiration. Just
+                                paste them in the box below.
+                            </div>
                             <div class=\"md-form mb-4 pink-textarea active-pink-textarea\">
-                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"2\"></textarea>
-                                <label for=\"form3\">Share any links you would like us to see for inspiration. Just
-                                    paste
-                                    them in this box.</label>
+                                <textarea id=\"form3\" class=\"md-textarea form-control\" rows=\"1\"></textarea>
+                                <label for=\"form3\">Links</label>
                             </div>
                         </div>
                     </form>
@@ -620,7 +627,10 @@ class __TwigTemplate_88a55a35903d5f54c14cff99e9a4abff48abc6706ee10a8f30abb7cb3d8
         \$('.image-upload-wrap').removeClass('image-dropping');
     });
 </script>
-
+<script src=\"/thefutures/scripts/autosize.js\"></script>
+<script>
+    autosize(document.querySelectorAll('textarea'));
+</script>
 {# <script>
     \$('textarea').each(function () {
         this.setAttribute('style', 'height:' + (this.scrollHeight / 1.3) + 'px;overflow-y:hidden;');
