@@ -188,7 +188,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         </div>
         <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
-            <i class=\"fas fa-tasks\"></i>
+            <i class=\"fas fa-history\"></i>
           </a>
         </div>
         <div class=\"sidebar-icon-wrapper text-center\">
@@ -581,7 +581,7 @@ class __TwigTemplate_a72057a0508cd6fe7894d3273393732af180932e56e5f34bd67e7b32de7
         </div>
         <div class=\"sidebar-icon-wrapper text-center\">
           <a class=\"text-white sidebar-icon\" href=\"#\">
-            <i class=\"fas fa-tasks\"></i>
+            <i class=\"fas fa-history\"></i>
           </a>
         </div>
         <div class=\"sidebar-icon-wrapper text-center\">
