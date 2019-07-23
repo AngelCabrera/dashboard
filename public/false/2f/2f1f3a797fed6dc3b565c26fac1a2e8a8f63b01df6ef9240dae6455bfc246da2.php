@@ -63,13 +63,15 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col\">
           It is the measurement on how many projects you can have started at once. Next day delivery before midnight on
           a business day submission ratio applies to all projects, unless stated otherwise by your account executive.
+          Adding APUs is a simple and effective way to add productivity and reduce costs to your Graphic Design
+          production quota. Every new APU you add to your membership benefits from a cost cut of 20% than that of buying
+          a new subscription.
         </div>
-
       </div>
     </div>
     <div class=\"mt-4\">
       <div class=\"\">
-        <a href=\"\" class=\"btn-transparent\">+ Add Another Apu</a>
+        <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
       </div>
       <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
     </div>
@@ -291,13 +293,15 @@ class __TwigTemplate_1513a85e7d1e90c288257ca3e717aa3cfbd3c0b2d7ee0fc0cf5f4ee688f
         <div class=\"col\">
           It is the measurement on how many projects you can have started at once. Next day delivery before midnight on
           a business day submission ratio applies to all projects, unless stated otherwise by your account executive.
+          Adding APUs is a simple and effective way to add productivity and reduce costs to your Graphic Design
+          production quota. Every new APU you add to your membership benefits from a cost cut of 20% than that of buying
+          a new subscription.
         </div>
-
       </div>
     </div>
     <div class=\"mt-4\">
       <div class=\"\">
-        <a href=\"\" class=\"btn-transparent\">+ Add Another Apu</a>
+        <a href=\"\" class=\"btn-transparent\">+ Add Another APU</a>
       </div>
       <button class=\"mt-4 ml-0 btn btn-futures\">SUBMIT</a>
     </div>
